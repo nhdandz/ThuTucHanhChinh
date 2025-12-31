@@ -345,12 +345,12 @@ Chỉ trả về JSON array, không giải thích."""
         # Step 4: Build filters for vector search
         filters = {}
         if intent != "overview":
-            # Map intent to chunk_type
+            # Map intent to chunk_type (can be single string or list of strings)
             intent_to_chunk_type = {
                 "documents": "child_documents",
                 "requirements": "child_requirements",
                 "process": "child_process",
-                "timeline": "child_process",  # Timeline info is in process chunks (trình_tự_thực_hiện)
+                "timeline": ["child_process", "child_fees_timing"],  # Timeline needs both process steps AND detailed timing info
                 "legal": "child_legal"
             }
             if intent in intent_to_chunk_type:

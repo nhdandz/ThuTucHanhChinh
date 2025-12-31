@@ -189,7 +189,15 @@ class HierarchicalRetrievalPipeline:
         # STAGE 2: Exact Match Routing (if code detected)
         if query_info.exact_code:
             print(f"\n[STAGE 2] Exact Match Routing - Code detected: {query_info.exact_code}")
-            exact_results = self.vector_store.search_by_code(query_info.exact_code)
+
+            # Get chunk_type filter from query_info (intent-based filtering)
+            chunk_type_filter = query_info.filters.get("chunk_type") if query_info.filters else None
+
+            # Call exact match with intent-based chunk_type filter
+            exact_results = self.vector_store.search_by_code(
+                thu_tuc_id=query_info.exact_code,
+                chunk_type_filter=chunk_type_filter
+            )
 
             if exact_results:
                 print(f"   ✅ Found {len(exact_results)} chunks via exact match")
@@ -198,19 +206,12 @@ class HierarchicalRetrievalPipeline:
                 parent_results = [r for r in exact_results if r["chunk_tier"] == "parent"]
                 child_results = [r for r in exact_results if r["chunk_tier"] == "child"]
 
-                # Override config for exact match - return ALL chunks (no limits)
-                exact_match_config = {
-                    "mode": "complete",
-                    "chunks": 999,  # No limit on number of procedures
-                    "max_descendants": 999,  # No limit - return ALL chunks of the procedure
-                    "max_siblings": 0,  # No cross-procedure context needed for exact match
-                    "include_parents": True,
-                    "enable_structured_output": False
-                }
-                print(f"        ⚠️  Exact match: Using unlimited config (all {len(child_results)} child chunks)")
+                # Use intent-based config for exact match (instead of unlimited)
+                print(f"        ⚠️  Exact match: Using intent-based config ({query_info.intent})")
+                print(f"           max_descendants={context_config['max_descendants']}, chunk_type={chunk_type_filter or 'all'}")
 
-                # Assemble context with NO LIMITS for exact match
-                context, _ = self._assemble_context(parent_results, child_results, exact_match_config)
+                # Assemble context with INTENT-BASED limits
+                context, _ = self._assemble_context(parent_results, child_results, context_config)
 
                 # Create exact match result
                 exact_match_result = RetrievalResult(

@@ -8,7 +8,7 @@ Manages vector database for hierarchical chunks
 import sys
 import json
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Union
 import numpy as np
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
@@ -18,6 +18,7 @@ from qdrant_client.models import (
     Filter,
     FieldCondition,
     MatchValue,
+    MatchAny,
     SearchRequest,
     ScrollRequest
 )
@@ -218,7 +219,8 @@ class QdrantVectorStore:
         self,
         thu_tuc_id: str,
         include_parent: bool = True,
-        include_children: bool = True
+        include_children: bool = True,
+        chunk_type_filter: Optional[Union[str, List[str]]] = None
     ) -> List[Dict]:
         """
         Search for chunks by exact procedure code using Qdrant filter
@@ -227,39 +229,88 @@ class QdrantVectorStore:
             thu_tuc_id: Exact procedure code (e.g., "1.013133")
             include_parent: Include parent chunks
             include_children: Include child chunks
+            chunk_type_filter: Optional filter by chunk_type. Can be:
+                              - Single string: "child_requirements"
+                              - List of strings: ["child_process", "child_fees_timing"]
+                              Only applies to child chunks - parent chunks are always included if include_parent=True
 
         Returns:
             List of all chunks matching the procedure code, sorted by tier (parent first)
         """
-        # Build filter for exact match
-        query_filter = Filter(
-            must=[
-                FieldCondition(
-                    key="thu_tuc_id",
-                    match=MatchValue(value=thu_tuc_id)
-                )
-            ]
-        )
-
-        # Use scroll to get ALL matching chunks (not limited by top_k)
         try:
-            scroll_result = self.client.scroll(
-                collection_name=self.collection_name,
-                scroll_filter=query_filter,
-                limit=100,  # Max chunks per procedure
-                with_payload=True,
-                with_vectors=False
-            )
+            all_points = []
 
-            # Extract points from scroll result
-            points = scroll_result[0] if scroll_result else []
+            # Strategy: When chunk_type_filter is specified, retrieve parent and child chunks separately
+            # to ensure parent chunks are not filtered out
+
+            if chunk_type_filter and include_parent:
+                # Query 1: Get parent chunks (always include for context)
+                parent_filter = Filter(
+                    must=[
+                        FieldCondition(key="thu_tuc_id", match=MatchValue(value=thu_tuc_id)),
+                        FieldCondition(key="chunk_tier", match=MatchValue(value="parent"))
+                    ]
+                )
+                parent_scroll = self.client.scroll(
+                    collection_name=self.collection_name,
+                    scroll_filter=parent_filter,
+                    limit=100,
+                    with_payload=True,
+                    with_vectors=False
+                )
+                all_points.extend(parent_scroll[0] if parent_scroll else [])
+
+            if include_children:
+                # Query 2: Get child chunks with chunk_type filter
+                child_must_conditions = [
+                    FieldCondition(key="thu_tuc_id", match=MatchValue(value=thu_tuc_id)),
+                    FieldCondition(key="chunk_tier", match=MatchValue(value="child"))
+                ]
+
+                # Apply chunk_type filter only to child chunks
+                if chunk_type_filter:
+                    # Support both single string and list of strings
+                    if isinstance(chunk_type_filter, list):
+                        # Multiple chunk types - use MatchAny
+                        child_must_conditions.append(
+                            FieldCondition(key="chunk_type", match=MatchAny(any=chunk_type_filter))
+                        )
+                    else:
+                        # Single chunk type - use MatchValue
+                        child_must_conditions.append(
+                            FieldCondition(key="chunk_type", match=MatchValue(value=chunk_type_filter))
+                        )
+
+                child_filter = Filter(must=child_must_conditions)
+                child_scroll = self.client.scroll(
+                    collection_name=self.collection_name,
+                    scroll_filter=child_filter,
+                    limit=100,
+                    with_payload=True,
+                    with_vectors=False
+                )
+                all_points.extend(child_scroll[0] if child_scroll else [])
+
+            # Fallback: If no chunk_type_filter, use single query (original behavior)
+            if not chunk_type_filter:
+                basic_filter = Filter(
+                    must=[FieldCondition(key="thu_tuc_id", match=MatchValue(value=thu_tuc_id))]
+                )
+                scroll_result = self.client.scroll(
+                    collection_name=self.collection_name,
+                    scroll_filter=basic_filter,
+                    limit=100,
+                    with_payload=True,
+                    with_vectors=False
+                )
+                all_points = scroll_result[0] if scroll_result else []
 
             # Format results
             formatted_results = []
-            for point in points:
+            for point in all_points:
                 formatted_result = {
                     "chunk_id": point.payload["chunk_id"],
-                    "mã_thủ_tục": point.payload["thu_tuc_id"],  # Return as mã_thủ_tục for consistency
+                    "mã_thủ_tục": point.payload["thu_tuc_id"],
                     "chunk_type": point.payload["chunk_type"],
                     "chunk_tier": point.payload["chunk_tier"],
                     "parent_chunk_id": point.payload.get("parent_chunk_id"),
@@ -269,7 +320,7 @@ class QdrantVectorStore:
                 }
                 formatted_results.append(formatted_result)
 
-            # Filter by tier if needed
+            # Filter by tier if needed (respect include_parent/include_children flags)
             if not include_parent:
                 formatted_results = [r for r in formatted_results if r["chunk_tier"] != "parent"]
             if not include_children:
