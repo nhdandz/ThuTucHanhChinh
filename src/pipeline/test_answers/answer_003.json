@@ -1,0 +1,22 @@
+{
+  "question": "Xin giấy phép xây dựng mất bao lâu?",
+  "answer": "<think>\nOkay, let's see. The user is asking how long it takes to get a construction permit. The context provided has a structured data with \"thoi_han_giai_quyết\" which is \"15 ngày làm việc\" (15 working days). The other fields like \"thoi_gian_tiep_nhan\" are empty, so I shouldn't mention them. The note says \"Theo quy định pháp luật\" which means according to legal regulations. I need to make sure the answer is accurate and only based on the given data. Since the context doesn't mention any other time frames, I should focus on the 15 days. Also, the user might be looking for the processing time, so I should clarify that it's the time from receiving the application. But wait, the \"thoi_gian_tiep_nhan\" is empty, so maybe it's not necessary to include that part. The answer should be straightforward: 15 working days as per the regulations. I need to make sure not to add any extra information not present in the context. Alright, that's the main point.\n</think>\n\nThời gian giải quyết xin giấy phép xây dựng là **15 ngày làm việc** theo quy định pháp luật.  \n\n**Ghi chú quan trọng:** Thời gian này áp dụng cho trường hợp hồ sơ hợp lệ và đầy đủ. Nếu thiếu giấy tờ hoặc cần hoàn thiện thêm, thời gian có thể kéo dài hơn.",
+  "structured_data": {
+    "thoi_han_giai_quyet": "15 ngày làm việc",
+    "thoi_gian_tiep_nhan": "",
+    "ghi_chu": "Theo quy định pháp luật"
+  },
+  "sources": [],
+  "confidence": 0.0,
+  "intent": "timeline",
+  "timestamp": "2025-12-29T08:03:56.626835",
+  "metadata": {
+    "num_parent_chunks": 0,
+    "num_child_chunks": 0,
+    "query_variations": [
+      "Thời gian cần thiết để xin giấy phép xây dựng là bao lâu?",
+      "Quy trình cấp phép xây dựng mất bao nhiêu thời gian?",
+      "Cần bao lâu để hoàn tất thủ tục xin giấy phép xây dựng?"
+    ]
+  }
+}

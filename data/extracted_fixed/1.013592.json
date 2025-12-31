@@ -1,0 +1,73 @@
+{
+  "thu_tuc_id": "1.013592",
+  "source_file": "ChiTietTTHC_1.013592.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013592",
+    "tên_thủ_tục": "Thủ tục biên phòng điện tử cửa khẩu biên giới đất liền đối với người điều khiển, người đi trên phương tiện, phương tiện xuất cảnh, nhập cảnh",
+    "số_quyết_định": "Quyết định số 4534/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Chậm nhất 06 giờ trước khi người điều khiển, người đi trên phương tiện, phương tiện xuất cảnh, nhập cảnh dự kiến đến cửa khẩu quốc tế, cửa khẩu chính, người làm thủ tục phải khai báo thông tin theo mẫu biểu quy định trong hồ sơ thủ tục biên phòng điện tử và gửi cho Biên phòng cửa khẩu biên giới đất liền qua Cổng thông tin thủ tục biên phòng điện tử. Bước 2: Chậm nhất 03 giờ kể từ khi tiếp nhận khai báo của người làm thủ tục, Biên phòng cửa khẩu biên giới đất liền gửi Xác nhận hoàn thành khai báo thủ tục biên phòng điện tử đối với người điều khiển, người đi trên phương tiện, phương tiện xuất cảnh, nhập cảnh theo mẫu biểu quy định trong hồ sơ thủ tục biên phòng điện tử cho người làm thủ tục qua Cổng thông tin thủ tục biên phòng điện tử. Bước 3: Khi người điều khiển, người đi trên phương tiện, phương tiện đến cửa khẩu quốc tế, cửa khẩu chính để nhập cảnh, xuất cảnh, người làm thủ tục phải xuất trình giấy tờ có giá trị đi lại quốc tế của người điều khiển, người đi trên phương tiện và các giấy tờ của phương tiện theo quy định tại Điều 9 Nghị định số 112/2014/NĐ-CP ngày 21 tháng 11 năm 2014 của Chính phủ quy định về quản lý cửa khẩu biên giới đất liền cho Biên phòng cửa khẩu biên giới đất liền để thực hiện kiểm tra, kiểm soát và kiểm chứng xuất cảnh, nhập cảnh Việt Nam vào hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của của người điều khiển, người đi trên phương tiện theo quy định.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Tổ chức (không bao gồm doanh nghiệp, HTX)",
+    "cơ_quan_thực_hiện": "Đội Thủ tục thuộc Biên phòng cửa khẩu biên giới đất liền",
+    "cơ_quan_có_thẩm_quyền": "Đội Thủ tục thuộc Biên phòng cửa khẩu biên giới đất liền",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Bản điện tử xác nhận hoàn thành khai báo thủ tục biên phòng điện tử đối với người điều khiển, người đi trên phương tiện, phương tiện xuất cảnh, nhập cảnh",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "03 Giờ",
+        "phi_le_phi": "Lệ phí : 0 Đồng",
+        "mo_ta": "Chậm nhất 03 giờ kể từ khi Biên phòng cửa khẩu biên giới đất liền tiếp nhận Bản khai điện tử\nCách thức thực hiện: Người làm thủ tục gửi hồ sơ và nhận kết quả qua Cổng thông tin thủ tục biên phòng điện tử tại địa chỉ http://thutucbienphong.gov.vn."
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Bản khai đối với người điều khiển, người đi trên phương tiện, phương tiện xuất cảnh, nhập cảnh.",
+        "so_luong": "Bản khai đối với người điều khiển, người đi trên phương tiện, phương tiện xuất cảnh, nhập cảnh.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của người điều khiển, người đi trên phương tiện và giấy tờ của phương tiện",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "15/2019/QĐ-TTg",
+        "trich_yeu": "Quyết định 15/2019/QĐ-TTg - Về việc thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý",
+        "ngay_ban_hanh": "28-03-2019",
+        "co_quan_ban_hanh": "Thủ tướng Chính phủ"
+      },
+      {
+        "so_ky_hieu": "112/2014/NĐ-CP",
+        "trich_yeu": "Nghị định 112/2014/NĐ-CP - Quy định về quản lý cửa khẩu biên giới đất liền",
+        "ngay_ban_hanh": "21-11-2014",
+        "co_quan_ban_hanh": "Chính phủ"
+      },
+      {
+        "so_ky_hieu": "34/2023",
+        "trich_yeu": "Nghị định 34/2023/NĐ-CP ngày 16/06/2023 sửa đổi, bổ sung một số điều của Nghị định số 112/2014/NĐ-CP ngày 21/11/2014 của Chính phủ quy định về quản lý cửa khẩu biên giới",
+        "ngay_ban_hanh": "16-06-2023"
+      },
+      {
+        "so_ky_hieu": "31/2025/QĐ-TTg",
+        "trich_yeu": "Quyết định số 31/2025/QĐ-TTg của Thủ tướng Chính phủ: Sửa đổi, bổ sung một số điều các Quyết định của Thủ tướng Chính phủ về thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý",
+        "ngay_ban_hanh": "02-09-2025",
+        "co_quan_ban_hanh": "Thủ tướng Chính phủ"
+      }
+    ]
+  }
+}

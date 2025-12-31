@@ -1,0 +1,91 @@
+{
+  "thu_tuc_id": "1.013178",
+  "source_file": "ChiTietTTHC_1.013178.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013178",
+    "tên_thủ_tục": "Thủ tục khám giám định lại tỷ lệ tổn thương cơ thể đối với người bị thương đang tại ngũ, công tác còn sót vết thương, còn sót mảnh kim khí hoặc có tỷ lệ tổn thương cơ thể tạm thời hoặc khám giám định bổ sung vết thương và điều chỉnh chế độ",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Cấp trung đoàn hoặc tương đương",
+    "cơ_quan_có_thẩm_quyền": "Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu",
+    "cơ_quan_phối_hợp": "Cục Chính sách - Xã hội/Tổng cục Chính trị",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy chứng nhận người có công/thân nhân liệt sĩ (Mẫu số 102 Phụ lục I Nghị định số 131/2021/NĐ-CP)., Quyết định về việc điều chỉnh trợ cấp ưu đãi thương binh (Mẫu số 60 Phụ lục I Nghị định số 131/2021/NĐ-CP), Giấy chứng nhận thương binh",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Người bị thương đã được khám giám định kết luận tỷ lệ tổn thương cơ thể tạm thời thì sau 03 năm được giới thiệu giám định lại để kết luận tỷ lệ tổn thương cơ thể vĩnh viễn;\n- Người bị thương đã được khám giám định nhưng còn sót vết thương hoặc còn sót mảnh kim khí;\n- Người bị thương nhiều lần, đã có giấy chứng nhận bị thương của từng lần và đã được khám giám định nhưng còn thiếu lần bị thương chưa khám giám định thì được khám bổ sung vết thương."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "75 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "75 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị giám định lại tỷ lệ tổn thương cơ thể đối với thương binh, người bị thương (Mẫu số 33 Phụ lục I Nghị định số 131/2021/NĐ-CP)",
+        "so_luong": "11. MẪU SỐ 33.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản trích lục hồ sơ thương binh",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "- Bản sao Giấy chứng nhận bị thương.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Bản sao biên bản của các lần giám định trước",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Văn bản đề nghị theo quy định",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Trường hợp người bị thương còn sót mảnh kim khí phải kèm theo kết quả chụp, chiếu và chẩn đoán của bệnh viện hoặc Trung tâm y tế khu vực (bao gồm cả bệnh viện Quân đội, Công an); trường hợp đã phẫu thuật lấy dị vật thì phải kèm theo phiếu phẫu thuật hoặc tóm tắt hồ sơ bệnh án ghi nhận nội dung này",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "131/2021/NĐ-CP",
+        "trich_yeu": "Nghị định 131/2021/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "55/2022/TT-BQP",
+        "trich_yeu": "Thông tư 55/2022/TT-BQP"
+      },
+      {
+        "so_ky_hieu": "02/2020/UBTVQH14",
+        "trich_yeu": "Pháp lệnh 02/2020/UBTVQH14"
+      },
+      {
+        "so_ky_hieu": "129/2025/NĐ-CP",
+        "trich_yeu": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách"
+      }
+    ]
+  }
+}

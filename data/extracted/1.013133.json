@@ -1,0 +1,71 @@
+{
+  "thu_tuc_id": "1.013133",
+  "source_file": "ChiTietTTHC_1.013133.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013133",
+    "tên_thủ_tục": "Thủ tục đăng ký nghĩa vụ quân sự lần đầu",
+    "số_quyết_định": "Quyết định số 6375/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Nghĩa vụ quân sự"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Chủ tịch UBND cấp xã",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy chứng nhận đăng ký nghĩa vụ quân sự",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "1 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "02 Giờ",
+        "phi_le_phi": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Phiếu tự khai sức khỏe nghĩa vụ quân sự",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "- Bản chụp Căn cước công dân hoặc Thẻ Căn cước. Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công khai thác được thông tin công dân trên Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp Căn cước công dân hoặc Thẻ Căn cước.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "13/2016/NĐ-CP",
+        "trich_yeu": "Nghị định 13/2016/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "78/2015/QH13",
+        "trich_yeu": "Nghĩa vụ quân sự"
+      },
+      {
+        "so_ky_hieu": "68/2020/QH14",
+        "trich_yeu": "Luật Cư trú 2020"
+      },
+      {
+        "so_ky_hieu": "104",
+        "trich_yeu": "Nghị định số 104/2022/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công"
+      },
+      {
+        "so_ky_hieu": "220/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 220/2025/NĐ-CP ngày 07 tháng 8 năm 2025 của  Chính phủ sửa đổi, bổ sung một số điều của một số Nghị định trong lĩnh vực  quốc phòng, quân sự khi tổ chức chính quyền địa phương hai cấp"
+      }
+    ]
+  }
+}

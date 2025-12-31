@@ -1,0 +1,27 @@
+{
+  "question": "Thủ tục đăng ký kinh doanh có những điều kiện gì?",
+  "answer": "<think>\nOkay, let me tackle this question. The user is asking about the conditions for registering a business in Vietnam. I need to make sure I only use the information from the provided context.\n\nFirst, I'll check the context. The relevant chunk is about the initial business registration procedure. The detailed info lists three main sections: objects, requirements, and restrictions. \n\nUnder \"Đối tượng\" (Objects), it mentions that the applicant must be an organization or individual with the need to establish a business, Vietnamese citizens aged 18+ with full civil capacity, and foreign entities allowed to set up businesses in Vietnam. \n\nNext, \"Yêu cầu\" (Requirements) includes unique business names, non-prohibited industries, a Vietnamese headquarters address, and appropriate capital. \n\nThen, \"Hạn chế\" (Restrictions) lists people under 18, those with limited civil capacity, and those banned from business activities. \n\nI need to structure this into a clear, concise answer. Make sure not to add any extra info not in the context. Also, use natural Vietnamese and end with an important note. Let me verify each point again to avoid mistakes. Alright, that should cover all the conditions without any assumptions.\n</think>\n\nThủ tục đăng ký kinh doanh lần đầu có các điều kiện sau:\n\n1. **Đối tượng**  \n   - Tổ chức, cá nhân có nhu cầu thành lập doanh nghiệp.  \n   - Công dân Việt Nam từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ.  \n   - Tổ chức, cá nhân nước ngoài được phép thành lập doanh nghiệp tại Việt Nam.  \n\n2. **Yêu cầu**  \n   - Tên doanh nghiệp chưa trùng với doanh nghiệp đã đăng ký.  \n   - Ngành nghề kinh doanh không thuộc danh mục cấm.  \n   - Có địa chỉ trụ sở chính tại Việt Nam.  \n   - Vốn điều lệ phù hợp với quy định pháp luật.  \n\n3. **Hạn chế**  \n   - Người chưa thành niên.  \n   - Người bị hạn chế năng lực hành vi dân sự.  \n   - Người đang bị cấm hành nghề kinh doanh.  \n\n**Ghi chú quan trọng:** Các điều kiện này áp dụng cho thủ tục đăng ký kinh doanh lần đầu theo Luật Doanh nghiệp 2020. Nếu bạn cần thông tin cụ thể về ngành nghề cấm hoặc quy định vốn điều lệ, vui lòng cung cấp thêm chi tiết.",
+  "structured_data": {},
+  "sources": [
+    {
+      "chunk_id": "1.013145_parent_001",
+      "thu_tuc_name": "Đăng ký kinh doanh lần đầu",
+      "thu_tuc_code": "1.013145",
+      "chunk_type": "child_requirements",
+      "relevance_score": 0.8123,
+      "content_snippet": "Điều kiện: Công dân từ 18 tuổi, có năng lực hành vi dân sự, không thuộc đối tượng bị cấm..."
+    }
+  ],
+  "confidence": 0.78,
+  "intent": "requirements",
+  "timestamp": "2025-12-29T08:08:57.808036",
+  "metadata": {
+    "num_parent_chunks": 1,
+    "num_child_chunks": 1,
+    "query_variations": [
+      "Thủ tục đăng ký kinh doanh có những điều kiện gì?",
+      "Điều kiện để đăng ký kinh doanh?",
+      "Ai được phép đăng ký kinh doanh?"
+    ]
+  }
+}

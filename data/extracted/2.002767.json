@@ -1,0 +1,68 @@
+{
+  "thu_tuc_id": "2.002767",
+  "source_file": "ChiTietTTHC_2.002767.doc",
+  "metadata": {
+    "mã_thủ_tục": "2.002767",
+    "tên_thủ_tục": "Thủ tục đăng ký khám bệnh, chữa bệnh đối với sĩ quan phục viên có đủ 15 năm phục vụ trong Quân đội",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Tỉnh",
+    "loại_thủ_tục": "TTHC không được luật giao cho địa phương quy định hoặc quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1. Sĩ quan phục viên về địa phương, làm đơn đề nghị đăng ký khám bệnh, chữa bệnh theo mẫu kèm theo, gửi cùng bản sao Quyết định phục viên hoặc bản sao giấy chứng nhận có đủ 15 năm phục vụ trong Quân đội đến Bộ chỉ huy quân sự tỉnh, thành phố trực thuộc trung ương (sau đây gọi tắt là Bộ chỉ huy quân sự tỉnh) bằng hình thức trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử. Ngay trong ngày tiếp nhận hồ sơ đăng ký khám bệnh, chữa bệnh, Bộ chỉ huy quân sự tỉnh có trách nhiệm cấp giấy giới thiệu, chuyển kèm hồ sơ đến bệnh viện Quân đội ở gần nơi đối tượng thường trú nhất để làm thủ tục đăng ký khám bệnh, chữa bệnh ban đầu. Bước 2. Bệnh viện Quân đội căn cứ vào hồ sơ và giấy giới thiệu của Bộ chỉ huy quân sự tỉnh, căn cước công dân hoặc căn cước của sĩ quan phục viên để cấp sổ khám bệnh, chữa bệnh cho sĩ quan phục viên. Bước 3. Trường hợp sĩ quan phục viên thay đổi bệnh viện Quân đội khám bệnh, chữa bệnh do di chuyển nơi thường trú, thủ tục đăng ký khám bệnh, chữa bệnh tại bệnh viện Quân đội mới được thực hiện theo giấy giới thiệu của Bộ chỉ huy quân sự tỉnh (nơi thường trú mới) và sổ khám bệnh của bệnh viện cũ. Bước 4. Sĩ quan phục viên thuộc đối tượng quy định tại khoản 2 Điều 1 Quy định này có nguyện vọng khám bệnh, chữa bệnh tại bệnh viện Quân đội thì đăng ký với cơ quan bảo hiểm xã hội địa phương, được hưởng các quyền lợi khám bệnh, chữa bệnh và có trách nhiệm thực hiện theo quy định của pháp luật về bảo hiểm y tế.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Bộ chỉ huy quân sự cấp tỉnh",
+    "cơ_quan_có_thẩm_quyền": "Bệnh viện Quân đội",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Sổ khám bệnh, chữa bệnh của sĩ quan phục viên 15 năm",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "1 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "1 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "1 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Quyết định phục viên của sĩ quan (hoặc giấy chứng nhận có đủ 15 năm phục vụ trong Quân đội)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Giấy giới thiệu của Bộ chỉ huy quân sự cấp tỉnh (nơi cư trú)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "33/2003/QĐ-BQP",
+        "trich_yeu": "Ban hành Quy định về khám bệnh, chữa bệnh đối với sĩ quan phục viên có đủ 15 năm phục vụ trong quân đội"
+      },
+      {
+        "so_ky_hieu": "139/2011/TT-BQP",
+        "trich_yeu": "Sửa đổi, bổ sung một số điều của Quy định về khám bệnh, chữa bệnh đối với sĩ quan phục viên có đủ 15 năm phục vụ trong quân đội, ban hành kèm theo Quyết định số 33/2003/QĐ-BQP ngày 07 tháng 4 năm 2003 của Bộ trưởng Bộ Quốc phòng"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách"
+      }
+    ]
+  }
+}

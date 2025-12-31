@@ -1,0 +1,72 @@
+{
+  "thu_tuc_id": "1.013559",
+  "source_file": "ChiTietTTHC_1.013559.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013559",
+    "tên_thủ_tục": "Thủ tục chấp thuận cho phóng viên nước ngoài thường trú tại Việt Nam hoạt động thông tin, báo chí tại các đơn vị quân đội, tiếp xúc, phỏng vấn lãnh đạo Bộ Quốc phòng, Bộ Tổng Tham mưu, Tổng cục Chính trị",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Báo chí"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Phóng viên nước ngoài thường trú có yêu cầu hoạt động thông tin, báo chí tại các đơn vị quân đội, tiếp xúc, phỏng vấn lãnh đạo Bộ Quốc phòng, Bộ Tổng Tham mưu, Tổng cục Chính trị, Văn phòng thường trú gửi hồ sơ tới Vụ Thông tin - Báo chí, Bộ Ngoại giao. Vụ Thông tin - Báo chí, Bộ Ngoại giao thẩm định, gửi Công văn đề nghị về Tổng cục Chính trị (qua Cục Tuyên huấn) Trong thời hạn 05 ngày làm việc, kể từ khi nhận được đầy đủ hồ sơ đề nghị, Tổng cục Chính trị có trách nhiệm trả lời Văn phòng thường trú bằng văn bản",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Người nước ngoài",
+    "cơ_quan_thực_hiện": "Cục Tuyên huấn/Tổng cục Chính trị",
+    "cơ_quan_có_thẩm_quyền": "Cục Tuyên huấn/Tổng cục Chính trị",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Cục Tuyên huấn, Tổng cục Chính trị",
+    "kết_quả_thực_hiện": "Văn bản chấp thuận của Tổng cục Chính trị Quân đội nhân dân Việt Nam",
+    "yêu_cầu_điều_kiện_thực_hiện": "Khi hoạt động thông tin, báo chí trong các đơn vị quân đội, phóng viên phải mang theo văn bản chấp thuận của Tổng cục Chính trị, Thẻ phóng viên nước ngoài do Bộ Ngoại giao cấp, hộ chiếu; hoạt động theo đúng mục đích, chương trình ghi trong Giấy phép và sự hướng dẫn của cán bộ đơn vị"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "5 Ngày làm việc",
+        "phi_le_phi": ""
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "5 Ngày làm việc",
+        "phi_le_phi": ""
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "5 Ngày làm việc",
+        "phi_le_phi": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "1. Văn bản đề nghị hoạt động thông tin, báo chí (trường hợp phỏng vấn phải gửi trước câu hỏi, làm phim phải gửi kèm kịch bản)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "2. Bản chụp Thẻ phóng viên nước ngoài của phóng viên thường trú",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "51/2002/NĐ-CP",
+        "trich_yeu": "Nghị định 51/2002/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "88/2012/NĐ-CP",
+        "trich_yeu": "Nghị định 88/2012/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "12/1998/QH10",
+        "trich_yeu": "Luật số 12/1998/QH10 thông qua ngày 12 tháng 6 năm 1999 của Quốc hội về sửa đổi, bổ sung một số điều của Luật Báo chí"
+      },
+      {
+        "so_ky_hieu": "72/2013/NĐ-CP",
+        "trich_yeu": "Nghị định 72/2013/NĐ-CP"
+      }
+    ]
+  }
+}

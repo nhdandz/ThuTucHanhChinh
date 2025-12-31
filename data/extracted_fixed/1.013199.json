@@ -1,0 +1,94 @@
+{
+  "thu_tuc_id": "1.013199",
+  "source_file": "ChiTietTTHC_1.013199.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013199",
+    "tên_thủ_tục": "Thủ tục cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự",
+    "số_quyết_định": "Quyết định số 4777",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Mật mã dân sự"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Doanh nghiệp lập hồ sơ đề nghị cấp Giấy phép gửi Ban Cơ yếu Chính phủ thông qua Cục Quản lý mật mã dân sự và Kiểm định sản phẩm mật mã. Địa chỉ như sau: Số điện thoại/số fax: 024-3232.3313; Thư điện tử: info@nacis.gov.vn; Website: http://www.nacis.gov.vn; Cổng Dịch vụ công quốc gia: https://dichvucong.gov.vn. Hồ sơ trực tuyến phải được ký số theo quy định của pháp luật về chữ ký số. Bước 2: Trong thời hạn 20 ngày kể từ ngày nhận đủ hồ sơ, Ban Cơ yếu Chính phủ thẩm định và cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự; trường hợp từ chối cấp phép thì phải thông báo bằng văn bản và nêu rõ lý do.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Doanh nghiệp",
+    "cơ_quan_thực_hiện": "Cục Quản lý mật mã dân sự và Kiểm định sản phẩm mật mã/Ban Cơ yếu Chính phủ",
+    "cơ_quan_có_thẩm_quyền": "Ban Cơ yếu Chính phủ",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự",
+    "yêu_cầu_điều_kiện_thực_hiện": "Doanh nghiệp được cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự khi đáp ứng đủ các điều kiện sau đây:\n-\tCó ít nhất 02 cán bộ kỹ thuật có trình độ đại học trở lên thuộc một trong các ngành điện tử - viễn thông, công nghệ thông tin, toán học, an toàn thông tin; cán bộ quản lý, điều hành tốt nghiệp một trong các ngành điện tử - viễn thông, công nghệ thông tin, toán học, an toàn thông tin hoặc tốt nghiệp một ngành khác và có chứng chỉ đào tạo về an toàn thông tin;\n-\tCó hệ thống trang thiết bị, cơ sở vật chất phù hợp với quy mô cung cấp sản phẩm, dịch vụ mật mã dân sự;\n-\tCó phương án kỹ thuật phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật;\n-\tCó phương án bảo mật và an toàn thông tin mạng trong quá trình quản lý và cung cấp sản phẩm, dịch vụ mật mã dân sự;\n-\tCó hệ thống phục vụ khách hàng và bảo đảm kỹ thuật phù hợp với phạm vi, đối tượng cung cấp, quy mô số lượng sản phẩm.",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "20 Ngày",
+        "phi_le_phi": "Phí : 1.\tMức thu bằng 50% mức thu phí quy định tại Mục I và Mục II Biểu mức thu phí, lệ phí ban hành kèm theo Thông tư số 249/2016/TT-BTC ngày 11 tháng 11 năm 2016 Đồng (Thông tư số 64/2025/TT-BTC ngày 30/6/2025 quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+        "mo_ta": ""
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "20 Ngày",
+        "phi_le_phi": "Phí : Mức thu bằng 50% mức thu phí quy định tại Mục I và Mục II Biểu mức thu phí, lệ phí ban hành kèm theo Thông tư số 249/2016/TT-BTC ngày 11 tháng 11 năm 2016 Đồng (Thông tư số 64/2025/TT-BTC ngày 30/6/2025 quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+        "mo_ta": ""
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "20 Ngày",
+        "phi_le_phi": "Phí : Mức thu bằng 50% mức thu phí quy định tại Mục I và Mục II Biểu mức thu phí, lệ phí ban hành kèm theo Thông tư số 249/2016/TT-BTC ngày 11 tháng 11 năm 2016 Đồng (Thông tư số 64/2025/TT-BTC ngày 30/6/2025 quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+        "mo_ta": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "- Đơn đề nghị cấp Giấy phép kinh doanh sản phẩm, dịch vụ mật mã dân sự theo mẫu số 01 Phụ lục III Nghị định số 211/2025/NĐ-CP ngày 25/7/2025 của Chính phủ;",
+        "so_luong": "Mu01.nnghcpGiyphpkinhdoanhsnphmdchvmtmdns.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "- Bản sao Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký đầu tư hoặc giấy tờ khác có giá trị tương đương (không bắt buộc doanh nghiệp phải cung cấp);",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "- Bản sao văn bằng hoặc chứng chỉ chuyên môn về bảo mật, an toàn thông tin của đội ngũ quản lý, điều hành, kỹ thuật;",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "- Phương án kỹ thuật gồm: Tài liệu về đặc tính kỹ thuật, tham số kỹ thuật của sản phẩm; tiêu chuẩn, quy chuẩn kỹ thuật của sản phẩm; tiêu chuẩn, chất lượng dịch vụ; các biện pháp, giải pháp kỹ thuật; phương án bảo hành, bảo trì sản phẩm theo mẫu số 03 Phụ lục III Nghị định số 211/2025/NĐ-CP ngày 25/7/2025 của Chính phủ;",
+        "so_luong": "Mu03.Phngnkthut.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "- Phương án kinh doanh gồm: Phạm vi, đối tượng cung cấp, quy mô số lượng sản phẩm, dịch vụ hệ thống phục vụ khách hàng và bảo đảm kỹ thuật theo mẫu số 04 Phụ lục III Nghị định số 211/2025/NĐ-CP ngày 25/7/2025 của Chính phủ;",
+        "so_luong": "Mu04.Phngnkinhdoanh.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "- Phương án bảo mật và an toàn thông tin mạng trong quá trình quản lý và cung cấp sản phẩm, dịch vụ mật mã dân sự theo mẫu số 05 Phụ lục III Nghị định số 211/2025/NĐ-CP ngày 25/7/2025 của Chính phủ.",
+        "so_luong": "Mu05.Phngnbomtvantonthngtinmng.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "86/2015/QH13",
+        "trich_yeu": "Luật An toàn thông tin mạng số 86/2015/QH13 được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII thông qua ngày 19 tháng 11 năm 2015",
+        "ngay_ban_hanh": "19-11-2015",
+        "co_quan_ban_hanh": "Quốc Hội"
+      },
+      {
+        "so_ky_hieu": "211/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 211/2025/NĐ-CP của Chính phủ: Quy định về hoạt động mật mã dân sự và sửa đổi, bổ sung một số điều của Nghị định số 15/2020/NĐ-CP ngày 03 tháng 02 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bưu chính, viễn thông, tần số vô tuyến điện, công nghệ thông tin và giao dịch điện tử được sửa đổi, bổ sung một số điều tại Nghị định số 14/2022/NĐ-CP ngày 27 tháng 01 năm 2022 của Chính phủ",
+        "ngay_ban_hanh": "25-07-2025",
+        "co_quan_ban_hanh": "Chính phủ"
+      }
+    ]
+  }
+}

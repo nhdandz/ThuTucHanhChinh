@@ -1,0 +1,78 @@
+{
+  "thu_tuc_id": "2.002761",
+  "source_file": "ChiTietTTHC_2.002761.doc",
+  "metadata": {
+    "mã_thủ_tục": "2.002761",
+    "tên_thủ_tục": "Thủ tục xác nhận cán bộ Quân đội nghỉ hưu mắc bệnh hiểm nghèo",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Tỉnh, Cấp Xã",
+    "loại_thủ_tục": "TTHC không được luật giao cho địa phương quy định hoặc quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1. Đối tượng hoặc thân nhân đối tượng nộp đơn đề nghị; các giấy tờ liên quan điều trị bệnh hiểm nghèo, gồm: Bản sao bệnh án hoặc một trong các giấy tờ khác như: Sổ sức khoẻ, các xét nghiệm; Bản sao quyết định nghỉ hưu hoặc phiếu đăng ký cán bộ Quân đội nghỉ hưu. Bước 2. Ban Chỉ huy quân sự xã, phường nơi đối tượng cư trú: Tiếp nhận, và chuyển hồ sơ hợp lệ đến Bộ Chỉ huy quân sự cấp tỉnh. Bước 3. Bộ Chỉ huy quân sự cấp tỉnh: Chỉ đạo cơ quan chức năng (Ban Chính sách) tiếp nhận hồ sơ và danh sách do Ban Chỉ huy quân sự xã, phường chuyển đến; kiểm tra, thẩm định, tổ chức giám định theo quy định, nếu đủ điều kiện thì lập biên bản kết luận từng trường hợp trình Chính ủy Bộ Chỉ huy quân sự cấp tỉnh ký Quyết định công nhận cán bộ Quân đội nghỉ hưu mắc bệnh hiểm nghèo. Bước 4. Bộ Chỉ huy quân sự cấp tỉnh tổng hợp danh sách báo cáo về Cục Chính trị Quân khu (qua Phòng Chính sách); chỉ đạo trao Quyết định và thực hiện chế độ cho đối tượng theo quy định.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Bộ chỉ huy quân sự cấp tỉnh",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định hành chính",
+    "yêu_cầu_điều_kiện_thực_hiện": "Cán bộ Quân đội nghỉ hưu nếu mắc một trong các bệnh thuộc Danh mục bệnh hiểm nghèo ban hành kèm theo Thông tư 158/2011/TT-BQP, được Bộ Chỉ huy quân sự cấp tỉnh ký quyết định công nhận cán bộ mắc bệnh hiểm nghèo thì được trợ cấp hàng quý; cán bộ từ trần thì thôi hưởng trợ cấp từ quý tiếp theo.",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "2 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "Cấp xã: 02 ngày"
+      },
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "7 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "Cấp tỉnh: 07 ngày"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị hưởng chế độ trợ cấp bệnh hiểm nghèo",
+        "so_luong": "nnghmcbnhhimngho.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "+ Các giấy tờ liên quan điều trị bệnh hiểm nghèo, gồm: Bản sao bệnh án hoặc một trong các giấy tờ khác như: sổ sức khoẻ, các xét nghiệm (01 bản);",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "+ Bản sao quyết định nghỉ hưu hoặc phiếu đăng ký cán bộ quân đội nghỉ hưu (01 bản).",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "158/2011/TT",
+        "trich_yeu": "THỰC HIỆN CHẾ ĐỘ, CHÍNH SÁCH GÓP PHẦN CHĂM SÓC ĐỐI VỚI CÁN BỘ QUÂN ĐỘI NGHỈ HƯU DO BỘ TRƯỞNG BỘ QUỐC PHÒNG BAN HÀNH",
+        "ngay_ban_hanh": "15-08-2011",
+        "co_quan_ban_hanh": "Bộ Quốc phòng"
+      },
+      {
+        "so_ky_hieu": "13/2024/TT-BQP",
+        "trich_yeu": "Thông tư số 13/2024/TT-BQP ngày 18/3/2024 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các văn bản quy phạm pháp luật thuộc thẩm quyền ban hành của Bộ trưởng Bộ Quốc phòng liên quan đến việc kê khai thông tin cá nhân khi thực hiện thủ tục hành chính",
+        "ngay_ban_hanh": "18-03-2024",
+        "co_quan_ban_hanh": "Bộ trưởng Bộ Quốc phòng"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách",
+        "ngay_ban_hanh": "26-09-2025"
+      }
+    ]
+  }
+}

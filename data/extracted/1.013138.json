@@ -1,0 +1,58 @@
+{
+  "thu_tuc_id": "1.013138",
+  "source_file": "ChiTietTTHC_1.013138.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013138",
+    "tên_thủ_tục": "Thủ tục đăng ký nghĩa vụ quân sự tạm vắng",
+    "số_quyết_định": "Quyết định số 6375/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Nghĩa vụ quân sự"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Đăng ký nghĩa vụ quân sự tạm vắng và đăng ký lại",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "1 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "02 Giờ",
+        "phi_le_phi": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Bản chụp Giấy chứng nhận đăng ký nghĩa vụ quân sự hoặc Giấy chứng nhận đăng ký quân nhân dự bị (mang theo bản chính để đối chiếu)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "13/2016/NĐ-CP",
+        "trich_yeu": "Nghị định 13/2016/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "78/2015/QH13",
+        "trich_yeu": "Nghĩa vụ quân sự"
+      },
+      {
+        "so_ky_hieu": "220/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 220/2025/NĐ-CP ngày 07 tháng 8 năm 2025 của  Chính phủ sửa đổi, bổ sung một số điều của một số Nghị định trong lĩnh vực  quốc phòng, quân sự khi tổ chức chính quyền địa phương hai cấp"
+      }
+    ]
+  }
+}

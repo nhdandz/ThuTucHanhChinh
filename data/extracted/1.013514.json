@@ -1,0 +1,63 @@
+{
+  "thu_tuc_id": "1.013514",
+  "source_file": "ChiTietTTHC_1.013514.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013514",
+    "tên_thủ_tục": "Thủ tục trợ cấp cho Dân quân tự vệ không tham gia bảo hiểm xã hội nếu bị tai nạn, chết",
+    "số_quyết_định": "Quyết định số 8423/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Tỉnh",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Dân quân tự vệ"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định trợ cấp cho dân quân.",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Dân quân tự vệ được hưởng chế độ, chính sách theo quy định tại điểm b khoản 1 Điều 35 Luật Dân quân tự vệ trong trường hợp sau:\n+ Thực hiện nhiệm vụ theo quyết định điều động hoặc huy động theo kế hoạch của cấp có thẩm quyền phê duyệt.\n+ Thực hiện nhiệm vụ được cấp có thẩm quyền giao.\n+ Trên tuyến đường đi và về từ nơi ở đến nơi làm nhiệm vụ trong khoảng thời gian và tuyến đường hợp lý.\n- Các trường hợp quy định tại điểm b khoản 1 Điều 14 Nghị định số 72/2020/NĐ-CP ngày 30 tháng 6 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Dân quân tự vệ về tổ chức xây dựng lực lượng và chế độ, chính sách đối với Dân quân tự vệ bị tai nạn không được hưởng chế độ trợ cấp."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "13 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "13 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Hồ sơ hưởng trợ cấp tai nạn gồm: Đơn đề nghị trợ cấp tai nạn kèm theo giấy ra viện hoặc trích sao hồ sơ bệnh án sau khi điều trị tai nạn đối với trường hợp điều trị nội trú hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế (nơi đã cấp cứu, điều trị cho Dân quân tự vệ) cấp theo mẫu quy định, biên bản giám định mức suy giảm khả năng lao động của hội đồng giám định y khoa bệnh viện cấp tỉnh và tương đương trở lên; trường hợp bị tai nạn giao thông thì có thêm biên bản điều tra của cơ quan công an hoặc cơ quan điều tra hình sự thuộc Bộ Quốc phòng.",
+        "so_luong": "Munnghtrcptainnbcht.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Hồ sơ hưởng trợ cấp chết gồm: Đơn đề nghị trợ cấp chết kèm theo giấy ra viện hoặc trích sao hồ sơ bệnh án sau khi điều trị tai nạn đối với trường hợp điều trị nội trú, bản sao giấy chứng tử hoặc trích lục khai tử; trường hợp bị tai nạn giao thông dẫn đến chết thì có thêm biên bản điều tra của cơ quan công an hoặc cơ quan điều tra hình sự thuộc Bộ Quốc phòng.",
+        "so_luong": "Munnghtrcptainnbcht.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "72/2020/NĐ-CP",
+        "trich_yeu": "Nghị định 72/2020/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "48/2019/QH14",
+        "trich_yeu": "Luật dân quân tự vệ"
+      },
+      {
+        "so_ky_hieu": "220/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 220/2025/NĐ-CP ngày 07 tháng 8 năm 2025 của  Chính phủ sửa đổi, bổ sung một số điều của một số Nghị định trong lĩnh vực  quốc phòng, quân sự khi tổ chức chính quyền địa phương hai cấp"
+      }
+    ]
+  }
+}

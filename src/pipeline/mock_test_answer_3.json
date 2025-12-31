@@ -1,0 +1,27 @@
+{
+  "question": "Xin giấy phép xây dựng mất bao lâu?",
+  "answer": "<think>\nOkay, let's tackle this question. The user is asking how long it takes to get a construction permit in Vietnam. I need to base the answer strictly on the provided context.\n\nFirst, I'll check the context. The context mentions three categories of construction projects: simple, complex, and special. Each has different processing times. \n\nFor simple projects, it's 15 days. Complex ones take 20 days, plus an additional 15 days if a review is needed. Special projects have a 30-day limit, which can be extended by 10 days if the paperwork is complicated. \n\nI need to present this information clearly. The user might not know the distinctions between the categories, so I should explain each case. Also, the note about the time starting from when the documents are complete is important to mention. \n\nWait, the user might be a business owner or someone planning a construction project. They need to know the timelines to plan accordingly. I should make sure the answer is straightforward and covers all scenarios. \n\nI should structure the answer with bullet points for each category, mention the possible extensions, and include the note about the start time. Make sure not to add any extra information not in the context. Let me double-check the context again to confirm the details. Yes, the times are 15, 20 (plus 15 if needed), and 30 (plus 10 if needed). \n\nAlright, time to put it all together in a clear, natural way without any markdown. Keep it simple and easy to understand.\n</think>\n\nThời gian cấp giấy phép xây dựng phụ thuộc vào loại công trình và mức độ phức tạp của hồ sơ. Cụ thể:\n\n- **Công trình có điều kiện đơn giản**: 15 ngày làm việc (tính từ khi hồ sơ hợp lệ).  \n- **Công trình phức tạp**: 20 ngày làm việc. Nếu cần thẩm định thêm, thời gian kéo dài thêm 15 ngày.  \n- **Công trình đặc biệt**: 30 ngày làm việc. Nếu hồ sơ quá phức tạp, có thể gia hạn thêm 10 ngày.  \n\n*Lưu ý:* Thời gian bắt đầu tính từ khi cơ quan có thẩm quyền xác nhận hồ sơ đầy đủ và hợp lệ.",
+  "structured_data": {},
+  "sources": [
+    {
+      "chunk_id": "1.013278_parent_001",
+      "thu_tuc_name": "Cấp giấy phép xây dựng",
+      "thu_tuc_code": "1.013278",
+      "chunk_type": "child_timeline",
+      "relevance_score": 0.7845,
+      "content_snippet": "Thời gian: 15-30 ngày làm việc tùy loại công trình..."
+    }
+  ],
+  "confidence": 0.72,
+  "intent": "timeline",
+  "timestamp": "2025-12-29T08:09:50.422559",
+  "metadata": {
+    "num_parent_chunks": 1,
+    "num_child_chunks": 1,
+    "query_variations": [
+      "Xin giấy phép xây dựng mất bao lâu?",
+      "Thời gian cấp giấy phép xây dựng?",
+      "Bao lâu thì nhận được giấy phép xây dựng?"
+    ]
+  }
+}

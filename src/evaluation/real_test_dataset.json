@@ -1,0 +1,425 @@
+{
+  "dataset_name": "Thu Tuc Hanh Chinh RAG Test Dataset",
+  "version": "1.0",
+  "created_at": "2025-12-29T14:04:20.683366",
+  "test_cases": [
+    {
+      "test_id": "DOC_EASY_1_013133",
+      "category": "documents",
+      "difficulty": "easy",
+      "question": "Thủ tục đăng ký nghĩa vụ quân sự lần đầu cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục đăng ký nghĩa vụ quân sự lần đầu bao gồm:\n1. Phiếu tự khai sức khỏe nghĩa vụ quân sự\n2. - Bản chụp Căn cước công dân hoặc Thẻ Căn cước. Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công khai thác được thông tin công dân trên Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp Căn cước công dân hoặc Thẻ Căn cước.",
+        "key_facts": [
+          "1. Phiếu tự khai sức khỏe nghĩa vụ quân sự",
+          "2. - Bản chụp Căn cước công dân hoặc Thẻ Căn cước. Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công khai thác được thông tin công dân trên Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp Căn cước công dân hoặc Thẻ Căn cước."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Phiếu tự khai sức khỏe nghĩa vụ quân sự",
+            "- Bản chụp Căn cước công dân hoặc Thẻ Căn cước. Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công khai thác được thông tin công dân trên Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp Căn cước công dân hoặc Thẻ Căn cước."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục đăng ký nghĩa vụ quân sự lần đầu",
+      "metadata": {
+        "thu_tuc_id": "1.013133",
+        "linh_vuc": "Nghĩa vụ quân sự"
+      }
+    },
+    {
+      "test_id": "DOC_EASY_1_013134",
+      "category": "documents",
+      "difficulty": "easy",
+      "question": "Thủ tục đăng ký nghĩa vụ quân sự chuyển đi khi thay đổi nơi cư trú hoặc nơi làm việc, học tập cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục đăng ký nghĩa vụ quân sự chuyển đi khi thay đổi nơi cư trú hoặc nơi làm việc, học tập bao gồm:\n1. Bản chụp Giấy chứng nhận đăng ký nghĩa vụ quân sự hoặc Giấy chứng nhận đăng ký quân nhân dự bị (mang theo bản chính để đối chiếu)\n2. Bản chụp một trong những giấy tờ sau: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư hoặc quyết định của người đứng đầu cơ quan, tổ chức về thay đổi nơi làm việc, học tập mới (mang theo bản chính để đối chiếu). Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công, khai thác được thông tin về nơi cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư (mang theo bản chính để đối chiếu).",
+        "key_facts": [
+          "1. Bản chụp Giấy chứng nhận đăng ký nghĩa vụ quân sự hoặc Giấy chứng nhận đăng ký quân nhân dự bị (mang theo bản chính để đối chiếu)",
+          "2. Bản chụp một trong những giấy tờ sau: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư hoặc quyết định của người đứng đầu cơ quan, tổ chức về thay đổi nơi làm việc, học tập mới (mang theo bản chính để đối chiếu). Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công, khai thác được thông tin về nơi cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư (mang theo bản chính để đối chiếu)."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Bản chụp Giấy chứng nhận đăng ký nghĩa vụ quân sự hoặc Giấy chứng nhận đăng ký quân nhân dự bị (mang theo bản chính để đối chiếu)",
+            "Bản chụp một trong những giấy tờ sau: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư hoặc quyết định của người đứng đầu cơ quan, tổ chức về thay đổi nơi làm việc, học tập mới (mang theo bản chính để đối chiếu). Trường hợp cơ quan hoặc người có thẩm quyền được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công, khai thác được thông tin về nơi cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư thì không yêu cầu công dân nộp bản chụp thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư (mang theo bản chính để đối chiếu)."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục đăng ký nghĩa vụ quân sự chuyển đi khi thay đổi nơi cư trú hoặc nơi làm việc, học tập",
+      "metadata": {
+        "thu_tuc_id": "1.013134",
+        "linh_vuc": "Nghĩa vụ quân sự"
+      }
+    },
+    {
+      "test_id": "DOC_MEDIUM_1_013140",
+      "category": "documents",
+      "difficulty": "medium",
+      "question": "Thủ tục giải quyết chế độ hưu trí đối với quân nhân trực tiếp tham gia kháng chiến chống Mỹ cứu nước từ ngày 30/4/1975 trở về trước có 20 năm trở lên phục vụ quân đội đã phục viên, xuất ngũ cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục giải quyết chế độ hưu trí đối với quân nhân trực tiếp tham gia kháng chiến chống Mỹ cứu nước từ ngày 30/4/1975 trở về trước có 20 năm trở lên phục vụ quân đội đã phục viên, xuất ngũ bao gồm:\n1. Thành phần hồ sơ 1: Đơn đề nghị của đối tượng - Mẫu số 01 - NĐ159 - 11 Phụ lục III ban hành kèm theo Thông tư số 104/2024/TT-BQP ngày 27 tháng 11 năm 2024 của Bộ trưởng Bộ Quốc phòng thay thế, bãi bỏ một số quy định, mẫu biểu tại các Thông tư liên tịch của Bộ Quốc phòng, Bộ Lao động - Thương binh và Xã hội, Bộ Tài chính liên quan đến việc kê khai thông tin cá nhân khi thực hiện thủ tục hành chính.\n2. - Thành phần hồ sơ 2: Một hoặc một số giấy tờ sau: + Quyết định phục viên, xuất ngũ, chuyển ngành hoặc chuyển sang công nhân viên chức quốc phòng rồi thôi việc, quyết định của cơ quan có thẩm quyền cử đi lao động hợp tác quốc tế; lý lịch quân nhân, lý lịch cán bộ công chức, viên chức, lý lịch cán bộ hoặc bản trích yếu 63 đối với sĩ quan; lý lịch đảng viên; phiếu lập sổ trợ cấp phục viên, xuất ngũ, chuyển ngành; sổ bảo hiểm xã hội; quyết định cấp giấy chứng nhận thương binh và trợ cấp thương tật hoặc bản trích lục hồ sơ thương tật (đối với thương binh). + Giấy xác nhận quá trình công tác của cơ quan, đơn vị trước khi quân nhân phục viên, xuất ngũ, chuyển ngành thôi việc, do thủ trưởng cơ quan, đơn vị từ cấp Trung đoàn và tương đương trở lên theo phân cấp quản lý đối tượng trước khi phục viên, xuất ngũ, hoặc cử đi lao động hợp tác quốc tế, chuyển ngành hoặc chuyển sang công nhân viên quốc phòng rồi thôi việc cấp, ký, đóng dấu, kèm theo bản sao hồ sơ của đối tượng hoặc danh sách đăng ký, quản lý đối tượng mà cơ quan, đơn vị đang lưu trữ để làm căn cứ xác nhận; đối với các đối tượng còn giấy tờ, hồ sơ gốc tại đơn vị cũ thì đơn vị cũ cấp lại cho đối tượng theo quy định của pháp luật về công chứng, chứng thực hiện hành. Trường hợp cơ quan, đơn vị cũ đã sáp nhập hoặc giải thể thì cơ quan, đơn vị mới được thành lập sau sáp nhập hoặc cấp trên trực tiếp của cơ quan, đơn vị đã giải thể xác nhận, cấp lại. + Các giấy tờ làm căn cứ xét hưởng chế độ nêu trên (bao gồm bản chính hoặc bản sao của cấp có thẩm quyền) phải chứng minh được tháng, năm nhập ngũ, xuất ngũ, đi lao động hợp tác quốc tế; chuyển ngành hoặc chuyển sang công nhân viên chức quốc phòng rồi thôi việc; xác định được thời gian công tác thực tế trong Quân đội. + Đối với các trường hợp thuộc đối tượng xét hưởng bị kết án tù giam, nhưng đã chấp hành xong án phạt tù, chuyển về địa phương mà chưa được giải quyết chế độ phục viên, xuất ngũ, thôi việc thì bổ sung thêm Giấy chứng nhận chấp hành xong án phạt tù giam (bản chính hoặc bản sao) của cơ quan có thẩm quyền. Đối tượng bị kết án tù giam trước ngày 01/01/1995, đã chấp hành xong án phạt tù giam chuyển về địa phương, chưa giải quyết chế độ, chính sách, Bộ Quốc phòng tổng hợp hồ sơ, trao đổi, thống nhất với Bộ Nội vụ để vận dụng giải quyết chế độ hưu trí theo quy định tại Nghị định số 159/2006/NĐ-CP đối với từng trường hợp cụ thể.",
+        "key_facts": [
+          "1. Thành phần hồ sơ 1: Đơn đề nghị của đối tượng - Mẫu số 01 - NĐ159 - 11 Phụ lục III ban hành kèm theo Thông tư số 104/2024/TT-BQP ngày 27 tháng 11 năm 2024 của Bộ trưởng Bộ Quốc phòng thay thế, bãi bỏ một số quy định, mẫu biểu tại các Thông tư liên tịch của Bộ Quốc phòng, Bộ Lao động - Thương binh và Xã hội, Bộ Tài chính liên quan đến việc kê khai thông tin cá nhân khi thực hiện thủ tục hành chính.",
+          "2. - Thành phần hồ sơ 2: Một hoặc một số giấy tờ sau: + Quyết định phục viên, xuất ngũ, chuyển ngành hoặc chuyển sang công nhân viên chức quốc phòng rồi thôi việc, quyết định của cơ quan có thẩm quyền cử đi lao động hợp tác quốc tế; lý lịch quân nhân, lý lịch cán bộ công chức, viên chức, lý lịch cán bộ hoặc bản trích yếu 63 đối với sĩ quan; lý lịch đảng viên; phiếu lập sổ trợ cấp phục viên, xuất ngũ, chuyển ngành; sổ bảo hiểm xã hội; quyết định cấp giấy chứng nhận thương binh và trợ cấp thương tật hoặc bản trích lục hồ sơ thương tật (đối với thương binh). + Giấy xác nhận quá trình công tác của cơ quan, đơn vị trước khi quân nhân phục viên, xuất ngũ, chuyển ngành thôi việc, do thủ trưởng cơ quan, đơn vị từ cấp Trung đoàn và tương đương trở lên theo phân cấp quản lý đối tượng trước khi phục viên, xuất ngũ, hoặc cử đi lao động hợp tác quốc tế, chuyển ngành hoặc chuyển sang công nhân viên quốc phòng rồi thôi việc cấp, ký, đóng dấu, kèm theo bản sao hồ sơ của đối tượng hoặc danh sách đăng ký, quản lý đối tượng mà cơ quan, đơn vị đang lưu trữ để làm căn cứ xác nhận; đối với các đối tượng còn giấy tờ, hồ sơ gốc tại đơn vị cũ thì đơn vị cũ cấp lại cho đối tượng theo quy định của pháp luật về công chứng, chứng thực hiện hành. Trường hợp cơ quan, đơn vị cũ đã sáp nhập hoặc giải thể thì cơ quan, đơn vị mới được thành lập sau sáp nhập hoặc cấp trên trực tiếp của cơ quan, đơn vị đã giải thể xác nhận, cấp lại. + Các giấy tờ làm căn cứ xét hưởng chế độ nêu trên (bao gồm bản chính hoặc bản sao của cấp có thẩm quyền) phải chứng minh được tháng, năm nhập ngũ, xuất ngũ, đi lao động hợp tác quốc tế; chuyển ngành hoặc chuyển sang công nhân viên chức quốc phòng rồi thôi việc; xác định được thời gian công tác thực tế trong Quân đội. + Đối với các trường hợp thuộc đối tượng xét hưởng bị kết án tù giam, nhưng đã chấp hành xong án phạt tù, chuyển về địa phương mà chưa được giải quyết chế độ phục viên, xuất ngũ, thôi việc thì bổ sung thêm Giấy chứng nhận chấp hành xong án phạt tù giam (bản chính hoặc bản sao) của cơ quan có thẩm quyền. Đối tượng bị kết án tù giam trước ngày 01/01/1995, đã chấp hành xong án phạt tù giam chuyển về địa phương, chưa giải quyết chế độ, chính sách, Bộ Quốc phòng tổng hợp hồ sơ, trao đổi, thống nhất với Bộ Nội vụ để vận dụng giải quyết chế độ hưu trí theo quy định tại Nghị định số 159/2006/NĐ-CP đối với từng trường hợp cụ thể."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Thành phần hồ sơ 1: Đơn đề nghị của đối tượng - Mẫu số 01 - NĐ159 - 11 Phụ lục III ban hành kèm theo Thông tư số 104/2024/TT-BQP ngày 27 tháng 11 năm 2024 của Bộ trưởng Bộ Quốc phòng thay thế, bãi bỏ một số quy định, mẫu biểu tại các Thông tư liên tịch của Bộ Quốc phòng, Bộ Lao động - Thương binh và Xã hội, Bộ Tài chính liên quan đến việc kê khai thông tin cá nhân khi thực hiện thủ tục hành chính.",
+            "- Thành phần hồ sơ 2: Một hoặc một số giấy tờ sau: + Quyết định phục viên, xuất ngũ, chuyển ngành hoặc chuyển sang công nhân viên chức quốc phòng rồi thôi việc, quyết định của cơ quan có thẩm quyền cử đi lao động hợp tác quốc tế; lý lịch quân nhân, lý lịch cán bộ công chức, viên chức, lý lịch cán bộ hoặc bản trích yếu 63 đối với sĩ quan; lý lịch đảng viên; phiếu lập sổ trợ cấp phục viên, xuất ngũ, chuyển ngành; sổ bảo hiểm xã hội; quyết định cấp giấy chứng nhận thương binh và trợ cấp thương tật hoặc bản trích lục hồ sơ thương tật (đối với thương binh). + Giấy xác nhận quá trình công tác của cơ quan, đơn vị trước khi quân nhân phục viên, xuất ngũ, chuyển ngành thôi việc, do thủ trưởng cơ quan, đơn vị từ cấp Trung đoàn và tương đương trở lên theo phân cấp quản lý đối tượng trước khi phục viên, xuất ngũ, hoặc cử đi lao động hợp tác quốc tế, chuyển ngành hoặc chuyển sang công nhân viên quốc phòng rồi thôi việc cấp, ký, đóng dấu, kèm theo bản sao hồ sơ của đối tượng hoặc danh sách đăng ký, quản lý đối tượng mà cơ quan, đơn vị đang lưu trữ để làm căn cứ xác nhận; đối với các đối tượng còn giấy tờ, hồ sơ gốc tại đơn vị cũ thì đơn vị cũ cấp lại cho đối tượng theo quy định của pháp luật về công chứng, chứng thực hiện hành. Trường hợp cơ quan, đơn vị cũ đã sáp nhập hoặc giải thể thì cơ quan, đơn vị mới được thành lập sau sáp nhập hoặc cấp trên trực tiếp của cơ quan, đơn vị đã giải thể xác nhận, cấp lại. + Các giấy tờ làm căn cứ xét hưởng chế độ nêu trên (bao gồm bản chính hoặc bản sao của cấp có thẩm quyền) phải chứng minh được tháng, năm nhập ngũ, xuất ngũ, đi lao động hợp tác quốc tế; chuyển ngành hoặc chuyển sang công nhân viên chức quốc phòng rồi thôi việc; xác định được thời gian công tác thực tế trong Quân đội. + Đối với các trường hợp thuộc đối tượng xét hưởng bị kết án tù giam, nhưng đã chấp hành xong án phạt tù, chuyển về địa phương mà chưa được giải quyết chế độ phục viên, xuất ngũ, thôi việc thì bổ sung thêm Giấy chứng nhận chấp hành xong án phạt tù giam (bản chính hoặc bản sao) của cơ quan có thẩm quyền. Đối tượng bị kết án tù giam trước ngày 01/01/1995, đã chấp hành xong án phạt tù giam chuyển về địa phương, chưa giải quyết chế độ, chính sách, Bộ Quốc phòng tổng hợp hồ sơ, trao đổi, thống nhất với Bộ Nội vụ để vận dụng giải quyết chế độ hưu trí theo quy định tại Nghị định số 159/2006/NĐ-CP đối với từng trường hợp cụ thể."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục giải quyết chế độ hưu trí đối với quân nhân trực tiếp tham gia kháng chiến chống Mỹ cứu nước từ ngày 30/4/1975 trở về trước có 20 năm trở lên phục vụ quân đội đã phục viên, xuất ngũ",
+      "metadata": {
+        "thu_tuc_id": "1.013140",
+        "linh_vuc": "Chính sách"
+      }
+    },
+    {
+      "test_id": "REQ_MEDIUM_1_013140",
+      "category": "requirements",
+      "difficulty": "medium",
+      "question": "Thủ tục giải quyết chế độ hưu trí đối với quân nhân trực tiếp tham gia kháng chiến chống Mỹ cứu nước từ ngày 30/4/1975 trở về trước có 20 năm trở lên phục vụ quân đội đã phục viên, xuất ngũ cần điều kiện gì?",
+      "ground_truth": {
+        "natural_language": "Điều kiện thực hiện:\n- Đối tượng áp dụng\n- Đối tượng không áp dụng",
+        "key_facts": [
+          "- Đối tượng áp dụng",
+          "- Đối tượng không áp dụng"
+        ],
+        "structured_data": {
+          "dieu_kien": [
+            "Đối tượng áp dụng",
+            "Đối tượng không áp dụng"
+          ]
+        },
+        "required_aspects": [
+          "Điều kiện"
+        ]
+      },
+      "source_procedure": "Thủ tục giải quyết chế độ hưu trí đối với quân nhân trực tiếp tham gia kháng chiến chống Mỹ cứu nước từ ngày 30/4/1975 trở về trước có 20 năm trở lên phục vụ quân đội đã phục viên, xuất ngũ",
+      "metadata": {
+        "thu_tuc_id": "1.013140",
+        "linh_vuc": "Chính sách"
+      }
+    },
+    {
+      "test_id": "DOC_MEDIUM_1_013272",
+      "category": "documents",
+      "difficulty": "medium",
+      "question": "Thủ tục cấp phép bay đối với tàu bay không người lái và các phương tiện bay siêu nhẹ cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục cấp phép bay đối với tàu bay không người lái và các phương tiện bay siêu nhẹ bao gồm:\n1. Đơn đề nghị cấp phép bay\n2. - Ảnh chụp tàu bay, phương tiện bay (kích thước tối thiểu 18 X 24 cm);\n3. Bản thuyết minh kỹ thuật hàng không của tàu bay, phương tiện bay;\n4. Các giấy tờ, tài liệu khác liên quan đến tàu bay, phương tiện bay.\n5. Sửa đổi phép bay; Công văn (trường hợp từ chối sửa đổi phép bay).",
+        "key_facts": [
+          "1. Đơn đề nghị cấp phép bay",
+          "2. - Ảnh chụp tàu bay, phương tiện bay (kích thước tối thiểu 18 X 24 cm);",
+          "3. Bản thuyết minh kỹ thuật hàng không của tàu bay, phương tiện bay;",
+          "4. Các giấy tờ, tài liệu khác liên quan đến tàu bay, phương tiện bay.",
+          "5. Sửa đổi phép bay; Công văn (trường hợp từ chối sửa đổi phép bay)."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Đơn đề nghị cấp phép bay",
+            "- Ảnh chụp tàu bay, phương tiện bay (kích thước tối thiểu 18 X 24 cm);",
+            "Bản thuyết minh kỹ thuật hàng không của tàu bay, phương tiện bay;",
+            "Các giấy tờ, tài liệu khác liên quan đến tàu bay, phương tiện bay.",
+            "Sửa đổi phép bay; Công văn (trường hợp từ chối sửa đổi phép bay)."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục cấp phép bay đối với tàu bay không người lái và các phương tiện bay siêu nhẹ",
+      "metadata": {
+        "thu_tuc_id": "1.013272",
+        "linh_vuc": "Quản lý vùng trời"
+      }
+    },
+    {
+      "test_id": "DOC_EASY_1_013614",
+      "category": "documents",
+      "difficulty": "easy",
+      "question": "Thủ tục cấp mới giấy phép hành nghề khám bệnh, chữa bệnh. cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục cấp mới giấy phép hành nghề khám bệnh, chữa bệnh. bao gồm:\n1. 1. Trường hợp 1: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người lần đầu tiên đề nghị cấp giấy phép hành nghề quy định tại điểm a khoản 1 Điều 30 của Luật Khám bệnh, chữa bệnh và trường hợp quy định tại điểm c khoản 1 Điều 7 Nghị định số 16/2024/NĐ-CP, gồm: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn.\n2. 2. Trường hợp 2: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề thay đổi chức danh chuyên môn đã được ghi trên giấy phép hành nghề quy định tại điểm b khoản 1 Điều 30 của Luật Khám bệnh, chữa bệnh gồm: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Bản chính giấy phép hành nghề.\n3. 3. Trường hợp 3: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề bị thu hồi giấy phép hành nghề thuộc các trường hợp quy định tại điểm c khoản 1, khoản 2, điểm c khoản 3, điểm b khoản 4, khoản 5, khoản 6, điểm c khoản 7 Điều 34 Nghị định số 16/2024/NĐ-CP: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Quyết định thu hồi giấy phép hành nghề.\n4. 4. Trường hợp 4: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề không thực hiện gia hạn giấy phép hành nghề quy định tại khoản 1 Điều 10 Nghị định số 16/2024/NĐ-CP trên 24 tháng, kể từ ngày hết hạn trong giấy phép hành nghề: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Quyết định thu hồi giấy phép hành nghề.",
+        "key_facts": [
+          "1. 1. Trường hợp 1: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người lần đầu tiên đề nghị cấp giấy phép hành nghề quy định tại điểm a khoản 1 Điều 30 của Luật Khám bệnh, chữa bệnh và trường hợp quy định tại điểm c khoản 1 Điều 7 Nghị định số 16/2024/NĐ-CP, gồm: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn.",
+          "2. 2. Trường hợp 2: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề thay đổi chức danh chuyên môn đã được ghi trên giấy phép hành nghề quy định tại điểm b khoản 1 Điều 30 của Luật Khám bệnh, chữa bệnh gồm: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Bản chính giấy phép hành nghề.",
+          "3. 3. Trường hợp 3: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề bị thu hồi giấy phép hành nghề thuộc các trường hợp quy định tại điểm c khoản 1, khoản 2, điểm c khoản 3, điểm b khoản 4, khoản 5, khoản 6, điểm c khoản 7 Điều 34 Nghị định số 16/2024/NĐ-CP: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Quyết định thu hồi giấy phép hành nghề.",
+          "4. 4. Trường hợp 4: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề không thực hiện gia hạn giấy phép hành nghề quy định tại khoản 1 Điều 10 Nghị định số 16/2024/NĐ-CP trên 24 tháng, kể từ ngày hết hạn trong giấy phép hành nghề: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Quyết định thu hồi giấy phép hành nghề."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "1. Trường hợp 1: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người lần đầu tiên đề nghị cấp giấy phép hành nghề quy định tại điểm a khoản 1 Điều 30 của Luật Khám bệnh, chữa bệnh và trường hợp quy định tại điểm c khoản 1 Điều 7 Nghị định số 16/2024/NĐ-CP, gồm: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn.",
+            "2. Trường hợp 2: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề thay đổi chức danh chuyên môn đã được ghi trên giấy phép hành nghề quy định tại điểm b khoản 1 Điều 30 của Luật Khám bệnh, chữa bệnh gồm: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Bản chính giấy phép hành nghề.",
+            "3. Trường hợp 3: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề bị thu hồi giấy phép hành nghề thuộc các trường hợp quy định tại điểm c khoản 1, khoản 2, điểm c khoản 3, điểm b khoản 4, khoản 5, khoản 6, điểm c khoản 7 Điều 34 Nghị định số 16/2024/NĐ-CP: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Quyết định thu hồi giấy phép hành nghề.",
+            "4. Trường hợp 4: Hồ sơ đề nghị cấp mới giấy phép hành nghề đối với trường hợp người hành nghề không thực hiện gia hạn giấy phép hành nghề quy định tại khoản 1 Điều 10 Nghị định số 16/2024/NĐ-CP trên 24 tháng, kể từ ngày hết hạn trong giấy phép hành nghề: a) Đơn đề nghị cấp mới giấy phép hành nghề theo Mẫu số 01 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP; b) Một trong các giấy tờ sau: Văn bản xác nhận đạt kết quả tại kỳ kiểm tra đánh giá năng lực hành nghề khám bệnh, chữa bệnh hoặc giấy phép hành nghề do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp đã được Bộ Y tế công nhận; c) Sơ yếu lý lịch có xác nhận của thủ trưởng cơ quan, đơn vị công tác từ cấp trung đoàn và tương đương trở lên; d) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời hạn không quá 06 tháng tính đến ngày nộp đơn. đ) Quyết định thu hồi giấy phép hành nghề."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục cấp mới giấy phép hành nghề khám bệnh, chữa bệnh.",
+      "metadata": {
+        "thu_tuc_id": "1.013614",
+        "linh_vuc": "Khám bệnh, chữa bệnh"
+      }
+    },
+    {
+      "test_id": "REQ_EASY_1_013614",
+      "category": "requirements",
+      "difficulty": "easy",
+      "question": "Thủ tục cấp mới giấy phép hành nghề khám bệnh, chữa bệnh. cần điều kiện gì?",
+      "ground_truth": {
+        "natural_language": "Điều kiện thực hiện:\n* Yêu cầu: Đối với văn bằng đào tạo chuyên khoa, chứng chỉ đào tạo kỹ thuật chuyên môn về khám bệnh, chữa bệnh, tâm lý lâm sàng\n1. Yêu cầu đối với văn bằng đào tạo chuyên khoa trong lĩnh vực khám bệnh, chữa bệnh do cơ sở đào tạo trong nước cấp:\n2. Yêu cầu đối với chứng chỉ đào tạo kỹ thuật chuyên môn về khám bệnh, chữa bệnh:\n3. Trường hợp văn bằng đào tạo chuyên khoa được sử dụng để điều chỉnh phạm vi hành nghề theo quy định tại điểm a hoặc điểm b hoặc điểm c khoản 1 Điều 11 Nghị định số 16/2024/NĐ-CP phải có thời điểm bắt đầu đào tạo sau ngày được cấp giấy phép hành nghề hoặc điều chỉnh giấy phép hành nghề.\n4. Việc đào tạo văn",
+        "key_facts": [
+          "* Yêu cầu: Đối với văn bằng đào tạo chuyên khoa, chứng chỉ đào tạo kỹ thuật chuyên môn về khám bệnh, chữa bệnh, tâm lý lâm sàng",
+          "1. Yêu cầu đối với văn bằng đào tạo chuyên khoa trong lĩnh vực khám bệnh, chữa bệnh do cơ sở đào tạo trong nước cấp:",
+          "2. Yêu cầu đối với chứng chỉ đào tạo kỹ thuật chuyên môn về khám bệnh, chữa bệnh:",
+          "3. Trường hợp văn bằng đào tạo chuyên khoa được sử dụng để điều chỉnh phạm vi hành nghề theo quy định tại điểm a hoặc điểm b hoặc điểm c khoản 1 Điều 11 Nghị định số 16/2024/NĐ-CP phải có thời điểm bắt đầu đào tạo sau ngày được cấp giấy phép hành nghề hoặc điều chỉnh giấy phép hành nghề.",
+          "4. Việc đào tạo văn"
+        ],
+        "structured_data": {
+          "dieu_kien": [
+            "Yêu cầu: Đối với văn bằng đào tạo chuyên khoa, chứng chỉ đào tạo kỹ thuật chuyên môn về khám bệnh, chữa bệnh, tâm lý lâm sàng",
+            "Yêu cầu đối với văn bằng đào tạo chuyên khoa trong lĩnh vực khám bệnh, chữa bệnh do cơ sở đào tạo trong nước cấp:",
+            "Yêu cầu đối với chứng chỉ đào tạo kỹ thuật chuyên môn về khám bệnh, chữa bệnh:",
+            "Trường hợp văn bằng đào tạo chuyên khoa được sử dụng để điều chỉnh phạm vi hành nghề theo quy định tại điểm a hoặc điểm b hoặc điểm c khoản 1 Điều 11 Nghị định số 16/2024/NĐ-CP phải có thời điểm bắt đầu đào tạo sau ngày được cấp giấy phép hành nghề hoặc điều chỉnh giấy phép hành nghề.",
+            "Việc đào tạo văn"
+          ]
+        },
+        "required_aspects": [
+          "Điều kiện"
+        ]
+      },
+      "source_procedure": "Thủ tục cấp mới giấy phép hành nghề khám bệnh, chữa bệnh.",
+      "metadata": {
+        "thu_tuc_id": "1.013614",
+        "linh_vuc": "Khám bệnh, chữa bệnh"
+      }
+    },
+    {
+      "test_id": "DOC_MEDIUM_1_013124",
+      "category": "documents",
+      "difficulty": "medium",
+      "question": "Thủ tục thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu của các cơ sở, dự án dầu khí ngoài khơi cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu của các cơ sở, dự án dầu khí ngoài khơi bao gồm:\n1. Văn bản đề nghị thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu.\n2. Kế hoạch ứng phó sự cố tràn dầu theo mẫu quy định tại Phụ lục II ban hành kèm theo Quyết định số 12/2021/QĐ-TTg ngày 24/3/2021 của Thủ tướng Chính phủ",
+        "key_facts": [
+          "1. Văn bản đề nghị thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu.",
+          "2. Kế hoạch ứng phó sự cố tràn dầu theo mẫu quy định tại Phụ lục II ban hành kèm theo Quyết định số 12/2021/QĐ-TTg ngày 24/3/2021 của Thủ tướng Chính phủ"
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Văn bản đề nghị thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu.",
+            "Kế hoạch ứng phó sự cố tràn dầu theo mẫu quy định tại Phụ lục II ban hành kèm theo Quyết định số 12/2021/QĐ-TTg ngày 24/3/2021 của Thủ tướng Chính phủ"
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu của các cơ sở, dự án dầu khí ngoài khơi",
+      "metadata": {
+        "thu_tuc_id": "1.013124",
+        "linh_vuc": "Ứng phó sự cố tràn dầu"
+      }
+    },
+    {
+      "test_id": "DOC_HARD_1_013270",
+      "category": "documents",
+      "difficulty": "hard",
+      "question": "Thủ tục cấp phép cho doanh nghiệp bảo vệ được thuê làm dịch vụ bảo vệ tàu quân sự nước ngoài đến Việt Nam để sửa chữa cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục cấp phép cho doanh nghiệp bảo vệ được thuê làm dịch vụ bảo vệ tàu quân sự nước ngoài đến Việt Nam để sửa chữa bao gồm:\n1. Văn bản của doanh nghiệp sửa chữa tàu đề nghị cho phép doanh nghiệp bảo vệ được làm dịch vụ bảo vệ tàu (bản chính)\n2. Giấy phép kinh doanh của doanh nghiệp bảo vệ được thuê (bản sao có chứng thực)\n3. Hợp đồng dịch vụ bảo vệ (bản sao có chứng thực)\n4. Danh sách cán bộ, nhân viên thuộc doanh nghiệp bảo vệ làm nhiệm vụ bảo vệ tàu (bản chính)",
+        "key_facts": [
+          "1. Văn bản của doanh nghiệp sửa chữa tàu đề nghị cho phép doanh nghiệp bảo vệ được làm dịch vụ bảo vệ tàu (bản chính)",
+          "2. Giấy phép kinh doanh của doanh nghiệp bảo vệ được thuê (bản sao có chứng thực)",
+          "3. Hợp đồng dịch vụ bảo vệ (bản sao có chứng thực)",
+          "4. Danh sách cán bộ, nhân viên thuộc doanh nghiệp bảo vệ làm nhiệm vụ bảo vệ tàu (bản chính)"
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Văn bản của doanh nghiệp sửa chữa tàu đề nghị cho phép doanh nghiệp bảo vệ được làm dịch vụ bảo vệ tàu (bản chính)",
+            "Giấy phép kinh doanh của doanh nghiệp bảo vệ được thuê (bản sao có chứng thực)",
+            "Hợp đồng dịch vụ bảo vệ (bản sao có chứng thực)",
+            "Danh sách cán bộ, nhân viên thuộc doanh nghiệp bảo vệ làm nhiệm vụ bảo vệ tàu (bản chính)"
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục cấp phép cho doanh nghiệp bảo vệ được thuê làm dịch vụ bảo vệ tàu quân sự nước ngoài đến Việt Nam để sửa chữa",
+      "metadata": {
+        "thu_tuc_id": "1.013270",
+        "linh_vuc": "Quản lý biên giới"
+      }
+    },
+    {
+      "test_id": "DOC_MEDIUM_1_013129",
+      "category": "documents",
+      "difficulty": "medium",
+      "question": "Thủ tục thẩm định, phê duyệt hồ sơ thiết kế xe cơ giới sản xuất, lắp ráp trong nước theo thiết kế mới cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục thẩm định, phê duyệt hồ sơ thiết kế xe cơ giới sản xuất, lắp ráp trong nước theo thiết kế mới bao gồm:\n1. Công văn đề nghị thẩm định, phê duyệt hồ sơ thiết kế của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng;\n2. Bản thuyết minh thiết kế kỹ thuật và các bản vẽ kỹ thuật;\n3. Bản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan;\n4. Bản sao quyết định của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới.",
+        "key_facts": [
+          "1. Công văn đề nghị thẩm định, phê duyệt hồ sơ thiết kế của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng;",
+          "2. Bản thuyết minh thiết kế kỹ thuật và các bản vẽ kỹ thuật;",
+          "3. Bản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan;",
+          "4. Bản sao quyết định của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Công văn đề nghị thẩm định, phê duyệt hồ sơ thiết kế của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng;",
+            "Bản thuyết minh thiết kế kỹ thuật và các bản vẽ kỹ thuật;",
+            "Bản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan;",
+            "Bản sao quyết định của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục thẩm định, phê duyệt hồ sơ thiết kế xe cơ giới sản xuất, lắp ráp trong nước theo thiết kế mới",
+      "metadata": {
+        "thu_tuc_id": "1.013129",
+        "linh_vuc": "Xe - máy quân sự"
+      }
+    },
+    {
+      "test_id": "DOC_MEDIUM_1_013524",
+      "category": "documents",
+      "difficulty": "medium",
+      "question": "Thủ tục giải quyết khiếu nại lần đầu cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh, và cấp tương đương cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục giải quyết khiếu nại lần đầu cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh, và cấp tương đương bao gồm:\n1. 1.\tĐơn khiếu nại hoặc bản ghi lời khiếu nại.",
+        "key_facts": [
+          "1. 1.\tĐơn khiếu nại hoặc bản ghi lời khiếu nại."
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "1.\tĐơn khiếu nại hoặc bản ghi lời khiếu nại."
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục giải quyết khiếu nại lần đầu cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh, và cấp tương đương",
+      "metadata": {
+        "thu_tuc_id": "1.013524",
+        "linh_vuc": "Khiếu nại"
+      }
+    },
+    {
+      "test_id": "REQ_MEDIUM_1_013524",
+      "category": "requirements",
+      "difficulty": "medium",
+      "question": "Thủ tục giải quyết khiếu nại lần đầu cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh, và cấp tương đương cần điều kiện gì?",
+      "ground_truth": {
+        "natural_language": "Điều kiện thực hiện:\n1.\tNgười khiếu nại phải là người có quyền, lợi ích hợp pháp chịu tác động trực tiếp bởi quyết định hành chính, hành vi hành chính mà mình khiếu nại.\n2.\tNgười khiếu nại phải là người có năng lực hành vi dân sự đầy đủ theo quy định của pháp luật; trong trường hợp thông qua người đại diện để thực hiện việc khiếu nại thì người đại diện phải theo quy định tại Điều 12, Điều 16 Luật Khiếu nại.\n3.\tNgười khiếu nại phải làm đơn khiếu nại và gửi đến đúng cơ quan có thẩm quyền giải quyết trong thời hạn, thời hiệu theo quy định của Luật Khiếu nại.\n4.\tViệc khiếu nại chưa được Toà án thụ lý giải quyết",
+        "key_facts": [
+          "1.\tNgười khiếu nại phải là người có quyền, lợi ích hợp pháp chịu tác động trực tiếp bởi quyết định hành chính, hành vi hành chính mà mình khiếu nại.",
+          "2.\tNgười khiếu nại phải là người có năng lực hành vi dân sự đầy đủ theo quy định của pháp luật; trong trường hợp thông qua người đại diện để thực hiện việc khiếu nại thì người đại diện phải theo quy định tại Điều 12, Điều 16 Luật Khiếu nại.",
+          "3.\tNgười khiếu nại phải làm đơn khiếu nại và gửi đến đúng cơ quan có thẩm quyền giải quyết trong thời hạn, thời hiệu theo quy định của Luật Khiếu nại.",
+          "4.\tViệc khiếu nại chưa được Toà án thụ lý giải quyết"
+        ],
+        "structured_data": {
+          "dieu_kien": [
+            "\tNgười khiếu nại phải là người có quyền, lợi ích hợp pháp chịu tác động trực tiếp bởi quyết định hành chính, hành vi hành chính mà mình khiếu nại.",
+            "\tNgười khiếu nại phải là người có năng lực hành vi dân sự đầy đủ theo quy định của pháp luật; trong trường hợp thông qua người đại diện để thực hiện việc khiếu nại thì người đại diện phải theo quy định tại Điều 12, Điều 16 Luật Khiếu nại.",
+            "\tNgười khiếu nại phải làm đơn khiếu nại và gửi đến đúng cơ quan có thẩm quyền giải quyết trong thời hạn, thời hiệu theo quy định của Luật Khiếu nại.",
+            "\tViệc khiếu nại chưa được Toà án thụ lý giải quyết"
+          ]
+        },
+        "required_aspects": [
+          "Điều kiện"
+        ]
+      },
+      "source_procedure": "Thủ tục giải quyết khiếu nại lần đầu cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh, và cấp tương đương",
+      "metadata": {
+        "thu_tuc_id": "1.013524",
+        "linh_vuc": "Khiếu nại"
+      }
+    },
+    {
+      "test_id": "DOC_EASY_1_013513",
+      "category": "documents",
+      "difficulty": "easy",
+      "question": "Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương cần giấy tờ gì?",
+      "ground_truth": {
+        "natural_language": "Hồ sơ Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương bao gồm:\n1. Đơn đề nghị thanh toán chi phí khám bệnh, chữa bệnh của dân quân hoặc người đại diện hợp pháp của dân quân\n2. Phiếu xét nghiệm, đơn thuốc, hóa đơn thu tiền, giấy xuất viện\n3. Quyết định công dân thực hiện nghĩa vụ tham gia Dân quân tự vệ; quyết định điều động hoặc huy động hoặc kế hoạch thực hiện nhiệm vụ được cấp có thẩm quyền phê duyệt",
+        "key_facts": [
+          "1. Đơn đề nghị thanh toán chi phí khám bệnh, chữa bệnh của dân quân hoặc người đại diện hợp pháp của dân quân",
+          "2. Phiếu xét nghiệm, đơn thuốc, hóa đơn thu tiền, giấy xuất viện",
+          "3. Quyết định công dân thực hiện nghĩa vụ tham gia Dân quân tự vệ; quyết định điều động hoặc huy động hoặc kế hoạch thực hiện nhiệm vụ được cấp có thẩm quyền phê duyệt"
+        ],
+        "structured_data": {
+          "ho_so_bao_gom": [
+            "Đơn đề nghị thanh toán chi phí khám bệnh, chữa bệnh của dân quân hoặc người đại diện hợp pháp của dân quân",
+            "Phiếu xét nghiệm, đơn thuốc, hóa đơn thu tiền, giấy xuất viện",
+            "Quyết định công dân thực hiện nghĩa vụ tham gia Dân quân tự vệ; quyết định điều động hoặc huy động hoặc kế hoạch thực hiện nhiệm vụ được cấp có thẩm quyền phê duyệt"
+          ]
+        },
+        "required_aspects": [
+          "Danh sách giấy tờ"
+        ]
+      },
+      "source_procedure": "Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương",
+      "metadata": {
+        "thu_tuc_id": "1.013513",
+        "linh_vuc": "Dân quân tự vệ"
+      }
+    },
+    {
+      "test_id": "REQ_EASY_1_013513",
+      "category": "requirements",
+      "difficulty": "easy",
+      "question": "Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương cần điều kiện gì?",
+      "ground_truth": {
+        "natural_language": "Điều kiện thực hiện:\n- Dân quân tự vệ trong thời gian thực hiện nhiệm vụ theo quyết định điều động, huy động hoặc làm nhiệm vụ theo kế hoạch được cấp có thẩm quyền phê duyệt, nếu bị ốm đau, bị tai nạn, bị thương được khám bệnh, chữa bệnh tại các cơ sở khám bệnh, chữa bệnh quân, dân y theo quy định;\n- Dân quân tự vệ không được khám bệnh, chữa bệnh nếu bị ốm đau, bị tai nạn, bị thương khi: Cố ý tự hủy hoại sức khỏe của bản thân hoặc tai nạn do mâu thuẫn của chính bản thân với người gây ra tai nạn mà không liên quan đến thực hiện nhiệm vụ hoặc tai nạn do sử dụng rượu, bia, sử dụng chất ma túy, tiền chất ma túy hoặc chất gây nghiện khác theo quy định của pháp luật.",
+        "key_facts": [
+          "- Dân quân tự vệ trong thời gian thực hiện nhiệm vụ theo quyết định điều động, huy động hoặc làm nhiệm vụ theo kế hoạch được cấp có thẩm quyền phê duyệt, nếu bị ốm đau, bị tai nạn, bị thương được khám bệnh, chữa bệnh tại các cơ sở khám bệnh, chữa bệnh quân, dân y theo quy định;",
+          "- Dân quân tự vệ không được khám bệnh, chữa bệnh nếu bị ốm đau, bị tai nạn, bị thương khi: Cố ý tự hủy hoại sức khỏe của bản thân hoặc tai nạn do mâu thuẫn của chính bản thân với người gây ra tai nạn mà không liên quan đến thực hiện nhiệm vụ hoặc tai nạn do sử dụng rượu, bia, sử dụng chất ma túy, tiền chất ma túy hoặc chất gây nghiện khác theo quy định của pháp luật."
+        ],
+        "structured_data": {
+          "dieu_kien": [
+            "Dân quân tự vệ trong thời gian thực hiện nhiệm vụ theo quyết định điều động, huy động hoặc làm nhiệm vụ theo kế hoạch được cấp có thẩm quyền phê duyệt, nếu bị ốm đau, bị tai nạn, bị thương được khám bệnh, chữa bệnh tại các cơ sở khám bệnh, chữa bệnh quân, dân y theo quy định;",
+            "Dân quân tự vệ không được khám bệnh, chữa bệnh nếu bị ốm đau, bị tai nạn, bị thương khi: Cố ý tự hủy hoại sức khỏe của bản thân hoặc tai nạn do mâu thuẫn của chính bản thân với người gây ra tai nạn mà không liên quan đến thực hiện nhiệm vụ hoặc tai nạn do sử dụng rượu, bia, sử dụng chất ma túy, tiền chất ma túy hoặc chất gây nghiện khác theo quy định của pháp luật."
+          ]
+        },
+        "required_aspects": [
+          "Điều kiện"
+        ]
+      },
+      "source_procedure": "Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương",
+      "metadata": {
+        "thu_tuc_id": "1.013513",
+        "linh_vuc": "Dân quân tự vệ"
+      }
+    }
+  ],
+  "statistics": {
+    "total_cases": 14,
+    "by_category": {
+      "documents": 10,
+      "requirements": 4
+    },
+    "by_difficulty": {
+      "easy": 6,
+      "medium": 7,
+      "hard": 1
+    }
+  }
+}

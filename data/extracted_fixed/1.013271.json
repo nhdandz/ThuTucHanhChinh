@@ -1,0 +1,118 @@
+{
+  "thu_tuc_id": "1.013271",
+  "source_file": "ChiTietTTHC_1.013271.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013271",
+    "tên_thủ_tục": "Thủ tục cấp phép cho tàu quân sự nước ngoài đến Việt Nam để sửa chữa",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "- Trước khi tàu quân sự nước ngoài dự kiến vào sửa chữa tại Việt Nam, doanh nghiệp sửa chữa tàu gửi hồ sơ đề nghị Bộ Quốc phòng (Bộ Tổng Tham mưu) cấp phép cho tàu quân sự nước ngoài đến Việt Nam để sửa chữa; - Bộ Quốc phòng (Bộ Tổng Tham mưu) tiếp nhận hồ sơ đề nghị cấp phép, lấy ý kiến của các bộ, ngành liên quan, UBND cấp tỉnh nơi tàu đến. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản lấy ý kiến, các bộ, ngành, UBND cấp tỉnh phải có văn bản trả lời Bộ Quốc phòng (Bộ Tổng Tham mưu). Bộ Quốc phòng báo cáo Thủ tướng Chính phủ quyết định trong trường hợp có ý kiến chưa thống nhất; - Bộ Quốc phòng (Bộ Tổng Tham mưu) cấp phép hoặc từ chối cấp phép cho tàu quân sự nước ngoài đến Việt Nam để sửa chữa. Trong thời hạn 03 ngày làm việc kể từ ngày cấp phép hoặc từ chối cấp phép, Bộ Quốc phòng (Bộ Tổng Tham mưu) có văn bản thông báo cho các bộ, ngành liên quan, UBND cấp tỉnh nơi tàu đến sửa chữa về việc cấp phép hoặc từ chối cấp phép.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Doanh nghiệp",
+    "cơ_quan_thực_hiện": "Cục Tác chiến/Bộ Tổng Tham mưu",
+    "cơ_quan_có_thẩm_quyền": "Bộ Quốc phòng",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Văn bản của Bộ Quốc phòng (Bộ Tổng Tham mưu) chấp thuận hoặc không chấp thuận cho tàu quân sự nước ngoài đến Việt Nam để sửa chữa",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không.",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "30 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "30 ngày kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp phép hợp lệ."
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "30 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "30 ngày kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp phép hợp lệ."
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản của doanh nghiệp sửa chữa tàu đề nghị cho phép tiếp nhận tàu quân sự nước ngoài đến Việt Nam để sửa chữa (bản chính);",
+        "so_luong": "Mẫu 2 - Tờ khai Tàu quân sự nước ngoài đến thăm nước CHXHCN Việt Nam để sửa chữa.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Tờ khai tàu quân sự nước ngoài đến nước Cộng hòa xã hội chủ nghĩa Việt Nam để sửa chữa (bản chính).",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Kế hoạch (hoặc chương trình) sửa chữa (bản chính)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "Luật 47/2014/QH13",
+        "trich_yeu": "Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam",
+        "ngay_ban_hanh": "16-06-2014",
+        "co_quan_ban_hanh": "Quốc Hội"
+      },
+      {
+        "so_ky_hieu": "29/2001/QH10",
+        "trich_yeu": "Luật Hải quan",
+        "ngay_ban_hanh": "29-06-2001",
+        "co_quan_ban_hanh": "Quốc Hội"
+      },
+      {
+        "so_ky_hieu": "112/2014/NĐ-CP",
+        "trich_yeu": "Nghị định 112/2014/NĐ-CP - Quy định về quản lý cửa khẩu biên giới đất liền",
+        "ngay_ban_hanh": "21-11-2014",
+        "co_quan_ban_hanh": "Chính phủ"
+      },
+      {
+        "so_ky_hieu": "06/2003/QH11",
+        "trich_yeu": "Luật biên giới quốc gia",
+        "ngay_ban_hanh": "17-06-2003",
+        "co_quan_ban_hanh": "Quốc Hội"
+      },
+      {
+        "so_ky_hieu": "32/2004/QH11",
+        "trich_yeu": "Luật an ninh quốc gia",
+        "ngay_ban_hanh": "03-12-2004",
+        "co_quan_ban_hanh": "Quốc Hội"
+      },
+      {
+        "so_ky_hieu": "104/2012/NĐ-CP",
+        "trich_yeu": "Ban hành Quy chế đảm bảo an ninh, an toàn Căn cứ quân sự Cam Ranh",
+        "ngay_ban_hanh": "05-12-2012",
+        "co_quan_ban_hanh": "Thủ tướng Chính phủ"
+      },
+      {
+        "so_ky_hieu": "18/2012/QH13",
+        "trich_yeu": "Luật biển Việt Nam",
+        "ngay_ban_hanh": "21-06-2012",
+        "co_quan_ban_hanh": "Văn phòng Quốc hội"
+      },
+      {
+        "so_ky_hieu": "23/2023/QH15",
+        "trich_yeu": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023",
+        "ngay_ban_hanh": "24-06-2023"
+      },
+      {
+        "so_ky_hieu": "BỘ LUẬT  HÀNG HẢI VIỆT NAM",
+        "trich_yeu": "BỘ LUẬT HÀNG HẢI VIỆT NAM",
+        "ngay_ban_hanh": "25-11-2015"
+      },
+      {
+        "so_ky_hieu": "42/2024/QH15",
+        "trich_yeu": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ",
+        "ngay_ban_hanh": "29-06-2024"
+      }
+    ]
+  }
+}

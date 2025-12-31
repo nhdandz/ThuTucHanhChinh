@@ -1,0 +1,68 @@
+{
+  "total_chunks": 1498,
+  "by_tier": {
+    "parent": {
+      "count": 207,
+      "avg_tokens": 428.17874396135267
+    },
+    "child": {
+      "count": 1291,
+      "avg_tokens": 443.84508133230054
+    }
+  },
+  "by_type": {
+    "child_requirements": {
+      "count": 300,
+      "avg_tokens": 484.24333333333334,
+      "max_tokens": 769,
+      "avg_importance": 0.849999999999996
+    },
+    "child_process": {
+      "count": 118,
+      "avg_tokens": 697.9661016949152,
+      "max_tokens": 896,
+      "avg_importance": 0.7999999999999983
+    },
+    "child_fees_timing": {
+      "count": 207,
+      "avg_tokens": 286.7826086956522,
+      "max_tokens": 1094,
+      "avg_importance": 0.75
+    },
+    "child_documents": {
+      "count": 236,
+      "avg_tokens": 640.4067796610169,
+      "max_tokens": 2114,
+      "avg_importance": 0.9000000000000037
+    },
+    "child_legal": {
+      "count": 223,
+      "avg_tokens": 349.9820627802691,
+      "max_tokens": 930,
+      "avg_importance": 0.5999999999999975
+    },
+    "parent_overview": {
+      "count": 207,
+      "avg_tokens": 428.17874396135267,
+      "max_tokens": 675,
+      "avg_importance": 1.0
+    },
+    "child_agencies": {
+      "count": 207,
+      "avg_tokens": 274.5169082125604,
+      "max_tokens": 517,
+      "avg_importance": 0.7000000000000004
+    }
+  },
+  "token_stats": {
+    "min": 81,
+    "max": 2114,
+    "avg": 441.68024032042723
+  },
+  "enrichment_stats": {
+    "chunks_with_parent_context": 1498,
+    "chunks_with_breadcrumb": 1498,
+    "chunks_with_siblings": 1498,
+    "avg_siblings_per_chunk": 6.707610146862483
+  }
+}

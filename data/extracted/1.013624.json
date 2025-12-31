@@ -1,0 +1,80 @@
+{
+  "thu_tuc_id": "1.013624",
+  "source_file": "ChiTietTTHC_1.013624.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013624",
+    "tên_thủ_tục": "Thủ tục cấp mới giấy phép hoạt động khám bệnh, chữa bệnh.",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Khám bệnh, chữa bệnh"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Cán bộ, công chức, viên chức",
+    "cơ_quan_thực_hiện": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
+    "cơ_quan_có_thẩm_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "276 Nghi Tàm, Phường Hồng Hà,Thành phố Hà Nội",
+    "kết_quả_thực_hiện": "Giấy phép hoạt động khám bệnh, chữa bệnh.",
+    "yêu_cầu_điều_kiện_thực_hiện": "Cấp mới giấy phép hoạt động đối với cơ sở khám bệnh, chữa bệnh quy định tại khoản 1 Điều 52 của Luật Khám bệnh, chữa bệnh."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "65 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "65 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc người đứng đầu đối với cơ sở khám bệnh, chữa bệnh trực thuộc Bộ Quốc phòng theo Mẫu số 06 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;",
+        "so_luong": "Mus06.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản sao hợp lệ quyết định thành lập hoặc quyết định ban hành biểu tổ chức, biên chế của cơ sở khám bệnh, chữa bệnh của cấp có thẩm quyền;",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Bản sao hợp lệ giấy phép hành nghề và giấy xác nhận quá trình hành nghề của người chịu trách nhiệm chuyên môn của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân;",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Danh sách người đăng ký hành nghề của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân (bao gồm đăng ký người hành nghề và người làm việc chuyên môn tại cơ sở nhưng không thuộc diện phải cấp giấy phép hành nghề) theo Mẫu số 01a Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;",
+        "so_luong": "Mus01.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản kê khai cơ sở vật chất, thiết bị y tế của cơ sở khám bệnh, chữa bệnh theo Mẫu số 02 Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;",
+        "so_luong": "Mus02.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách những người đăng ký làm việc ngoài giờ không thuộc Bộ Quốc phòng quản lý tại cơ sở khám bệnh, chữa bệnh;",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản sao hợp lệ các văn bản, tài liệu chứng minh cơ sở khám bệnh, chữa bệnh đáp ứng các điều kiện về cơ sở vật chất, thiết bị y tế, tổ chức biên chế phù hợp với cấp chuyên môn kỹ thuật của một trong các loại hình tổ chức cơ sở khám bệnh, chữa bệnh quy định tại các Điều 19, 20, 21 22, 23 và 24 Nghị định số 16/2024/NĐ-CP .",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "16/2024/NĐ-CP",
+        "trich_yeu": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân"
+      }
+    ]
+  }
+}

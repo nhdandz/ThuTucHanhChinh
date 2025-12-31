@@ -1,0 +1,68 @@
+{
+  "thu_tuc_id": "1.013124",
+  "source_file": "ChiTietTTHC_1.013124.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013124",
+    "tên_thủ_tục": "Thủ tục thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu của các cơ sở, dự án dầu khí ngoài khơi",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Ứng phó sự cố tràn dầu"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Các cơ sở, dự án dầu khí ngoài khơi xây dựng kế hoạch ứng phó sự cố tràn dầu, báo cáo Tập đoàn Dầu khí Quốc gia Việt Nam thẩm định, gửi hồ sơ đề nghị phê duyệt kế hoạch ứng phó sự cố tràn dầu trực tiếp, qua hệ thống bưu chính hoặc bằng các hình thức phù hợp khác đến Ủy ban Quốc gia Ứng phó sự cố, thiên tai và Tìm kiếm cứu nạn. Bước 2: Trong thời hạn 30 ngày làm việc (không kể ngày nghỉ) kể từ ngày nhận đủ hồ sơ hợp lệ, Ủy ban Quốc gia Ứng phó sự cố, thiên tai và Tìm kiếm cứu nạn có trách nhiệm ra quyết định phê duyệt kế hoạch ứng phó sự cố tràn dầu. Bước 3: Kế hoạch ứng phó sự cố tràn dầu theo quy định tại khoản 4 Điều 7 Quyết định số 12/2021/QĐ-TTg ngày 24/3/2021 của Thủ tướng Chính phủ sau khi được cấp có thẩm quyền phê duyệt phải thông báo cho các cơ quan, đơn vị và địa phương liên quan để phối hợp triển khai theo chức năng, nhiệm vụ và trách nhiệm được quy định trong kế hoạch.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Người Việt Nam định cư ở nước ngoài, Người nước ngoài, Doanh nghiệp, Doanh nghiệp có vốn đầu tư nước ngoài, Tổ chức (không bao gồm doanh nghiệp, HTX), Tổ chức nước ngoài, Hợp tác xã",
+    "cơ_quan_thực_hiện": "Văn phòng Ủy ban Quốc gia Ứng phó sự cố, thiên tai và Tìm kiếm cứu nạn",
+    "cơ_quan_có_thẩm_quyền": "Ủy ban Quốc gia Ứng phó sự cố, thiên tai và Tìm kiếm cứu nạn",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định phê duyệt kế hoạch ứng phó sự cố tràn dầu.",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "30 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": ""
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "30 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "hoặc bằng các hình thức phù hợp khác"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "30 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản đề nghị thẩm định và phê duyệt kế hoạch ứng phó sự cố tràn dầu.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Kế hoạch ứng phó sự cố tràn dầu theo mẫu quy định tại Phụ lục II ban hành kèm theo Quyết định số 12/2021/QĐ-TTg ngày 24/3/2021 của Thủ tướng Chính phủ",
+        "so_luong": "5-PHLCII.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "12",
+        "trich_yeu": "Quyết định số 12/2021/QĐ-TTg ngày 24/3/2021 của Thủ tướng Chính phủ ban hành Quy chế hoạt động ứng phó với sự cố tràn dầu",
+        "ngay_ban_hanh": "24-03-2021",
+        "co_quan_ban_hanh": "Thủ tướng Chính phủ"
+      }
+    ]
+  }
+}

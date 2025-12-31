@@ -1,0 +1,72 @@
+{
+  "thu_tuc_id": "1.013186",
+  "source_file": "ChiTietTTHC_1.013186.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013186",
+    "tên_thủ_tục": "Thủ tục cấp lại giấy chứng nhận thương binh đối với thương binh đang tại ngũ, công tác",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Cơ quan, đơn vị từ cấp trung đoàn trở lên",
+    "cơ_quan_có_thẩm_quyền": "Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu",
+    "cơ_quan_phối_hợp": "Cơ quan chính trị đơn vị trực thuộc Bộ",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy chứng nhận thương binh",
+    "yêu_cầu_điều_kiện_thực_hiện": "Đối tượng đã được công nhận là thương binh đang tại ngũ, công tác trong Quân đội; hiện không còn giấy chứng nhận thương binh."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "20 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "20 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị cấp bổ sung hoặc cấp lại giấy chứng nhận người có công/thân nhân liệt sĩ (Mẫu số 25 Phụ lục I Nghị định số 131/2021/NĐ-CP)",
+        "so_luong": "9. MẪU SỐ 25.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Văn bản đề nghị của cơ quan, đơn vị cấp trung đoàn và tương đương trở lên",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Văn bản đề nghị của cơ quan chính trị đơn vị trực thuộc Bộ (trường hợp đối tượng thuộc thẩm quyền giải quyết của Cục trưởng Cục Chính sách).",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "131/2021/NĐ-CP",
+        "trich_yeu": "Nghị định 131/2021/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "55/2022/TT-BQP",
+        "trich_yeu": "Thông tư 55/2022/TT-BQP"
+      },
+      {
+        "so_ky_hieu": "02/2020/UBTVQH14",
+        "trich_yeu": "Pháp lệnh 02/2020/UBTVQH14"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "thu_tuc_id": "1.013513",
+  "source_file": "ChiTietTTHC_1.013513.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013513",
+    "tên_thủ_tục": "Thủ tục thanh toán chi phí khám bệnh, chữa bệnh cho Dân quân tự vệ không tham gia bảo hiểm y tế nếu bị ốm đau, bị tai nạn, bị thương",
+    "số_quyết_định": "Quyết định số 8423/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Tỉnh",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Dân quân tự vệ"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định kinh phí khám bệnh, chữa bệnh cho dân quân.",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Dân quân tự vệ trong thời gian thực hiện nhiệm vụ theo quyết định điều động, huy động hoặc làm nhiệm vụ theo kế hoạch được cấp có thẩm quyền phê duyệt, nếu bị ốm đau, bị tai nạn, bị thương được khám bệnh, chữa bệnh tại các cơ sở khám bệnh, chữa bệnh quân, dân y theo quy định;\n- Dân quân tự vệ không được khám bệnh, chữa bệnh nếu bị ốm đau, bị tai nạn, bị thương khi: Cố ý tự hủy hoại sức khỏe của bản thân hoặc tai nạn do mâu thuẫn của chính bản thân với người gây ra tai nạn mà không liên quan đến thực hiện nhiệm vụ hoặc tai nạn do sử dụng rượu, bia, sử dụng chất ma túy, tiền chất ma túy hoặc chất gây nghiện khác theo quy định của pháp luật."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "13 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "13 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị thanh toán chi phí khám bệnh, chữa bệnh của dân quân hoặc người đại diện hợp pháp của dân quân",
+        "so_luong": "Donde.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Phiếu xét nghiệm, đơn thuốc, hóa đơn thu tiền, giấy xuất viện",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Quyết định công dân thực hiện nghĩa vụ tham gia Dân quân tự vệ; quyết định điều động hoặc huy động hoặc kế hoạch thực hiện nhiệm vụ được cấp có thẩm quyền phê duyệt",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "72/2020/NĐ-CP",
+        "trich_yeu": "Nghị định 72/2020/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "48/2019/QH14",
+        "trich_yeu": "Luật dân quân tự vệ"
+      },
+      {
+        "so_ky_hieu": "220/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 220/2025/NĐ-CP ngày 07 tháng 8 năm 2025 của  Chính phủ sửa đổi, bổ sung một số điều của một số Nghị định trong lĩnh vực  quốc phòng, quân sự khi tổ chức chính quyền địa phương hai cấp"
+      }
+    ]
+  }
+}

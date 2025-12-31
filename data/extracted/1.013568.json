@@ -1,0 +1,53 @@
+{
+  "thu_tuc_id": "1.013568",
+  "source_file": "ChiTietTTHC_1.013568.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013568",
+    "tên_thủ_tục": "Thủ tục cấp, tạm dừng và hủy tài khoản truy cập Cổng Thông tin thủ tục biên phòng điện tử cảng biển đối với người làm thủ tục",
+    "số_quyết_định": "Quyết định số 4534/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Trình tự thực hiện Bước 1: Người làm thủ tục làm đơn đề nghị cấp tài khoản truy cập Cổng thông tin thủ tục biên phòng điện tử cảng biển gửi Biên phòng cửa khẩu cảng; Bước 2: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra, gửi văn bản trả lời, trường hợp không đồng ý cấp tài khoản, phải thông báo bằng văn bản nêu rõ lý do; Bước 3: Biên phòng cửa khẩu cảng chỉ được tạm dừng hoạt động, hủy tài khoản truy cập Cổng thông tin thủ tục biên phòng điện tử cảng biển đối với người làm thủ tục trong các trường hợp:\n- Cá nhân người làm thủ tục hoặc cơ quan, doanh nghiệp chủ quản của người làm thủ tục có văn bản đề nghị tạm dừng hoạt động, hủy tài khoản truy cập Cổng Thông tin thủ tục biên phòng điện tử cảng biển của người làm thủ tục;\n- Người làm thủ tục vi phạm các quy định của pháp luật về thực hiện thủ tục biên phòng điện tử.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Người nước ngoài, Doanh nghiệp, Tổ chức nước ngoài",
+    "cơ_quan_thực_hiện": "Đội Thủ tục Biên phòng cửa khẩu cảng",
+    "cơ_quan_có_thẩm_quyền": "Biên phòng cửa khẩu cảng",
+    "cơ_quan_phối_hợp": "Cảng vụ hàng hải",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Văn bản trả lời của Biên phòng cửa khẩu cảng về việc cấp hoặc từ chối cấp tài khoản truy cập cổng Thông tin thủ tục biên phòng địện tử cảng biển.",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "03 Ngày",
+        "phi_le_phi": "Lệ phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị cấp tài khoản truy cập cổng thông tin thủ tục biên phòng điện tử.",
+        "so_luong": "nnghcptikhontruycpCngTTTTBPT.docx\nnnghtmdnghytikhontruycpCngTTTTBPT.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "10/2016/QĐ-TTg",
+        "trich_yeu": "Về thực hiện thủ tục biên phòng điện tử cảng biển"
+      },
+      {
+        "so_ky_hieu": "49/2017/TT-BQP",
+        "trich_yeu": "Hướng dẫn thực hiện Quyết định số 10/2016/QĐ-TTg ngày 03 tháng 3 năm 2016 của Thủ tướng Chính phủ về thực hiện thủ tục biên phòng điện tử cảng biển."
+      },
+      {
+        "so_ky_hieu": "31/2025/QĐ-TTg",
+        "trich_yeu": "Quyết định số 31/2025/QĐ-TTg của Thủ tướng Chính phủ: Sửa đổi, bổ sung một số điều các Quyết định của Thủ tướng Chính phủ về thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý"
+      }
+    ]
+  }
+}

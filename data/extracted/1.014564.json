@@ -1,0 +1,87 @@
+{
+  "thu_tuc_id": "1.014564",
+  "source_file": "ChiTietTTHC_1.014564.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.014564",
+    "tên_thủ_tục": "Thủ tục cấp phép cho công dân Việt Nam định cư ở nước ngoài vào, ra Cảng quốc tế Cam Ranh",
+    "số_quyết_định": "Quyết định số 6567/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Bảo vệ công trình quốc phòng và khu quân sự"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Người Việt Nam định cư ở nước ngoài",
+    "cơ_quan_thực_hiện": "Quân chủng Hải quân",
+    "cơ_quan_có_thẩm_quyền": "Quân chủng Hải quân",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Văn bản cấp phép cho công dân Việt Nam định cư ở nước ngoài vào, ra Cảng quốc tế Cam Ranh",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "03 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "03 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản đề nghị của Công ty TNHH Tân Cảng - Petro Cam Ranh hoặc cơ quan, đơn vị chủ trì kế hoạch theo Mẫu số 16 ban hành kèm theo Quyết định 38/2025/QĐ-TTg",
+        "so_luong": "MUS16VnbnnghcpphpchocngdnVitNamnhcncngoivoraCngquctCamRanh.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách công dân theo Mẫu số 17 ban hành kèm theo Quyết định 38/2025/QĐ-TTg.",
+        "so_luong": "MUS17PhlcdanhschcngdnVitNamnhcncngoivoraCngquctCamRanh.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "58/2017/NĐ-CP",
+        "trich_yeu": "Quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải"
+      },
+      {
+        "so_ky_hieu": "Luật 47/2014/QH13",
+        "trich_yeu": "Luật nhập cảnh, xuất cảnh, quá cảnh, cư trsu của người nước ngoài tại Việt Nam"
+      },
+      {
+        "so_ky_hieu": "77/2017/NĐ-CP",
+        "trich_yeu": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng"
+      },
+      {
+        "so_ky_hieu": "51/2019/QH14",
+        "trich_yeu": "Luật 51/2019/QH14"
+      },
+      {
+        "so_ky_hieu": "23/2023/QH15",
+        "trich_yeu": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023"
+      },
+      {
+        "so_ky_hieu": "25/2023/QH15",
+        "trich_yeu": "Luật Quản lý, bảo vệ công trình quốc phòng và khu quân sự"
+      },
+      {
+        "so_ky_hieu": "66/2020/QH14",
+        "trich_yeu": "Luật Biên phòng Việt Nam 2020"
+      },
+      {
+        "so_ky_hieu": "213/2025/NĐ-CP",
+        "trich_yeu": "Nghị định quy định chi tiết một số điều của Luật Quản lý, bảo vệ công trình quốc phòng và khu quân sự"
+      },
+      {
+        "so_ky_hieu": "38/2025/QĐ-TTg",
+        "trich_yeu": "QUYẾT ĐỊNH Sửa đổi, bổ sung một số điều của Quy chế quản lý hoạt động Cảng quốc tế Cam Ranh - Bộ Quốc phòng ban hành kèm theo Quyết định số 25/2016/QĐ-TTg ngày 27 tháng 6 năm 2016 của Thủ tướng Chính phủ, được sửa đổi, bổ sung tại Quyết định số 29/2019/QĐ-TTg ngày 03 tháng 10 năm 2019 của Thủ tướng Chính phủ"
+      }
+    ]
+  }
+}

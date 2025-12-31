@@ -1,0 +1,74 @@
+{
+  "thu_tuc_id": "1.013515",
+  "source_file": "ChiTietTTHC_1.013515.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013515",
+    "tên_thủ_tục": "Thủ tục thành lập, giải thể đơn vị Dân quân tự vệ, Ban chỉ huy quân sự cấp xã, Ban chỉ huy quân sự cơ quan, tổ chức; bổ nhiệm, miễn nhiệm các chức vụ chỉ huy Dân quân tự vệ",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Dân quân tự vệ"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định thành lập (giải thể), bổ nhiệm (miễn nhiệm).",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Cơ quan quân sự địa phương các cấp, Ban chỉ huy quân sự cấp xã, Ban chỉ huy quân sự cơ quan, tổ chức, đơn vị Dân quân tự vệ. \n- Cơ quan, đơn vị thuộc Bộ Quốc phòng; Ủy ban nhân dân các cấp và cơ quan, tổ chức, cá nhân có liên quan."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "25 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "25 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "25 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "tờ trình đề nghị thành lập, giải thể đơn vị Dân quân tự vệ hoặc Ban chỉ huy quân sự cấp xã, Ban chỉ huy quân sự cơ quan, tổ chức; bổ nhiệm, miễn nhiệm các chức vụ chỉ huy Dân quân tự vệ của cấp đề nghị",
+        "so_luong": "TOTRINH.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "danh sách đề nghị thành lập (giải thể) đơn vị Dân quân tự vệ và bổ nhiệm (miễn nhiệm) các chức vụ chỉ huy đơn vị Dân quân tự vệ",
+        "so_luong": "DANHSCH.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách đề nghị thành lập (giải thể) Ban chỉ huy quân sự cấp xã, Ban chỉ huy quân sự cơ quan, tổ chức và bổ nhiệm (miễn nhiệm) các chức vụ chỉ huy Ban chỉ huy quân sự cấp xã, Ban chỉ huy quân sự cơ quan, tổ chức",
+        "so_luong": "DANHSC1.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Quyết định thành lập (giải thể), bổ nhiệm (miễn nhiệm)",
+        "so_luong": "QUYETDINH.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "48/2019/QH14",
+        "trich_yeu": "Luật 48/2019/QH14"
+      },
+      {
+        "so_ky_hieu": "72/2020/NĐ-CP",
+        "trich_yeu": "Nghị định 72/2020/NĐ-CP"
+      }
+    ]
+  }
+}

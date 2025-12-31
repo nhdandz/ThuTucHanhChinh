@@ -1,0 +1,73 @@
+{
+  "thu_tuc_id": "1.013514",
+  "source_file": "ChiTietTTHC_1.013514.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013514",
+    "tên_thủ_tục": "Thủ tục trợ cấp cho Dân quân tự vệ không tham gia bảo hiểm xã hội nếu bị tai nạn, chết",
+    "số_quyết_định": "Quyết định số 8423/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Tỉnh",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Dân quân tự vệ"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1. Dân quân hoặc người đại diện hợp pháp của dân quân gửi trực tiếp hoặc qua bưu chính, môi trường điện tử đơn đề nghị trợ cấp tai nạn hoặc chết kèm theo giấy ra viện hoặc trích sao hồ sơ bệnh án sau khi điều trị tai nạn đối với trường hợp điều trị nội trú hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế cấp (nơi đã cấp cứu, điều trị cho Dân quân tự vệ), biên bản giám định mức suy giảm khả năng lao động hoặc giấy chứng tử, trích lục khai tử đối với trường hợp chết cho cơ quan quân sự địa phương. Dân quân thuộc đơn vị Dân quân tự vệ của cấp nào tổ chức thì gửi đơn đề nghị cho cơ quan quân sự địa phương cấp đó; trường hợp không hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được đơn đề nghị, cơ quan quân sự địa phương phải có văn bản hướng dẫn gửi người nộp đơn để bổ sung, hoàn thiện. Bước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đơn đề nghị, cơ quan quân sự địa phương lập 01 bộ hồ sơ. Tư lệnh Bộ Tư lệnh Thủ đô Hà Nội, Tư lệnh Bộ Tư lệnh Thành phố Hồ Chí Minh, Chỉ huy trưởng Bộ chỉ huy quân sự trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định; Chỉ huy trưởng Ban chỉ huy quân sự cấp xã báo cáo Chủ tịch Ủy ban nhân dân cấp xã trình Chủ tịch Ủy ban nhân cấp tỉnh quyết định. Bước 3. Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ trình, Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định trợ cấp cho dân quân. Bước 4. Trong thời hạn 05 ngày làm việc, kể từ ngày có quyết định trợ cấp, Ủy ban nhân dân cấp xã có trách nhiệm thực hiện chi trả trợ cấp cho dân quân; việc chi trả bằng hình thức chuyển khoản hoặc qua đường bưu chính hoặc trực tiếp nhận ở cấp xã.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ban chỉ huy quân sự cấp Xã",
+    "cơ_quan_có_thẩm_quyền": "Chủ tịch ủy ban nhân dân cấp tỉnh",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định trợ cấp cho dân quân.",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Dân quân tự vệ được hưởng chế độ, chính sách theo quy định tại điểm b khoản 1 Điều 35 Luật Dân quân tự vệ trong trường hợp sau:\n+ Thực hiện nhiệm vụ theo quyết định điều động hoặc huy động theo kế hoạch của cấp có thẩm quyền phê duyệt.\n+ Thực hiện nhiệm vụ được cấp có thẩm quyền giao.\n+ Trên tuyến đường đi và về từ nơi ở đến nơi làm nhiệm vụ trong khoảng thời gian và tuyến đường hợp lý.\n- Các trường hợp quy định tại điểm b khoản 1 Điều 14 Nghị định số 72/2020/NĐ-CP ngày 30 tháng 6 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Dân quân tự vệ về tổ chức xây dựng lực lượng và chế độ, chính sách đối với Dân quân tự vệ bị tai nạn không được hưởng chế độ trợ cấp.",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "13 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "- 05 ngày làm việc đối với cơ quan quân sự địa phương cấp tỉnh hoặc Ban CHQS cấp xã. Tư lệnh Bộ Tư lệnh Thủ đô Hà Nội, Tư lệnh Bộ Tư lệnh Thành phố Hồ Chí Minh, Chỉ huy trưởng Bộ chỉ huy quân sự cấp tỉnh, Chỉ huy trưởng Ban chỉ huy quân sự cấp xã, Chủ tịch Ủy ban nhân dân cấp xã.\n- 03 ngày làm việc đối với Chủ tịch Ủy ban nhân dân cấp tỉnh.\n- 05 ngày làm việc đối với Ủy ban nhân dân cấp xã thực hiện chi trả."
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "13 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": "- 05 ngày làm việc đối với cơ quan quân sự địa phương cấp tỉnh hoặc Ban CHQS cấp xã. Tư lệnh Bộ Tư lệnh Thủ đô Hà Nội, Tư lệnh Bộ Tư lệnh Thành phố Hồ Chí Minh, Chỉ huy trưởng Bộ chỉ huy quân sự cấp tỉnh, Chỉ huy trưởng Ban chỉ huy quân sự cấp xã, Chủ tịch Ủy ban nhân dân cấp xã.\n- 03 ngày làm việc đối với Chủ tịch Ủy ban nhân dân cấp tỉnh.\n- 05 ngày làm việc đối với Ủy ban nhân dân cấp xã thực hiện chi trả."
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Hồ sơ hưởng trợ cấp tai nạn gồm: Đơn đề nghị trợ cấp tai nạn kèm theo giấy ra viện hoặc trích sao hồ sơ bệnh án sau khi điều trị tai nạn đối với trường hợp điều trị nội trú hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế (nơi đã cấp cứu, điều trị cho Dân quân tự vệ) cấp theo mẫu quy định, biên bản giám định mức suy giảm khả năng lao động của hội đồng giám định y khoa bệnh viện cấp tỉnh và tương đương trở lên; trường hợp bị tai nạn giao thông thì có thêm biên bản điều tra của cơ quan công an hoặc cơ quan điều tra hình sự thuộc Bộ Quốc phòng.",
+        "so_luong": "Munnghtrcptainnbcht.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Hồ sơ hưởng trợ cấp chết gồm: Đơn đề nghị trợ cấp chết kèm theo giấy ra viện hoặc trích sao hồ sơ bệnh án sau khi điều trị tai nạn đối với trường hợp điều trị nội trú, bản sao giấy chứng tử hoặc trích lục khai tử; trường hợp bị tai nạn giao thông dẫn đến chết thì có thêm biên bản điều tra của cơ quan công an hoặc cơ quan điều tra hình sự thuộc Bộ Quốc phòng.",
+        "so_luong": "Munnghtrcptainnbcht.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "72/2020/NĐ-CP",
+        "trich_yeu": "Nghị định 72/2020/NĐ-CP",
+        "ngay_ban_hanh": "30-06-2020"
+      },
+      {
+        "so_ky_hieu": "48/2019/QH14",
+        "trich_yeu": "Luật dân quân tự vệ",
+        "ngay_ban_hanh": "22-11-2019",
+        "co_quan_ban_hanh": "Văn phòng Quốc hội"
+      },
+      {
+        "so_ky_hieu": "220/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 220/2025/NĐ-CP ngày 07 tháng 8 năm 2025 của  Chính phủ sửa đổi, bổ sung một số điều của một số Nghị định trong lĩnh vực  quốc phòng, quân sự khi tổ chức chính quyền địa phương hai cấp",
+        "ngay_ban_hanh": "07-08-2025",
+        "co_quan_ban_hanh": "Bộ Quốc phòng"
+      }
+    ]
+  }
+}

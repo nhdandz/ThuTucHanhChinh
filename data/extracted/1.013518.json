@@ -1,0 +1,86 @@
+{
+  "thu_tuc_id": "1.013518",
+  "source_file": "ChiTietTTHC_1.013518.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013518",
+    "tên_thủ_tục": "Thủ tục biên phòng theo cách thức thủ công đối với tàu cá Việt Nam, thuyền viên, hành khách đi trên tàu cá Việt Nam xuất cảnh đi khai thác thủy sản ở vùng biển ngoài vùng biển Việt Nam",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Chậm nhất 12 (mười hai) giờ, trước khi tàu dự kiến rời khỏi vùng biển Việt Nam, người làm thủ tục phải nộp và xuất trình cho Biên phòng cửa khẩu cảng các loại giấy tờ theo quy định đối với tàu cá Việt Nam xuất cảnh Bước 2: Biên phòng cửa khẩu cảng kiểm tra tính hợp pháp, hợp lệ của các loại giấy tờ do người làm thủ tục nộp và xuất trình; hoàn thành thủ tục xuất cảnh cho tàu thuyền, thuyền viên, hành khách (nếu có).",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Doanh nghiệp, Hợp tác xã",
+    "cơ_quan_thực_hiện": "Đội Thủ tục Biên phòng cửa khẩu cảng",
+    "cơ_quan_có_thẩm_quyền": "Biên phòng cửa khẩu cảng",
+    "cơ_quan_phối_hợp": "Trạm kiểm dịch động, thực vật",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Biên phòng cửa khẩu cảng thực hiện kiểm chứng hoàn thành thủ tục",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "01 Giờ",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Bản khai chung",
+        "so_luong": "Bnkhaichung.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách hành khách (nếu có).",
+        "so_luong": "Danhschhnhkhchnuc.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách thuyền viên",
+        "so_luong": "Danhschthuynvin.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản khai vũ khí và vật liệu nổ (nếu có).",
+        "so_luong": "BẢN KHAI VŨ KHÍ VÀ VẬT LIỆU NỔ.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản chính Giấy phép cho tàu cá đi khai thác thuỷ sản ở vùng biển ngoài vùng biển Việt Nam do Tổng cục Thủy sản Bộ Nông nghiệp và Phát triển nông thôn cấp;",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Hộ chiếu phổ thông và sổ thuyền viên tàu cá của thuyền viên",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "58/2017/NĐ-CP",
+        "trich_yeu": "Quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải"
+      },
+      {
+        "so_ky_hieu": "Luật 47/2014/QH13",
+        "trich_yeu": "Luật nhập cảnh, xuất cảnh, quá cảnh, cư trsu của người nước ngoài tại Việt Nam"
+      },
+      {
+        "so_ky_hieu": "26/2019/NĐ-CP",
+        "trich_yeu": "Nghị định"
+      },
+      {
+        "so_ky_hieu": "77/2017/NĐ-CP",
+        "trich_yeu": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng"
+      },
+      {
+        "so_ky_hieu": "23/2023/QH15",
+        "trich_yeu": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023"
+      }
+    ]
+  }
+}

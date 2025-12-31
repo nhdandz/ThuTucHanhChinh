@@ -1,0 +1,78 @@
+{
+  "thu_tuc_id": "1.013530",
+  "source_file": "ChiTietTTHC_1.013530.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013530",
+    "tên_thủ_tục": "Thủ tục cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ thuộc thẩm quyền giải quyết của Bộ Quốc phòng",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý hoạt động vật liệu nổ công nghiệp, tiền chất thuốc nổ"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Trường hợp Giấy chứng nhận bị mất, sai sót hoặc hư hỏng, tổ chức hoạt động tiền chất thuốc nổ lập hồ sơ đề nghị gửi Cục Quản lý Công nghệ/Tổng cục Công nghiệp quốc phòng (số 28A, Điện Biên Phủ, Ba Đình, Hà Nội) cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ Cục Quản lý Công nghệ/Tổng cục Công nghiệp quốc phòng tổ chức xem xét tính hợp lệ của hồ sơ Trong thời hạn 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, Cục Quản lý Công nghệ/Tổng cục Công nghiệp quốc phòng thực hiện cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Doanh nghiệp",
+    "cơ_quan_thực_hiện": "Tổng cục Công nghiệp Quốc phòng",
+    "cơ_quan_có_thẩm_quyền": "Tổng cục Công nghiệp Quốc phòng",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Số 28A, Điện Biên Phủ, Ba Đình, Hà Nội",
+    "kết_quả_thực_hiện": "Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ",
+    "yêu_cầu_điều_kiện_thực_hiện": "Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ đã được cấp bị mất, sai sót hoặc hư hỏng",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "3 Ngày làm việc",
+        "phi_le_phi": "",
+        "mo_ta": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, Cục Quản lý Công nghệ/Tổng cục Công nghiệp quốc phòng thực hiện cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "3 Ngày làm việc",
+        "phi_le_phi": "",
+        "mo_ta": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, Cục Quản lý Công nghệ/Tổng cục Công nghiệp quốc phòng thực hiện cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "3 Ngày làm việc",
+        "phi_le_phi": "",
+        "mo_ta": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ, Cục Quản lý Công nghệ/Tổng cục Công nghiệp quốc phòng thực hiện cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Giấy đề nghị kiểm tra, cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách người đề nghị được cấp lại Giấy chứng nhận huấn luyện kỹ thuật an toàn",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "02 ảnh (3×4 cm) của người trong danh sách đề nghị huấn luyện, kiểm tra, cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "42/2024/QH15",
+        "trich_yeu": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ",
+        "ngay_ban_hanh": "29-06-2024",
+        "co_quan_ban_hanh": "Quốc Hội"
+      },
+      {
+        "so_ky_hieu": "Nghị định số 181/2024/NĐ-CP",
+        "trich_yeu": "Nghị định số 181/2024/NĐ-CP",
+        "ngay_ban_hanh": "31-12-2024"
+      }
+    ]
+  }
+}

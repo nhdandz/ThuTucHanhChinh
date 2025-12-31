@@ -1,0 +1,88 @@
+{
+  "thu_tuc_id": "1.014141",
+  "source_file": "ChiTietTTHC_1.014141.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.014141",
+    "tên_thủ_tục": "Thủ tục tham gia hoạt động cung cấp dịch vụ thanh toán và cấp tín dụng của tổ chức tín dụng",
+    "số_quyết_định": "3267/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Công nghiệp quốc phòng, an ninh"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Tổ chức, doanh nghiệp nộp hồ sơ cho cơ quan chức năng quản lý tài chính trực thuộc Bộ Quốc phòng, Bộ Công an theo phạm vi quản lý.\nBước 2: Trong thời hạn 20 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chức năng quản lý tài chính trực thuộc Bộ Quốc phòng, Bộ Công an theo phạm vi quản lý thực hiện thẩm định, đánh giá việc đáp ứng điều kiện tham gia của tổ chức tín dụng, báo cáo của Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an.\nBước 3: Trong thời hạn 10 ngày, kể từ ngày nhận được báo cáo, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an xem xét, quyết định việc giao nhiệm vụ cho tổ chức tín dụng, nêu rõ lĩnh vực tham gia.\nTrường hợp không đủ điều kiện, cơ quan chức năng quản lý tài chính trực thuộc Bộ Quốc phòng, Bộ Công an thông báo bằng văn bản cho tổ chức tín dụng, nêu rõ lý do.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Doanh nghiệp, Tổ chức (không bao gồm doanh nghiệp, HTX)",
+    "cơ_quan_thực_hiện": "Bộ Công an, Bộ Quốc phòng",
+    "cơ_quan_có_thẩm_quyền": "Bộ Công an, Bộ Quốc phòng",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Bộ Quốc phòng, Bộ Công an",
+    "kết_quả_thực_hiện": "Quyết định giao nhiệm vụ tham gia cung cấp dịch vụ thanh toán và cấp tín dụng phục vụ hoạt động công nghiệp quốc phòng, an ninh",
+    "yêu_cầu_điều_kiện_thực_hiện": "Cơ sở huy động tham gia hoạt động công nghiệp quốc phòng, an ninh lĩnh vực cung cấp dịch vụ thanh toán và cấp tín dụng phải đáp ứng các điều kiện quy định tại Điều 3 Nghị định số 99/2025/NĐ-CP ngày 06 tháng 5 năm 2025 của Chính phủ quy định chi tiết một số điều của Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp và các điều kiện sau:\n- Là tổ chức tín dụng; có địa điểm trụ sở chính và mạng lưới hoạt động, cơ cấu tổ chức quản lý, cơ sở vật chất, hệ thống công nghệ thông tin bảo đảm cung cấp dịch vụ thanh toán và cấp tín dụng theo quy định của pháp luật về các tổ chức tín dụng.\n- Đội ngũ nhân sự chuyên trách có trình độ chuyên môn, nghiệp vụ về thanh toán và cấp tín dụng; có kinh nghiệm tham gia phục vụ quốc phòng, an ninh.\n- Được phép cung ứng dịch vụ thanh toán và cấp tín dụng, tham gia hệ thống thanh toán trong nước và quốc tế theo quy định của pháp luật.\n- Có quy định nội bộ về lĩnh vực thanh toán và cấp tín dụng liên quan đến tham gia hoạt động công nghiệp quốc phòng, an ninh đảm bảo an toàn, bí mật.\n- Hoạt động kinh doanh có lợi nhuận 03 năm liên tục liền trước năm nộp hồ sơ.",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "30 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": ""
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "30 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": ""
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "30 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng",
+        "mo_ta": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản đề nghị giao nhiệm vụ tham gia cung cấp dịch vụ thanh toán và cấp tín dụng phục vụ hoạt động công nghiệp quốc phòng, an ninh theo Mẫu số 01 Phụ lục ban hành kèm theo Nghị định số 99/2025/NĐ-CP ngày 06 tháng 5 năm 2025 của Chính phủ quy định chi tiết một số điều của Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp",
+        "so_luong": "MAU1-DONDENGHI.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản sao giấy phép thành lập và hoạt động của tổ chức tín dụng",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Bản sao quy định nội bộ về thanh toán và cấp tín dụng tham gia hoạt động công nghiệp quốc phòng, an ninh",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Bản sao các báo cáo tài chính năm được kiểm toán bởi một tổ chức kiểm toán độc lập thể hiện kết quả kinh doanh có lợi nhuận 03 năm liên tục liền trước năm nộp hồ sơ",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Báo cáo kèm theo tài liệu (nếu có) về các nội dung: Cơ cấu tổ chức quản lý, cơ sở vật chất, hệ thống công nghệ thông tin phục vụ thanh toán trong nước và quốc tế; số lượng nhân sự chuyên trách tham gia hoạt động thanh toán và cấp tín dụng kèm theo báo cáo trình độ chuyên môn; kinh nghiệm thực hiện thanh toán và cấp tín dụng phục vụ quốc phòng, an ninh; thông tin về hệ thống thanh toán trong nước và quốc tế mà tổ chức tín dụng đang tham gia",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "38/2024/QH15",
+        "trich_yeu": "Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp",
+        "ngay_ban_hanh": "27-06-2024"
+      },
+      {
+        "so_ky_hieu": "Nghị định số 99/2025/NĐ-CP",
+        "trich_yeu": "Nghị định số 99/2025/NĐ-CP ngày 06 tháng 5 năm 2025 của Chính phủ quy định chi tiết một số điều của Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp",
+        "ngay_ban_hanh": "06-05-2025",
+        "co_quan_ban_hanh": "Chính phủ"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "thu_tuc_id": "1.013152",
+  "source_file": "ChiTietTTHC_1.013152.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013152",
+    "tên_thủ_tục": "Thủ tục thực hiện chế độ một lần đối với đối tượng du kích thôn, ấp ở miền Nam trực tiếp tham gia kháng chiến chống Mỹ cứu nước theo Quyết định 188/2007/QĐ-TTg",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ, Cấp Tỉnh, Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Ủy ban nhân dân cấp xã",
+    "cơ_quan_có_thẩm_quyền": "Bộ Tư lệnh Thủ đô Hà nội, Bộ Tư lệnh Quân khu",
+    "cơ_quan_phối_hợp": "Bộ chỉ huy quân sự cấp tỉnh",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định hành chính",
+    "yêu_cầu_điều_kiện_thực_hiện": "Du kích thôn, ấp ở miền Nam trực tiếp tham gia kháng chiến chống Mỹ cứu nước trong khoảng thời gian từ tháng 7/1954 đến 30/4/1975 đã về gia đình, hiện không thuộc diện người đang công tác có tham gia bảo hiểm xã hội bắt buộc hoặc hưởng chế độ hưu trí, bệnh binh, mất sức lao động hàng tháng."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "Không quy định",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "Không quy định",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "Không quy định",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "- Bản khai cá nhân hoặc Bản khai thân nhân (đối với đối tượng đã từ trần) phải kèm theo giấy uỷ quyền của các thân nhân chủ yếu khác, có xác nhận của chính quyền xã nơi cư trú;",
+        "so_luong": "Mu3A-phlc1.docx\nMu3B-phlc1.docx\nMu4-Phlc1.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản sao một trong các giấy tờ gốc",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "21/2008/TTLT- BQP-BLĐTBXH-BTC",
+        "trich_yeu": "Thông tư liên tịch 21/2008/TTLT- BQP-BLĐTBXH-BTC"
+      },
+      {
+        "so_ky_hieu": "188/2007/QĐ-TTg",
+        "trich_yeu": "Quyết định 188/2007/QĐ-TTg - Về việc sửa đổi, bổ sung Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống Mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước"
+      },
+      {
+        "so_ky_hieu": "191/2005/TTLT/BQP-BLĐTBXH-BTC",
+        "trich_yeu": "Hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước"
+      },
+      {
+        "so_ky_hieu": "Thông tư số 104/2024/TT-BQP",
+        "trich_yeu": "Thông tư thay thế, bãi bỏ một số quy định, mẫu biểu tại các một số quy định, mẫu biểu tại các Thông tư liên tịch của Bộ Quốc phòng, Bộ Lao động - Thương binh và Xã hội, Bộ Tài chính liên quan đến việc kê khai thông tin cá nhân khi thực hiện thủ tục hành chính"
+      },
+      {
+        "so_ky_hieu": "290/2005/QĐ-TTg",
+        "trich_yeu": "Quyết định số 290/2005/QĐ-TTg của Thủ tướng Chính phủ về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống Mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách"
+      }
+    ]
+  }
+}

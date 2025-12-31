@@ -1,0 +1,70 @@
+{
+  "thu_tuc_id": "1.013550",
+  "source_file": "ChiTietTTHC_1.013550.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013550",
+    "tên_thủ_tục": "Thủ tục biên phòng điện tử trong cấp thị thực tại cửa khẩu biên giới đất liền và cảng biển",
+    "số_quyết_định": "Quyết định số 4534/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Người nước ngoài, Doanh nghiệp",
+    "cơ_quan_thực_hiện": "Đội Thủ tục Biên phòng cửa khẩu cảng, Đội Thủ tục thuộc Biên phòng cửa khẩu biên giới đất liền",
+    "cơ_quan_có_thẩm_quyền": "Đồn trưởng đồn Biên phòng và cấp tương đương, Biên phòng cửa khẩu cảng, Đồn Biên phòng cửa khẩu quốc tế",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Bản điện tử xác nhận hoàn thành khai báo thủ tục biên phòng điện tử đối với người nhận thị thực tại cửa khẩu",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "03 Giờ",
+        "phi_le_phi": "Phí :  Đồng (Theo quy định của Bộ Tài chính)\nFile đính kèm: 62-btc.signed.pdf\nPhí :  Đồng (Theo quy định của Bộ Tài chính)\nFile đính kèm: 25-btc.signed.pdf"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Bản khai cấp thị thực tại cửa khẩu",
+        "so_luong": "Bnkhaicpththcticakhu.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Hộ chiếu hoặc giấy tờ có giá trị xuất nhập cảnh hợp lệ",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "15/2019/QĐ-TTg",
+        "trich_yeu": "Quyết định 15/2019/QĐ-TTg - Về việc thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý"
+      },
+      {
+        "so_ky_hieu": "Luật 47/2014/QH13",
+        "trich_yeu": "Luật nhập cảnh, xuất cảnh, quá cảnh, cư trsu của người nước ngoài tại Việt Nam"
+      },
+      {
+        "so_ky_hieu": "25/2021/TT-BTC",
+        "trich_yeu": "QUY ĐỊNH MỨC THU, CHẾ ĐỘ THU, NỘP, QUẢN LÝ VÀ SỬ DỤNG PHÍ, LỆ PHÍ TRONG LĨNH VỰC XUẤT CẢNH, NHẬP CẢNH, QUÁ CẢNH, CƯ TRÚ TẠI VIỆT NAM"
+      },
+      {
+        "so_ky_hieu": "51/2019/QH14",
+        "trich_yeu": "Luật 51/2019/QH14"
+      },
+      {
+        "so_ky_hieu": "23/2023/QH15",
+        "trich_yeu": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023"
+      },
+      {
+        "so_ky_hieu": "31/2025/QĐ-TTg",
+        "trich_yeu": "Quyết định số 31/2025/QĐ-TTg của Thủ tướng Chính phủ: Sửa đổi, bổ sung một số điều các Quyết định của Thủ tướng Chính phủ về thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý"
+      }
+    ]
+  }
+}

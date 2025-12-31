@@ -1,0 +1,68 @@
+{
+  "thu_tuc_id": "1.013589",
+  "source_file": "ChiTietTTHC_1.013589.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013589",
+    "tên_thủ_tục": "Thủ tục sửa đổi, bổ sung hồ sơ biên phòng điện tử cửa khẩu biên giới đất liền",
+    "số_quyết_định": "Quyết định số 4534/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Người làm thủ tục khai báo sửa đổi, bổ sung sau khi phát hiện sai sót hoặc cập nhật được thông tin cần khai báo bổ sung trong hồ sơ điện tử hoặc Biên phòng cửa khẩu yêu cầu khai báo sửa đổi, bổ sung sau khi phát hiện khai báo thủ tục biên phòng điện tử của người làm thủ tục không đầy đủ, không chính xác. Bước 2: Chậm nhất 01 giờ kể từ khi nhận được yêu cầu sửa đổi, bổ sung của Biên phòng cửa khẩu biên giới đất liền hoặc ngay sau khi phát hiện sai sót hoặc cập nhật được thông tin cần khai báo bổ sung trong hồ sơ điện tử, người làm thủ tục phải khai báo Bản khai sửa đổi, bổ sung và gửi cho Biên phòng cửa khẩu biên giới đất liền qua Cổng thông tin thủ tục biên phòng điện tử. Bước 3: Chậm nhất 01 giờ kể từ khi tiếp nhận Bản khai sửa đổi, bổ sung của người làm thủ tục, Biên phòng cửa khẩu biên giới đất liền gửi Xác nhận hoàn thành khai báo sửa đổi, bổ sung cho người làm thủ tục qua Cổng thông tin thủ tục biên phòng điện tử.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Doanh nghiệp, Tổ chức (không bao gồm doanh nghiệp, HTX)",
+    "cơ_quan_thực_hiện": "Đội Thủ tục thuộc Biên phòng cửa khẩu biên giới đất liền",
+    "cơ_quan_có_thẩm_quyền": "Đội Thủ tục thuộc Biên phòng cửa khẩu biên giới đất liền",
+    "cơ_quan_được_ủy_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Bản điện tử xác nhận hoàn thành khai báo thủ tục biên phòng điện tử đối với hồ sơ điện tử sửa đổi, bổ sung",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không",
+    "từ_khóa": "Không có thông tin",
+    "mô_tả": "Không có thông tin"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "01 Giờ",
+        "phi_le_phi": "Lệ phí : 0 Đồng",
+        "mo_ta": "Chậm nhất 01 giờ kể từ khi nhận được yêu cầu sửa đổi, bổ sung của Biên phòng cửa khẩu biên giới đất liền hoặc ngay sau khi phát hiện sai sót hoặc cập nhật được thông tin cần khai báo bổ sung trong hồ sơ điện tử, người làm thủ tục phải khai báo Bản khai sửa đổi, bổ sung theo mẫu biểu quy định trong hồ sơ thủ tục biên phòng điện tử và gửi cho Biên phòng cửa khẩu biên giới đất liền qua Cổng thông tin thủ tục biên phòng điện tử tại địa chỉ http://thutucbienphong.gov.vn."
+      },
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "01 Giờ",
+        "phi_le_phi": "Lệ phí : 0 Đồng",
+        "mo_ta": "Chậm nhất 01 giờ kể từ khi tiếp nhận Bản khai sửa đổi, bổ sung của người làm thủ tục, Biên phòng cửa khẩu biên giới đất liền phải gửi Xác nhận hoàn thành khai báo thủ tục biên phòng điện tử đối với hồ sơ điện tử sửa đổi, bổ sung cho người làm thủ tục qua Cổng thông tin thủ tục biên phòng điện tử."
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Yêu cầu sửa đổi, bổ sung nội dung khai báo thủ tục biên phòng điện tử",
+        "so_luong": "YucusaibsungnidungkhaiboTTBPTivinhnththc.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản khai sửa đổi, bổ sung nội dung khai báo thủ tục biên phòng điện tử",
+        "so_luong": "BnkhaisaibsungkhaiboTTBTivinginhnththc.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "15/2019/QĐ-TTg",
+        "trich_yeu": "Quyết định 15/2019/QĐ-TTg - Về việc thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý",
+        "ngay_ban_hanh": "28-03-2019",
+        "co_quan_ban_hanh": "Thủ tướng Chính phủ"
+      },
+      {
+        "so_ky_hieu": "31/2025/QĐ-TTg",
+        "trich_yeu": "Quyết định số 31/2025/QĐ-TTg của Thủ tướng Chính phủ: Sửa đổi, bổ sung một số điều các Quyết định của Thủ tướng Chính phủ về thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý",
+        "ngay_ban_hanh": "02-09-2025",
+        "co_quan_ban_hanh": "Thủ tướng Chính phủ"
+      }
+    ]
+  }
+}

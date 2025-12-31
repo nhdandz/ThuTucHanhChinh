@@ -1,0 +1,22 @@
+{
+  "question": "Thủ tục đăng ký kinh doanh có những điều kiện gì?",
+  "answer": "<think>\nOkay, let's tackle this question. The user is asking about the conditions for registering a business in Vietnam. The context provided is empty, so I need to check if there's any information available.\n\nLooking at the structured data, both \"dieu_kien\" and \"yeu_cau\" arrays are empty. That means there's no data to reference. According to the guidelines, if the context doesn't have the information, I should state that clearly. \n\nI need to make sure not to make up any conditions. The user might be expecting a list, but since there's nothing in the data, I have to inform them that the information isn't available. I'll phrase it in a friendly and clear way, maybe mention that they should check official sources for the latest details. Let me double-check the instructions to ensure I'm following all the rules. Yep, no info in the context, so the answer should be straightforward.\n</think>\n\nThông tin này không có trong tài liệu. Vui lòng tham khảo quy định cụ thể tại Bộ luật Dân sự và Luật Doanh nghiệp Việt Nam để biết đầy đủ các điều kiện đăng ký kinh doanh.",
+  "structured_data": {
+    "doi_tuong": "",
+    "dieu_kien": [],
+    "yeu_cau": []
+  },
+  "sources": [],
+  "confidence": 0.0,
+  "intent": "requirements",
+  "timestamp": "2025-12-29T08:03:30.938871",
+  "metadata": {
+    "num_parent_chunks": 0,
+    "num_child_chunks": 0,
+    "query_variations": [
+      "Để đăng ký kinh doanh, cần đáp ứng những yêu cầu nào?",
+      "Quy trình đăng ký kinh doanh yêu cầu điều kiện gì?",
+      "Các điều kiện cần có để thực hiện thủ tục đăng ký kinh doanh là gì?"
+    ]
+  }
+}

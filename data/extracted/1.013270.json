@@ -1,0 +1,101 @@
+{
+  "thu_tuc_id": "1.013270",
+  "source_file": "ChiTietTTHC_1.013270.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013270",
+    "tên_thủ_tục": "Thủ tục cấp phép cho doanh nghiệp bảo vệ được thuê làm dịch vụ bảo vệ tàu quân sự nước ngoài đến Việt Nam để sửa chữa",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Doanh nghiệp",
+    "cơ_quan_thực_hiện": "Cục Bảo vệ an ninh - Tổng cục Chính trị",
+    "cơ_quan_có_thẩm_quyền": "Bộ Quốc phòng",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy phép thành lập Văn phòng đại diện của tổ chức xúc tiến thương mại nước ngoài tại Việt Nam.",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "07 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "07 Ngày làm việc",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản của doanh nghiệp sửa chữa tàu đề nghị cho phép doanh nghiệp bảo vệ được làm dịch vụ bảo vệ tàu (bản chính)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Giấy phép kinh doanh của doanh nghiệp bảo vệ được thuê (bản sao có chứng thực)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Hợp đồng dịch vụ bảo vệ (bản sao có chứng thực)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      },
+      {
+        "ten_giay_to": "Danh sách cán bộ, nhân viên thuộc doanh nghiệp bảo vệ làm nhiệm vụ bảo vệ tàu (bản chính)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "29/2001/QH10",
+        "trich_yeu": "Luật Hải quan"
+      },
+      {
+        "so_ky_hieu": "112/2014/NĐ-CP",
+        "trich_yeu": "Nghị định 112/2014/NĐ-CP - Quy định về quản lý cửa khẩu biên giới đất liền"
+      },
+      {
+        "so_ky_hieu": "06/2003/QH11",
+        "trich_yeu": "Luật biên giới quốc gia"
+      },
+      {
+        "so_ky_hieu": "32/2004/QH11",
+        "trich_yeu": "Luật an ninh quốc gia"
+      },
+      {
+        "so_ky_hieu": "104/2012/NĐ-CP",
+        "trich_yeu": "Ban hành Quy chế đảm bảo an ninh, an toàn Căn cứ quân sự Cam Ranh"
+      },
+      {
+        "so_ky_hieu": "Luật 47/2014/QH13",
+        "trich_yeu": "Luật nhập cảnh, xuất cảnh, quá cảnh, cư trsu của người nước ngoài tại Việt Nam"
+      },
+      {
+        "so_ky_hieu": "18/2012/QH13",
+        "trich_yeu": "Luật biển Việt Nam"
+      },
+      {
+        "so_ky_hieu": "23/2023/QH15",
+        "trich_yeu": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023"
+      },
+      {
+        "so_ky_hieu": "BỘ LUẬT  HÀNG HẢI VIỆT NAM",
+        "trich_yeu": "BỘ LUẬT HÀNG HẢI VIỆT NAM"
+      },
+      {
+        "so_ky_hieu": "42/2024/QH15",
+        "trich_yeu": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ"
+      }
+    ]
+  }
+}

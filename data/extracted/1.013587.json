@@ -1,0 +1,69 @@
+{
+  "thu_tuc_id": "1.013587",
+  "source_file": "ChiTietTTHC_1.013587.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013587",
+    "tên_thủ_tục": "Thủ tục đăng ký đến, đi theo cách thức thủ công đối với phương tiện thủy nội địa đến, rời cửa khẩu cảng",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Chậm nhất 02 (hai) giờ, sau khi phương tiện thủy nội địa neo đậu tại cầu cảng; chậm nhất 04 (bốn) giờ, sau khi phương tiện thủy nội địa neo đậu tại các vị trí khác trong vùng nước cảng, người đăng ký phải đăng ký đến cho phương tiện thủy nội địa; Bước 2: Chậm nhất 01 (một) giờ, trước khi phương tiện thủy nội địa rời cảng, người đăng ký phải đăng ký đi cho phương tiện thủy nội địa; Bước 3: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra các loại giấy tờ, thực hiện đăng ký đến, đi cho phương tiện thủy nội địa.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Doanh nghiệp, Tổ chức (không bao gồm doanh nghiệp, HTX), Hợp tác xã",
+    "cơ_quan_thực_hiện": "Đội Thủ tục Biên phòng cửa khẩu cảng",
+    "cơ_quan_có_thẩm_quyền": "Biên phòng cửa khẩu cảng",
+    "cơ_quan_phối_hợp": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Đóng dấu kiểm soát hoàn thành thủ tục",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "0.5 Giờ",
+        "phi_le_phi": "Phí : Không Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "+ 02 (hai) bản chính Danh sách thuyền viên",
+        "so_luong": "DS Hành khách.pdf",
+        "ghi_chu": "Bản chính: 2\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "+ 02 (hai) bản chính Danh sách hành khách (nếu có).",
+        "so_luong": "DS thuyền viên.pdf",
+        "ghi_chu": "Bản chính: 2\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "+ Đối với thuyền viên: sổ thuyền viên",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "+ Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế hoặc Giấy chứng minh nhân dân hoặc thẻ Căn cước công dân.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "-\tCác loại giấy tờ người đăng ký phải xuất trình khi có yêu cầu của Biên phòng cửa khẩu cảng: + Sổ nhật ký hành trình; + Giấy tờ liên quan đến hàng hóa nếu có hàng hóa trên phương tiện thủy nội địa, bao gồm: Hợp đồng vận chuyển hàng hóa; hợp đồng mua bán hàng hóa và hóa đơn giá trị gia tăng hoặc phiếu xuất kho kiêm vận chuyển nội bộ; giấy phép vận chuyển của cơ quan có thẩm quyền của Việt Nam đối với các loại hàng hóa vận chuyển có điều kiện.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "58/2017/NĐ-CP",
+        "trich_yeu": "Nghị định 58/2017/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "77/2017/NĐ-CP",
+        "trich_yeu": "Nghị định 77/2017/NĐ-CP"
+      }
+    ]
+  }
+}

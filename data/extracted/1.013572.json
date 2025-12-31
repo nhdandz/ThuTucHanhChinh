@@ -1,0 +1,81 @@
+{
+  "thu_tuc_id": "1.013572",
+  "source_file": "ChiTietTTHC_1.013572.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013572",
+    "tên_thủ_tục": "Thủ tục biên phòng điện tử đối với tàu thuyền, thuyền viên nước ngoài chuyển cảng đến tại cửa khẩu cảng",
+    "số_quyết_định": "Quyết định số 4534/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Bước 1: Chậm nhất 04 giờ trước khi tàu thuyền dự kiến đến cảng, người làm thủ tục phải khai báo thông tin liên quan đến tàu thuyền, thuyền viên, hành khách chuyển cảng đến theo mẫu biểu quy định trên Cổng thông tin một cửa quốc gia hoặc trên Cổng thông tin thủ tục biên phòng điện tử cảng biển (trường hợp Cổng thông tin một cửa quốc gia có sự cố); Bước 2: Biên phòng cửa khẩu cảng tiếp nhận khai báo của người làm thủ tục từ Cổng Thông tin một cửa quốc gia chuyển đến Cổng thông tin thủ tục biên phòng điện tử cảng biển hoặc trực tiếp trên Cổng thông tin thủ tục biên phòng điện tử cảng (trường hợp Cổng thông tin một cửa quốc gia có sự cố); Bước 3: Biên phòng cửa khẩu cảng thực hiện kiểm tra, xử lý thông tin khai báo, thực hiện thủ tục biên phòng điện tử và gửi xác nhận hoàn thành thủ tục biên phòng điện tử hoặc thông báo từ chối thực hiện thủ tục biên phòng điện tử cho người làm thủ tục thông qua Cổng thông tin một cửa quốc gia hoặc Cổng thông tin thủ tục biên phòng điện tử cảng biển (trường hợp Cổng thông tin một cửa quốc gia có sự cố); Bước 4: Đối với tàu thuyền chuyển cảng đến có hồ sơ giấy kèm theo, chậm nhất 02 giờ, sau khi tàu thuyền neo đậu an toàn tại cầu cảng; chậm nhất 04 giờ, sau khi tàu thuyền neo đậu an toàn tại vị trí khác trong vùng nước cảng, người làm thủ tục phải nộp hồ sơ giấy của tàu thuyền chuyển cảng cho Biên phòng cửa khẩu cảng nơi tàu thuyền đến.",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Người nước ngoài, Doanh nghiệp, Tổ chức nước ngoài",
+    "cơ_quan_thực_hiện": "Đội Thủ tục Biên phòng cửa khẩu cảng",
+    "cơ_quan_có_thẩm_quyền": "Biên phòng cửa khẩu cảng",
+    "cơ_quan_phối_hợp": "Cảng vụ hàng hải, Trung tâm kiểm dịch Y tế Quốc tế, Cảng vụ đường thủy nội địa, Hải quan cửa khẩu cảng",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Bản điện tử xác nhận hoàn thành thủ tục biên phòng điện tử cảng biển hoặc từ chối thực hiện thủ tục biên phòng điện tử cảng biển của Biên phòng cửa khẩu cảng gửi người làm thủ tục.",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tuyến",
+        "thoi_han_giai_quyet": "01 Giờ",
+        "phi_le_phi": "Lệ phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Bản khai chung",
+        "so_luong": "Bnkhaichung.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách thuyền viên",
+        "so_luong": "Danhschthuynvin.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách hành khách (nếu có)",
+        "so_luong": "Danhschhnhkhchnuc.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản khai vũ khí và vật liệu nổ (nếu có)",
+        "so_luong": "Bnkhaivkhvvtliunnuc.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản khai người trốn trên tàu (nếu có)",
+        "so_luong": "Bnkhaingitrntrntu.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "10/2016/QĐ-TTg",
+        "trich_yeu": "Về thực hiện thủ tục biên phòng điện tử cảng biển"
+      },
+      {
+        "so_ky_hieu": "58/2017/NĐ-CP",
+        "trich_yeu": "Nghị định 58/2017/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "77/2017/NĐ-CP",
+        "trich_yeu": "Nghị định 77/2017/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "34/2025/NĐ-CP",
+        "trich_yeu": "Sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hàng hải"
+      },
+      {
+        "so_ky_hieu": "31/2025/QĐ-TTg",
+        "trich_yeu": "Quyết định số 31/2025/QĐ-TTg của Thủ tướng Chính phủ: Sửa đổi, bổ sung một số điều các Quyết định của Thủ tướng Chính phủ về thực hiện thủ tục biên phòng điện tử tại các cửa khẩu do Bộ Quốc phòng quản lý"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "thu_tuc_id": "1.013194",
+  "source_file": "ChiTietTTHC_1.013194.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013194",
+    "tên_thủ_tục": "Thủ tục di chuyển hồ sơ người có công do Quân đội quản lý",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Cơ quan, đơn vị từ cấp trung đoàn trở lên",
+    "cơ_quan_có_thẩm_quyền": "Cơ quan chính trị đơn vị trực thuộc Bộ",
+    "cơ_quan_phối_hợp": "Sở Nội vụ, Cục Chính sách - Xã hội/Tổng cục Chính trị",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Phiếu báo di chuyển hồ sơ (Mẫu số 93 Phụ lục I Nghị định số 131/2021/NĐ-CP)",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Đối với trường hợp di chuyển hồ sơ người có công giữa các cơ quan, đơn vị trực thuộc Bộ: Đối tượng là người có công đang tại ngũ, công tác, có quyết định điều chuyển công tác trong các cơ quan, đơn vị trực thuộc Bộ.\n- Đối với trường hợp di chuyển hồ sơ người có công ra ngoài Quân đội, Ban Cơ yếu Chính phủ: Đối tượng là người có công, phải có một trong các quyết định: Phục viên, xuất ngũ, chuyển ngành, thôi việc, nghỉ theo chế độ bệnh binh hoặc nghỉ hưởng chế độ hưu trí hằng tháng."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "30 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "40 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "30 Ngày",
+        "phi_le_phi": ""
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "40 Ngày",
+        "phi_le_phi": "Phí : o Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản đề nghị theo quy định",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Phiếu báo di chuyển hồ sơ (Mẫu số 93 Phụ lục I Nghị định số 131/2021/NĐ-CP)",
+        "so_luong": "39. MẪU SỐ 93.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Phiếu báo di chuyển hồ sơ (Mẫu số 93 Phụ lục I Nghị định số 131/2021/NĐ-CP)",
+        "so_luong": "39. MẪU SỐ 93.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Văn bản đề nghị theo quy định",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Bản trích lục hồ sơ thương binh",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Văn bản đề nghị trích lục gửi Cục Chính sách - Xã hội/Tổng cục Chính trị",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "131/2021/NĐ-CP",
+        "trich_yeu": "Nghị định 131/2021/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "55/2022/TT-BQP",
+        "trich_yeu": "Thông tư 55/2022/TT-BQP"
+      },
+      {
+        "so_ky_hieu": "02/2020/UBTVQH14",
+        "trich_yeu": "Pháp lệnh 02/2020/UBTVQH14"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "thu_tuc_id": "1.013519",
+  "source_file": "ChiTietTTHC_1.013519.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013519",
+    "tên_thủ_tục": "Thủ tục giải quyết tố cáo cấp Bộ Quốc phòng",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Giải quyết tố cáo"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Thanh tra Bộ Quốc phòng",
+    "cơ_quan_có_thẩm_quyền": "Bộ trưởng Bộ Quốc phòng",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Kết luận nội dung tố cáo và việc xử lý kết luận nội dung tố cáo",
+    "yêu_cầu_điều_kiện_thực_hiện": "Người giải quyết tố cáo ra quyết định thụ lý tố cáo khi có đủ các điều kiện sau:\n\t- Theo quy định tại khoản 1 Điều 29 Luật Tố cáo năm 2018: \n\t+ Tố cáo được thực hiện theo quy định tại Điều 23 của Luật Tố cáo năm 2018.\n\t+ Người tố cáo có đủ năng lực hành vi dân sự; trường hợp không có đủ năng lực hành vi dân sự thì phải có người đại diện theo quy định của pháp luật.\n\t+ Vụ việc thuộc thẩm quyền giải quyết tố cáo của cơ quan, tổ chức, cá nhân tiếp nhận tố cáo.\n\t+ Nội dung tố cáo có cơ sở để xác định người vi phạm, hành vi vi phạm pháp luật.\n\tTrường hợp tố cáo xuất phát từ vụ việc khiếu nại đã được giải quyết đúng thẩm quyền, trình tự, thủ tục theo quy định của pháp luật nhưng người khiếu nại không đồng ý mà chuyển sang tố cáo người đã giải quyết khiếu nại thì chỉ thụ lý tố cáo khi người tố cáo cung cấp được thông tin, tài liệu, chứng cứ để xác định người giải quyết khiếu nại có hành vi vi phạm pháp luật.\n\t- Người bị tố cáo không thuộc đối tượng theo quy định tại Điều 8 Nghị định số 28/2019/NĐ-CP ngày 20 tháng 3 năm 2019 của Chính phủ về tố cáo và giải quyết tố cáo trong Quân đội nhân dân"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "60 Ngày",
+        "phi_le_phi": ""
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "60 Ngày",
+        "phi_le_phi": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn tố cáo hoặc văn bản ghi nội dung tố cáo",
+        "so_luong": "MẪU BIỂU -CHÍNH THỨC.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "số 25/2018/QH14",
+        "trich_yeu": "Luật tố cáo"
+      },
+      {
+        "so_ky_hieu": "5166/QĐ-BQP",
+        "trich_yeu": "Quyết định số 5166/QĐ-BQP ngày 11/11/2019 của Bộ Quốc phòng ban hành danh mục mẫu văn bản sử dụng trong hoạt động thanh tra, tiếp công dân, giải quyết khiếu nại, giải quyết tố cáo trong Bộ Quốc phòng./."
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "thu_tuc_id": "2.002758",
+  "source_file": "ChiTietTTHC_2.002758.doc",
+  "metadata": {
+    "mã_thủ_tục": "2.002758",
+    "tên_thủ_tục": "Thủ tục cấp giấy xác nhận giải mã phiên hiệu, ký hiệu, thời gian, địa bàn hoạt động của đơn vị Quân đội",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Tỉnh",
+    "loại_thủ_tục": "TTHC không được luật giao cho địa phương quy định hoặc quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Bộ Tư lệnh Thủ đô Hà nội, Bộ chỉ huy quân sự cấp tỉnh",
+    "cơ_quan_có_thẩm_quyền": "Bộ Tư lệnh Thủ đô Hà nội, Bộ chỉ huy quân sự cấp tỉnh",
+    "cơ_quan_phối_hợp": "Cấp trung đoàn hoặc tương đương, Cấp sư đoàn và tương đương, cấp đơn vị trực thuộc Bộ, Cục Quân lực/Bộ Tổng Tham mưu",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy xác nhận về thông tin giải mã phiên hiệu, ký hiệu, thời gian, địa bàn hoạt động của đơn vị",
+    "yêu_cầu_điều_kiện_thực_hiện": "Cá nhân phải cung cấp được một trong các giấy tờ quy định tại điểm b, c khoản 1 Điều 54 Nghị định số 131/2021/NĐ-CP"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "5 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "5 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "1. Bản chính Đơn đề nghị",
+        "so_luong": "mus1Thngt09.2011.TT-BVHTTDL.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Một trong các giấy tờ quy định tại điểm b, c khoản 1 Điều 54 Nghị định số 131/2021/NĐ-CP, như sau: Bản sao được chứng thực từ một trong các giấy tờ sau: Quyết định phục viên, xuất ngũ; giấy chuyển thương, chuyển viện, giấy điều trị; lý lịch cán bộ; lý lịch đảng viên; lý lịch quân nhân; lý lịch công an nhân dân; hồ sơ hưởng chế độ bảo hiểm xã hội; Huân chương, Huy chương chiến sĩ giải phóng; hồ sơ khen thưởng thành tích tham gia kháng chiến, hồ sơ người có công xác lập trước ngày 01/01/2000; giấy tờ do cơ quan có thẩm quyền ban hành, xác nhận trước ngày 01/01/2000; trường hợp danh sách, sổ quản lý quân nhân, sổ chi trả trợ cấp quân nhân đi B đang lưu tại cơ quan chức năng của địa phương mà chưa có xác nhận thì Sở Lao động - Thương binh và Xã hội có trách nhiệm phối hợp với Bộ chỉ quy quân sự tỉnh tập hợp, chốt số lượng người và xác nhận danh sách, sổ quản lý đang do cơ quan, đơn vị quản lý, hoàn thành trước ngày 01/5/2022 và gửi số liệu theo Mẫu số 101 Phụ lục I Nghị định số 131/2021/NĐ-CP về Bộ Lao động - Thương binh và Xã hội trước ngày 01/6/2022; trường hợp các giấy tờ quy định tại điểm b, c khoản 1 Điều 54 Nghị định số 131/2021/NĐ-CP đã nêu trên chỉ thể hiện phiên hiệu, ký hiệu đơn vị thì kèm theo giấy xác nhận thông tin giải mã phiên hiệu, ký hiệu, thời gian, địa bàn hoạt động của đơn vị theo Mẫu số 37 Phụ lục I Nghị định số 131/2021/NĐ-CP;",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 0\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "131/2021/NĐ-CP",
+        "trich_yeu": "Nghị định 131/2021/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "55/2022/TT-BQP",
+        "trich_yeu": "Thông tư 55/2022/TT-BQP"
+      },
+      {
+        "so_ky_hieu": "02/2020/UBTVQH14",
+        "trich_yeu": "Pháp lệnh 02/2020/UBTVQH14"
+      }
+    ]
+  }
+}

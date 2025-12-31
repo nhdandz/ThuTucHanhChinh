@@ -1,0 +1,11 @@
+# FastAPI framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.18
+
+# Pydantic for validation
+pydantic==2.10.0
+pydantic-settings==2.6.0
+
+# HTTP requests (for health checks)
+requests>=2.28.0

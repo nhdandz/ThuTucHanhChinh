@@ -1,0 +1,65 @@
+{
+  "thu_tuc_id": "1.013556",
+  "source_file": "ChiTietTTHC_1.013556.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013556",
+    "tên_thủ_tục": "Thủ tục cấp phép cho cơ sở thử nghiệm tàu bay, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý vùng trời"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Chủ cơ sở thiết kế, sản xuất, sửa chữa, bảo dưỡng tàu bay, động cơ tàu bay, cánh quạt tàu bay và các trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ có trách nhiệm lập hồ sơ gửi đến Cục Tác chiến - Bộ Tổng Tham mưu theo địa chỉ sau:\nCục Tác chiến - Bộ Tổng Tham mưu, Số 1, đường Nguyễn Tri Phương, quận Ba Đình, thành phố Hà Nội; số điện thoại liên hệ: 069 696108; số fax: 04 37337994. Trường hợp hồ sơ không hợp lệ, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, Cục Tác chiến phải có văn bản thông báo cho Chủ cơ sở biết để hoàn thiện theo quy định.\nTrường hợp hồ sơ hợp lệ, Cục Tác chiến - Bộ Tổng Tham mưu có trách nhiệm chủ trì, phối hợp với các cơ quan, đơn vị liên quan thẩm định, tổng hợp báo cáo Thủ trưởng Bộ Tổng Tham mưu và cấp giấy phép cho Chủ cơ sở thử nghiệm tàu bay, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ; đồng thời, thông báo bằng văn bản cho chính quyền địa phương, Ban Chỉ huy quân sự cấp huyện, Bộ Chỉ huy quân sự cấp tỉnh, Quân khu biết. Trường hợp không cấp giấy phép, Cục Tác chiến phải có văn bản trả lời và nêu rõ lý do",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Tổ chức (không bao gồm doanh nghiệp, HTX)",
+    "cơ_quan_thực_hiện": "Cục Tác chiến/Bộ Tổng Tham mưu",
+    "cơ_quan_có_thẩm_quyền": "Cục Tác chiến/Bộ Tổng Tham mưu",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Cục Tác chiến - Bộ Tổng Tham mưu, Số 1, đường Nguyễn Tri Phương, quận Ba Đình, thành phố Hà Nội; số điện thoại liên hệ: 069 696108; số fax: 04 37337994",
+    "kết_quả_thực_hiện": "Giấy phép cho cơ sở thử nghiệm tàu bay, động cơ tàu bay, cánh quạt tàu bay và trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ",
+    "yêu_cầu_điều_kiện_thực_hiện": "- Có đầy đủ các trang bị, thiết bị, dụng cụ kiểm tra phục vụ cho mục đích thử nghiệm tàu bay, các trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ.\n- Có đầy đủ hồ sơ, tài liệu quy chuẩn về quy trình thử nghiệm đối với từng loại tàu bay, động cơ tàu bay, cánh quạt tàu bay, các trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ.\n- Có nguồn nhân lực chuyên môn kỹ thuật phù hợp; có năng lực thực hành thử nghiệm và đánh giá kết quả thử nghiệm tàu bay, động cơ và các trang thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ.\n- Cơ sở thử nghiệm có vị trí, khu vực thử nghiệm đạt tiêu chuẩn an ninh, an toàn và các điều kiện về môi trường theo quy định của pháp luật."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "20 Ngày",
+        "phi_le_phi": ""
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị cấp giấy phép cho cơ sở thử nghiệm tàu bay, động cơ tàu bay, cánh quạt tàu bay và các trang bị, thiết bị của tàu bay không người lái, phương tiện bay siêu nhẹ",
+        "so_luong": "MAU2.NCP.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Tài liệu thuyết minh kỹ thuật, tính hợp lý, hợp pháp của các trang thiết bị phục vụ cho thử nghiệm",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Khu vực thử nghiệm: Xác định rõ vị trí địa danh xã, phường, thị trấn (sau đây viết gọn là cấp xã); huyện, quận, thị xã, thành phố trực thuộc tỉnh (sau đây viết gọn là cấp huyện); tỉnh, thành phố trực thuộc trung ương (sau đây viết gọn là cấp tỉnh); tọa độ địa lý (độ-phút-giây) theo hệ tọa độ VN-2000, kích thước khu vực thử nghiệm, sơ đồ vị trí khu vực thử nghiệm tương quan với các công trình khác trong bán kính 500 mét",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Các giấy tờ hợp pháp liên quan đến sở hữu, sử dụng, khai thác khu vực thử nghiệm",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Văn bản hiệp đồng với chính quyền địa phương, cơ quan có liên quan trong khu vực thử nghiệm (nếu có hoạt động bay)",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "61/2014/QH13",
+        "trich_yeu": "LUẬT  Sửa đổi, bổ sung một số điều của  Luật Hàng không dân dụng Việt Nam"
+      }
+    ]
+  }
+}

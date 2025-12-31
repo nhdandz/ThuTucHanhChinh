@@ -1,0 +1,19 @@
+# Phase 3: Retrieval Pipeline Dependencies
+
+# Embedding Model
+sentence-transformers>=2.2.2
+torch>=2.0.0
+
+# Vector Database
+qdrant-client>=1.7.0
+
+# Re-ranking
+transformers>=4.30.0
+
+# LLM for query enhancement
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Utilities
+numpy>=1.24.0
+tqdm>=4.65.0

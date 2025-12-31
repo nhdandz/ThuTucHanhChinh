@@ -1,0 +1,51 @@
+{
+  "question": "Đăng ký kết hôn cần giấy tờ gì?",
+  "answer": "<think>\nOkay, let's tackle this question about the required documents for marriage registration in Vietnam. The user is asking what documents are needed, so I need to make sure I cover all the points from the context provided.\n\nFirst, I'll check the detailed info section. The documents listed are: personal identification for both parties, proof of marital status, prenuptial health certificate, application form, and photos. Each has a specific number of copies. The user might need to know exactly how many copies of each document are required. \n\nWait, the context mentions \"02 bản sao\" for the ID documents, which means two copies. The proof of marital status is one original, the health certificate is one original, the application form is one copy, and two photos. I should list each document with the quantity. \n\nAlso, the note says if they receive a certificate with a photo, they need two 4x6 photos. That's important to mention. I should structure the answer clearly, maybe in bullet points for each document with the required copies. \n\nI need to make sure not to add any information not in the context. For example, the context doesn't mention anything about the age requirement for the marital status certificate, so I shouldn't include that. Just stick to the documents listed. \n\nLet me double-check the data structure extracted. The \"ho_so_bao_gom\" lists all the documents, and \"so_ban\" specifies the number of copies. The note about the photo is in the \"ghi_chu\" section. So the answer should include all these points accurately. \n\nI should present the answer in a natural, easy-to-understand way, using bullet points for clarity. End with the important note about the photo requirement. Make sure the language is friendly and straightforward, avoiding any technical jargon. Alright, that should cover everything the user needs.\n</think>\n\nĐể đăng ký kết hôn, bạn cần chuẩn bị các giấy tờ sau:\n\n1. **Giấy tờ tùy thân** (CMND/CCCD/Hộ chiếu) của cả hai bên – **02 bản sao**  \n2. **Giấy xác nhận tình trạng hôn nhân** (nếu người từ 30 tuổi trở lên hoặc đã ly hôn) – **01 bản chính**  \n3. **Giấy khám sức khỏe tiền hôn nhân** do cơ sở y tế có thẩm quyền cấp – **01 bản chính**  \n4. **Đơn đăng ký kết hôn theo mẫu** (điền tại UBND cấp xã) – **01 bản**  \n5. **Ảnh 4x6** (nếu nhận Giấy chứng nhận kết hôn có ảnh) – **02 ảnh**  \n\n**Lưu ý:** Số lượng bản sao và bản chính được quy định rõ trong từng mục. Nếu không cần ảnh, có thể không cần nộp.  \n\n👉 *Giấy tờ cần được nộp tại Ủy ban nhân dân cấp xã nơi một trong hai bên thường trú.*",
+  "structured_data": {
+    "ho_so_bao_gom": [
+      "Giấy tờ tùy thân (CMND/CCCD/Hộ chiếu) của cả hai bên",
+      "Giấy xác nhận tình trạng hôn nhân",
+      "Giấy khám sức khỏe tiền hôn nhân",
+      "Đơn đăng ký kết hôn theo mẫu",
+      "Ảnh 4x6"
+    ],
+    "so_ban": {
+      "Giấy tờ tùy thân (CMND/CCCD/Hộ chiếu) của cả hai bên": "02",
+      "Giấy xác nhận tình trạng hôn nhân": "01",
+      "Giấy khám sức khỏe tiền hôn nhân": "01",
+      "Đơn đăng ký kết hôn theo mẫu": "01",
+      "Ảnh 4x6": "02"
+    },
+    "ghi_chu": "Nếu nhận Giấy chứng nhận kết hôn có ảnh"
+  },
+  "sources": [
+    {
+      "chunk_id": "1.013124_parent_001",
+      "thu_tuc_name": "Đăng ký kết hôn",
+      "thu_tuc_code": "1.013124",
+      "chunk_type": "child_documents",
+      "relevance_score": 0.8954,
+      "content_snippet": "Hồ sơ đăng ký kết hôn bao gồm: CMND/CCCD, giấy xác nhận tình trạng hôn nhân, giấy khám sức khỏe..."
+    },
+    {
+      "chunk_id": "1.013124_parent_002",
+      "thu_tuc_name": "Đăng ký kết hôn",
+      "thu_tuc_code": "1.013124",
+      "chunk_type": "child_timeline",
+      "relevance_score": 0.7234,
+      "content_snippet": "Thời gian giải quyết: Trong ngày làm việc, trường hợp đặc biệt không quá 03 ngày làm việc."
+    }
+  ],
+  "confidence": 0.85,
+  "intent": "documents",
+  "timestamp": "2025-12-29T08:06:46.630435",
+  "metadata": {
+    "num_parent_chunks": 2,
+    "num_child_chunks": 2,
+    "query_variations": [
+      "Đăng ký kết hôn cần giấy tờ gì?",
+      "Hồ sơ đăng ký kết hôn gồm những gì?",
+      "Giấy tờ cần thiết để đăng ký kết hôn?"
+    ]
+  }
+}

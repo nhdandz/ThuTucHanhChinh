@@ -1,0 +1,55 @@
+{
+  "thu_tuc_id": "1.013628",
+  "source_file": "ChiTietTTHC_1.013628.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013628",
+    "tên_thủ_tục": "Thủ tục cho phép cơ sở khám bệnh, chữa bệnh được tiếp tục hoạt động sau khi bị đình chỉ.",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Khám bệnh, chữa bệnh"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
+    "cơ_quan_thực_hiện": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
+    "cơ_quan_có_thẩm_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "276 Nghi Tàm, Phường Hồng Hà, Thành phố Hà Nội",
+    "kết_quả_thực_hiện": "Quyết định cho phép tiếp tục hành nghề.",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không quy định"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "35 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "35 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị được tiếp tục hoạt động khám bệnh, chữa bệnh theo Mẫu số 05 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;",
+        "so_luong": "Mus05.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Báo cáo về việc khắc phục sai sót chuyên môn hoặc các biện pháp đã thực hiện để bảo đảm các điều kiện quy định tại các Điều 18, 19, 20, 21, 22, 23 và 24 Nghị định số 16/2024/NĐ-CP (tùy theo hình thức tổ chức cơ sở khám bệnh, chữa bệnh) có xác nhận của đơn vị cấp trực thuộc Bộ Quốc phòng; các tài liệu liên quan.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "16/2024/NĐ-CP",
+        "trich_yeu": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân"
+      }
+    ]
+  }
+}

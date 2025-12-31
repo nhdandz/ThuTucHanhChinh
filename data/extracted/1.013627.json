@@ -1,0 +1,50 @@
+{
+  "thu_tuc_id": "1.013627",
+  "source_file": "ChiTietTTHC_1.013627.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013627",
+    "tên_thủ_tục": "Thủ tục đình chỉ một phần hoặc toàn bộ hoạt động chuyên môn của cơ sở khám bệnh, chữa bệnh.",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Khám bệnh, chữa bệnh"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Cán bộ, công chức, viên chức",
+    "cơ_quan_thực_hiện": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
+    "cơ_quan_có_thẩm_quyền": "Không có thông tin",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "276 Nghi Tàm, Phường Hồng Hà, Thành phố Hà Nội",
+    "kết_quả_thực_hiện": "Quyết định đình chỉ hoạt động chuyên môn.",
+    "yêu_cầu_điều_kiện_thực_hiện": "1. Trường hợp cơ sở khám bệnh, chữa bệnh bị đình chỉ hoạt động:\na) Xảy ra sự cố y khoa đến mức phải đình chỉ hoạt động chuyên môn;\nb) Không bảo đảm một trong các điều kiện quy định tại Điều 49 của Luật Khám bệnh, chữa bệnh;\nc) Không bảo đảm một trong các điều kiện quy định tại các Điều 18, 19, 20, 21, 22, 23 và 24 Nghị định số 16/2024/NĐ-CP. \n2. Nguyên nhân, tính chất, mức độ, hậu quả của sự cố y khoa hoặc phần điều kiện hoạt động không đảm bảo quy định tại điểm c khoản 1 Điều này là căn cứ để quyết định đình chỉ một phần hoặc toàn bộ giấy phép hoạt động của cơ sở khám bệnh, chữa bệnh. Trường hợp cơ sở khám bệnh, chữa bệnh vi phạm hành chính thì thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "05 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "05 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Văn bản kết luận của Hội đồng chuyên môn quy định tại Điều 101 của Luật Khám bệnh, chữa bệnh hoặc văn bản kết luận kiểm tra, thanh tra xác định cơ sở khám bệnh, chữa bệnh có vi phạm phải đình chỉ một phần hoặc toàn bộ hoạt động chuyên môn..",
+        "so_luong": "Mus05a.docx",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "16/2024/NĐ-CP",
+        "trich_yeu": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân"
+      }
+    ]
+  }
+}

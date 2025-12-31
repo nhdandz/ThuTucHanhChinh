@@ -1,0 +1,77 @@
+{
+  "thu_tuc_id": "1.013190",
+  "source_file": "ChiTietTTHC_1.013190.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013190",
+    "tên_thủ_tục": "Thủ tục hưởng lại chế độ ưu đãi đối với người có công đang tại ngũ, công tác",
+    "số_quyết_định": "Quyết định số 5132/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Bộ",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Chính sách"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam",
+    "cơ_quan_thực_hiện": "Cơ quan, đơn vị từ cấp trung đoàn trở lên",
+    "cơ_quan_có_thẩm_quyền": "Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu",
+    "cơ_quan_phối_hợp": "Cục Chính trị, Cơ quan chính trị đơn vị trực thuộc Bộ",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Quyết định về việc hưởng lại chế độ đối với người có công hoặc thân nhân người có công (Mẫu số 73 Phụ lục I Nghị định số 131/2021/NĐ-CP).",
+    "yêu_cầu_điều_kiện_thực_hiện": "Người có công đã bị tạm đình chỉ, tạm dừng hưởng chế độ ưu đãi có đủ điều kiện theo quy định tại điểm a, b khoản 1 Điều 119 Nghị định số 131/2021/NĐ-CP (đối với những trường hợp quy định tại Điều 54 Pháp lệnh, người có công hoặc thân nhân làm đơn đề nghị hưởng lại chế độ theo Mẫu số 24 Phụ lục I Nghị định số 131/2021/NĐ-CP gửi cơ quan quản lý hồ sơ và thực hiện chế độ ưu đãi kèm theo các giấy tờ quy định. Cơ quan quản lý hồ sơ và thực hiện chế độ ưu đãi trong thời gian 12 ngày kể từ ngày nhận đủ giấy tờ có trách nhiệm kiểm tra, nếu đủ điều kiện thì ban hành quyết định hưởng lại chế độ ưu đãi theo Mẫu số 73 Phụ lục I Nghị định số 131/2021/NĐ-CP: Đối với các trường hợp quy định tại khoản 1 Điều 54 Pháp lệnh phải kèm theo các giấy tờ chứng minh đã chấp hành xong hình phạt tù, thời điểm hưởng lại chế độ ưu đãi kể từ tháng liền kề sau tháng chấp hành xong hình phạt tù; đối với các trường hợp quy định tại khoản 2 Điều 54 Pháp lệnh, thời điểm hưởng lại chế độ ưu đãi kể từ tháng liền kề sau tháng nhận được đơn: Trường hợp người có công hoặc thân nhân xuất cảnh trái phép nay trở về nước thường trú thì phải có giấy tờ nhập cảnh. Nếu trong thời gian 01 tháng sau khi nhập cảnh không có đơn đề nghị hưởng lại chế độ thì phải kèm theo Phiếu lý lịch tư pháp số 1 quy định tại Luật Lý lịch tư pháp; trường hợp người có công hoặc thân nhân mất tích nay trở về thì phải kèm theo Phiếu lý lịch tư pháp số 1 quy định tại Luật Lý lịch tư pháp) và điểm a, b khoản 2 Điều 119 Nghị định số 131/2021/NĐ-CP (Đối với những trường hợp quy định tại khoản 1, khoản 2 Điều 55 Pháp lệnh: Đối với trường hợp quy định tại khoản 1 Điều 55 Pháp lệnh sau khi xác minh kết luận không giả mạo giấy tờ thì cơ quan quản lý hồ sơ và thực hiện chế độ ưu đãi ban hành quyết định hưởng lại chế độ ưu đãi theo Mẫu số 73 Phụ lục I Nghị định số 131/2021/NĐ-CP kể từ tháng bị tạm đình chỉ; đối với trường hợp quy định tại khoản 2 Điều 55 Pháp lệnh, cơ quan quản lý hồ sơ và thực hiện chế độ ưu đãi căn cứ kết quả xác minh, kết luận để ban hành quyết định hưởng lại chế độ ưu đãi theo quy định tại Mẫu số 73 Phụ lục I Nghị định số 131/2021/NĐ-CP đúng quy định kể từ tháng bị tạm đình chỉ và thu hồi chế độ ưu đãi hưởng thêm do khai báo gian dối)."
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "12 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      },
+      {
+        "hinh_thuc": "Dịch vụ bưu chính",
+        "thoi_han_giai_quyet": "12 Ngày",
+        "phi_le_phi": "Phí : 0 Đồng"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Đơn đề nghị hưởng lại chế độ ưu đãi đối với người có công hoặc thân nhân người có công (Mẫu số 24 Phụ lục I Nghị định số 131/2021/NĐ-CP);",
+        "so_luong": "8. MẪU SỐ 24.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Đối với các trường hợp quy định tại khoản 1 Điều 54 Pháp lệnh (người phạm tội không thuộc các tội xâm phạm an ninh quốc gia và bị phạt tù có thời hạn thì trong thời gian chấp hành hình phạt tù bị tạm đình chỉ hưởng chế độ ưu đãi) phải kèm theo các giấy tờ chứng minh đã chấp hành xong hình phạt tù, thời điểm hưởng lại chế độ ưu đãi kể từ tháng liền kề sau tháng chấp hành xong hình phạt tù",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Đối với các trường hợp quy định tại khoản 2 Điều 54 Pháp lệnh (người xuất cảnh trái phép, mất tích thì bị tạm đình chỉ hưởng chế độ ưu đãi trong thời gian xuất cảnh, mất tích), thời điểm hưởng lại chế độ ưu đãi kể từ tháng liền kề sau tháng nhận được đơn: Trường hợp người có công hoặc thân nhân xuất cảnh trái phép nay trở về nước thường trú thì phải có giấy tờ nhập cảnh. Nếu trong thời gian 01 tháng sau khi nhập cảnh không có đơn đề nghị hưởng lại chế độ thì phải kèm theo Phiếu lý lịch tư pháp số 1 quy định tại Luật Lý lịch tư pháp; trường hợp người có công hoặc thân nhân mất tích nay trở về thì phải kèm theo Phiếu lý lịch tư pháp số 1 quy định tại Luật Lý lịch tư pháp",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Văn bản đề nghị theo quy định",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "131/2021/NĐ-CP",
+        "trich_yeu": "Nghị định 131/2021/NĐ-CP"
+      },
+      {
+        "so_ky_hieu": "55/2022/TT-BQP",
+        "trich_yeu": "Thông tư 55/2022/TT-BQP"
+      },
+      {
+        "so_ky_hieu": "02/2020/UBTVQH14",
+        "trich_yeu": "Pháp lệnh 02/2020/UBTVQH14"
+      },
+      {
+        "so_ky_hieu": "103/2025/TT-BQP",
+        "trich_yeu": "Thông tư số 103/2025/TT-BQP ngày 26/9/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của các Thông tư liên tịch, Thông tư, Quyết định của Bộ trưởng Bộ Quốc phòng về lĩnh vực chính sách"
+      }
+    ]
+  }
+}

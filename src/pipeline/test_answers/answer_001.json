@@ -1,0 +1,22 @@
+{
+  "question": "Đăng ký kết hôn cần giấy tờ gì?",
+  "answer": "<think>\nOkay, the user is asking about the required documents for marriage registration in Vietnam. Let me check the context provided. The context has a structured data object with \"ho_so_bao_gom\" (which is an empty array), \"so_ban\" (empty object), and \"ghi_chu\" (empty string). Since there's no information in the context, I need to inform the user that the data isn't available. But wait, maybe I should recall standard procedures. Typically, marriage registration in Vietnam requires ID cards, household registration books, proof of single status, and sometimes a health certificate. However, since the context doesn't mention these, I must stick to the given data. The user might be expecting a list, but without the context, I can't provide accurate info. I should clearly state that the information isn't present in the provided data.\n</think>\n\nThông tin này không có trong tài liệu. Dữ liệu cung cấp không chứa danh sách giấy tờ cần thiết để đăng ký kết hôn. Bạn nên tham khảo quy định cụ thể tại cơ quan đăng ký hộ tịch hoặc văn bản pháp luật liên quan.",
+  "structured_data": {
+    "ho_so_bao_gom": [],
+    "so_ban": {},
+    "ghi_chu": ""
+  },
+  "sources": [],
+  "confidence": 0.0,
+  "intent": "documents",
+  "timestamp": "2025-12-29T08:03:01.378176",
+  "metadata": {
+    "num_parent_chunks": 0,
+    "num_child_chunks": 0,
+    "query_variations": [
+      "Để tiến hành đăng ký kết hôn, cần chuẩn bị những giấy tờ nào?",
+      "Khi tiến hành thủ tục kết hôn, các giấy tờ cần thiết là gì?",
+      "Phải chuẩn bị những giấy tờ gì để đăng ký kết hôn?"
+    ]
+  }
+}

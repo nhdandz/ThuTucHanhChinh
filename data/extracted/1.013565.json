@@ -1,0 +1,59 @@
+{
+  "thu_tuc_id": "1.013565",
+  "source_file": "ChiTietTTHC_1.013565.doc",
+  "metadata": {
+    "mã_thủ_tục": "1.013565",
+    "tên_thủ_tục": "Thủ tục cấp Giấy phép xuống tàu thời hạn 03 tháng cho người Việt Nam và người nước ngoài thuộc các cơ quan, doanh nghiệp có nhu cầu thường xuyên xuống tàu thuyền nước ngoài làm việc không quá 03 tháng",
+    "số_quyết_định": "Quyết định số 6225/QĐ-BQP",
+    "cấp_thực_hiện": "Cấp Xã",
+    "loại_thủ_tục": "TTHC được luật giao quy định chi tiết",
+    "lĩnh_vực": "Quản lý biên giới"
+  },
+  "content": {
+    "trình_tự_thực_hiện": "Trình tự thực hiện Bước 1: Người đề nghị cấp Giấy phép xuống tàu hoặc đại diện cơ quan, doanh nghiệp chủ quản nộp và xuất trình cho Biên phòng cửa khẩu cảng các loại giấy tờ theo quy định Bước 2: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra các loại giấy tờ, cấp Giấy phép xuống tàu hoặc gửi văn bản nêu rõ lý do trong trường hợp từ chối cấp Giấy phép xuống tàu Cách thức thực hiện Người đề nghị cấp Giấy phép xuống tàu hoặc đại diện cơ quan, doanh nghiệp chủ quản nộp và xuất trình các loại giấy tờ tại trụ sở Biên phòng cửa khẩu cảng",
+    "cách_thức_thực_hiện": "",
+    "đối_tượng_thực_hiện": "Công dân Việt Nam, Người nước ngoài, Doanh nghiệp",
+    "cơ_quan_thực_hiện": "Đội Thủ tục Biên phòng cửa khẩu cảng",
+    "cơ_quan_có_thẩm_quyền": "Biên phòng cửa khẩu cảng",
+    "cơ_quan_phối_hợp": "Không có thông tin",
+    "địa_chỉ_tiếp_nhận_hs": "Không có thông tin",
+    "kết_quả_thực_hiện": "Giấy phép xuống tàu thời hạn 03 (ba) tháng do Biên phòng cửa khẩu cảng cấp",
+    "yêu_cầu_điều_kiện_thực_hiện": "Không"
+  },
+  "tables": {
+    "hinh_thuc_nop": [
+      {
+        "hinh_thuc": "Trực tiếp",
+        "thoi_han_giai_quyet": "0 Giờ",
+        "phi_le_phi": "Lệ phí : 1.5 USD"
+      }
+    ],
+    "thanh_phan_ho_so": [
+      {
+        "ten_giay_to": "Giấy giới thiệu hoặc công văn đề nghị cấp Giấy phép xuống tàu của cơ quan, doanh nghiệp chủ quản",
+        "so_luong": "Danh sách đề nghị cấp Giấy xuống tàu.doc",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "Danh sách trích ngang của người đề nghị cấp Giấy phép xuống tàu",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 0"
+      },
+      {
+        "ten_giay_to": "+  Bản sao có chứng thực hộ chiếu hoặc giấy tờ có giá trị thay hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế còn giá trị theo quy định của pháp luật.",
+        "so_luong": "",
+        "ghi_chu": "Bản chính: 1\nBản sao: 1"
+      }
+    ],
+    "can_cu_phap_ly": [
+      {
+        "so_ky_hieu": "138/2016/TT-BTC",
+        "trich_yeu": "Thông tư 138/2016/TT-BTC"
+      },
+      {
+        "so_ky_hieu": "77/2017/NĐ-CP",
+        "trich_yeu": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng"
+      }
+    ]
+  }
+}
