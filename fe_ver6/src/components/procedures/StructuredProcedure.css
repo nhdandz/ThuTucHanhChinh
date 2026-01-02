@@ -1,0 +1,117 @@
+.structured-procedure {
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+}
+
+.structured-procedure__title {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 0 0 var(--spacing-md) 0;
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.structured-procedure__section {
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-sm);
+  background-color: var(--color-bg-primary);
+}
+
+.structured-procedure__section-header {
+  padding: var(--spacing-md);
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-primary);
+  user-select: none;
+  transition: background-color var(--transition-fast);
+}
+
+.structured-procedure__section-header:hover {
+  background-color: var(--color-bg-secondary);
+}
+
+.structured-procedure__section-header svg {
+  transition: transform var(--transition-base);
+}
+
+.structured-procedure__section[open] .structured-procedure__section-header svg {
+  transform: rotate(180deg);
+}
+
+.structured-procedure__section-content {
+  padding: 0 var(--spacing-md) var(--spacing-md) var(--spacing-md);
+}
+
+.structured-procedure__list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--font-size-sm);
+}
+
+.structured-procedure__list dt {
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.structured-procedure__list dd {
+  margin: 0;
+  color: var(--color-text-primary);
+  line-height: var(--line-height-relaxed);
+}
+
+.structured-procedure__code {
+  font-family: var(--font-family-mono);
+  background-color: var(--color-accent-light);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+}
+
+.structured-procedure__table-wrapper {
+  overflow-x: auto;
+}
+
+.structured-procedure__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+}
+
+.structured-procedure__table th {
+  background-color: var(--color-primary);
+  color: var(--color-text-white);
+  padding: var(--spacing-sm);
+  text-align: left;
+  font-weight: 600;
+}
+
+.structured-procedure__table td {
+  padding: var(--spacing-sm);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.structured-procedure__table tr:last-child td {
+  border-bottom: none;
+}
+
+.structured-procedure__table tr:nth-child(even) {
+  background-color: var(--color-bg-secondary);
+}
+
+@media (max-width: 768px) {
+  .structured-procedure__list {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+  }
+
+  .structured-procedure__list dt {
+    margin-top: var(--spacing-sm);
+  }
+}

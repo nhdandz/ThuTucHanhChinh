@@ -1,0 +1,16 @@
+.chat-interface {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  height: 100%;
+}
+
+.chat-interface__input {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .chat-interface {
+    gap: var(--spacing-sm);
+  }
+}
