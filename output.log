@@ -1,0 +1,833 @@
+(thu_tuc_rag) admin123@admin123-CELSIUS-R970B:~/Downloads/NHDanDz/ThuTucHanhChinh/thu_tuc_rag$ uvicorn backend.main:app --host 0.0.0.0 --port 8008 --reload
+INFO:     Will watch for changes in these directories: ['/home/admin123/Downloads/NHDanDz/ThuTucHanhChinh/thu_tuc_rag']
+INFO:     Uvicorn running on http://0.0.0.0:8008 (Press CTRL+C to quit)
+INFO:     Started reloader process [3040747] using WatchFiles
+INFO:     Started server process [3040749]
+INFO:     Waiting for application startup.
+============================================================
+Starting Thu Tuc RAG API v1.0.0
+CORS Origins: ['http://localhost:3000']
+Ollama URL: http://localhost:11434
+Qdrant Path: /home/admin123/Downloads/NHDanDz/ThuTucHanhChinh/thu_tuc_rag/qdrant_storage
+============================================================
+INFO:     Application startup complete.
+Initializing RAG pipeline...
+
+================================================================================
+🚀 INITIALIZING THU TUC RAG PIPELINE
+================================================================================
+
+Configuration:
+  Vector Store: /home/admin123/Downloads/NHDanDz/ThuTucHanhChinh/thu_tuc_rag/qdrant_storage
+  Collection: thu_tuc_hanh_chinh
+  Embedding Model: bge-m3
+  LLM Model: qwen3:8b
+  Ollama URL: http://localhost:11434
+
+📦 Loading components...
+
+🔄 Initializing Ollama embedding model: bge-m3
+   Server: http://localhost:11434
+✅ Model initialized successfully!
+   Embedding dimension: 1024
+🔄 Initializing Qdrant Vector Store
+   Collection: thu_tuc_hanh_chinh
+   Embedding dim: 1024
+   Mode: Local storage at /home/admin123/Downloads/NHDanDz/ThuTucHanhChinh/thu_tuc_rag/qdrant_storage
+   Collection already exists: thu_tuc_hanh_chinh
+✅ Vector store initialized!
+🔄 Initializing Query Enhancer
+   Model: qwen3:8b
+   Server: http://localhost:11434
+✅ Query Enhancer initialized!
+📥 Loading chunks from vector store for BM25...
+   ✓ Loaded 1738 chunks
+🔄 Initializing Retrieval Pipeline
+   🔧 Auto-initializing BM25 with Vietnamese stopwords...
+
+🔧 Building BM25 inverted index for 1738 chunks...
+  Indexed 100/1738 chunks...
+  Indexed 200/1738 chunks...
+  Indexed 300/1738 chunks...
+  Indexed 400/1738 chunks...
+  Indexed 500/1738 chunks...
+  Indexed 600/1738 chunks...
+  Indexed 700/1738 chunks...
+  Indexed 800/1738 chunks...
+  Indexed 900/1738 chunks...
+  Indexed 1000/1738 chunks...
+  Indexed 1100/1738 chunks...
+  Indexed 1200/1738 chunks...
+  Indexed 1300/1738 chunks...
+  Indexed 1400/1738 chunks...
+  Indexed 1500/1738 chunks...
+  Indexed 1600/1738 chunks...
+  Indexed 1700/1738 chunks...
+  Calculating IDF scores...
+✅ BM25 index built successfully!
+   - Unique terms: 1873
+   - Avg chunk length: 183.9 tokens
+
+   ✅ BM25 index built: 1738 chunks
+   ✅ BM25 ready for hybrid search
+   🔧 Auto-initializing Cross-Encoder reranker...
+✅ CrossEncoderReranker initialized
+   Weights: semantic=0.55, BM25=0.35, cross-encoder=0.10
+   Cross-encoder: disabled
+   ✅ Reranker ready (ensemble scoring: 55% semantic + 35% BM25 + 10% CE)
+   🔧 Auto-initializing Semantic Cache...
+✅ SemanticCache initialized
+   Max size: 100 entries
+   TTL: 24.0h
+   Similarity threshold: 0.92
+   ✅ Cache ready (max: 100 entries, TTL: 24h, threshold: 0.92)
+✅ Retrieval Pipeline ready!
+🔄 Initializing Answer Generator
+   Model: qwen3:8b
+   Server: http://localhost:11434
+✅ Answer Generator initialized!
+
+================================================================================
+✅ PIPELINE READY!
+================================================================================
+RAG pipeline initialized successfully
+
+============================================================
+🔍 DEBUG: Received session_id: None
+   ✨ Created NEW session: adf67904-fa72-4883-b6f6-40929092453b
+   🔍 DEBUG: Total history length: 1
+   🔍 DEBUG: History before current: 0 messages
+   ⚠️ DEBUG: No history before current message, skipping context extraction
+Processing query: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+
+
+
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+PROCESSING QUESTION: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+
+
+================================================================================
+9-STAGE ENHANCED RETRIEVAL PIPELINE
+================================================================================
+
+[STAGE 0] Semantic Cache Check
+   ❌ Cache MISS - proceeding with retrieval
+
+[STAGE 1] Query Understanding & Enhancement
+
+🔍 Enhancing query: 'Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ'
+   🔄 Query rewritten: 'thủ tục công nhận bệnh binh đối quân nhân đang tại ngũ'
+   Intent: overview
+   Entities: {'thu_tuc_name': 'Công nhận bệnh binh đối với quân nhân đang tại ngũ', 'linh_vuc': 'quân sự', 'keywords': ['công nhận bệnh binh', 'quân nhân đang tại ngũ']}
+   Variations: 3 generated
+
+[STAGE 1.5] Context Configuration
+   Intent: overview → Mode: general
+   Chunks: 3, Descendants: 5, Siblings: 2
+
+[STAGE 3] Parent Retrieval - Semantic Search
+   🔍 Searching parent chunks (procedure overviews)...
+   ✅ Found 5 parent chunks
+   📋 Top parent procedures: ['1.013179', '1.013196', '1.013176']...
+
+[STAGE 4] Child Retrieval - Cross-Tier Filtering (intent: overview)
+   🔍 Retrieving child chunks for 3 query variations...
+        Query variation 1/3
+           Sample child thu_tuc_ids: ['1.013179', '1.013179', '1.013179', '1.013179', '1.013179']
+        Query variation 2/3
+           Sample child thu_tuc_ids: ['1.013179', '1.013176', '1.013176', '1.013183', '1.013179']
+        Query variation 3/3
+           Sample child thu_tuc_ids: ['1.013183', '1.013176', '1.013179', '1.013176', '1.013176']
+        Retrieved from 3 query variations
+        Before filter: 300, After filter: 130
+
+[STAGE 5] Keyword Augmentation - BM25 Search
+
+[STAGE 6] Multi-Source Fusion - Reciprocal Rank Fusion
+        Fused 44 unique chunks
+
+[STAGE 7] Intelligent Reranking - Ensemble Scoring
+        Re-ranked to top 3 chunks via ensemble scoring
+
+[STAGE 8] Context Assembly & Validation
+        Using dynamic context: chunks=3, descendants=5, siblings=2
+        Assembled 3 context blocks from 1 procedures
+        Average relevance: 0.5069
+        Estimated tokens: ~1524 (reduced from default)
+
+================================================================================
+✅ Retrieval Complete! Confidence: 1.00
+================================================================================
+   💾 Result cached for future queries
+
+================================================================================
+ANSWER GENERATION
+================================================================================
+
+Question: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Intent: overview
+Confidence: 1.00
+
+[Step 1/3] Extracting source citations...
+   ✓ 3 sources extracted
+[Step 2/3] Structured output disabled - skipping JSON generation
+[Step 3/3] Generating natural language answer...
+
+[DEBUG] Natural Language Answer Prompt: Câu hỏi: "Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ"
+
+Context từ cơ sở dữ liệu:
+
+================================================================================
+[CHUNK 1] THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+Lĩnh vực: Chính sách
+Chunk type: child_documents
+Relevance score: 0.5103
+================================================================================
+
+[OVERVIEW]
+THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+MÃ: 1.013179
+LĨNH VỰC: Chính sách
+LOẠI: TTHC được luật giao quy định chi tiết
+CẤP THỰC HIỆN: Cấp Bộ
+SỐ QUYẾT ĐỊNH: Quyết định số 5132/QĐ-BQP
+
+TÓM TẮT:
+- Đối tượng: Công dân Việt Nam
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+- Cơ quan thẩm quyền: Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu
+- Kết quả: Giấy chứng nhận người có công/thân nhân liệt sĩ (Mẫu số 102 Phụ lục I Nghị định số 131/2021/NĐ-CP)., Quyết định cấp giấy chứng nhận bệnh binh và trợ cấp, phụ cấp ưu đãi (Mẫu số 63 Phụ lục I Nghị định số 131/2021/NĐ-CP)
+- Thời gian: 70 Ngày
+- Chi phí: Phí : 0 Đồng
+
+→ Chi tiết về: Giấy tờ cần nộp, Yêu cầu điều kiện, Quy trình thực hiện, Phí & thời gian, Cơ quan, Căn cứ pháp lý (xem chunks con)
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+
+[MAIN CONTENT]
+THÀNH PHẦN HỒ SƠ CẦN NỘP:
+
+1. 1. Bản chính Đơn đề nghị
+   - Số lượng: mus1Thngt09.2011.TT-BVHTTDL.doc
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+2. Bản tóm tắt hồ sơ bệnh án trong ngày hoặc ngay sau ngày thực hiện nhiệm vụ thể hiện quá trình điều trị bệnh do có liên quan trực tiếp đến việc thực hiện nhiệm vụ cấp bách, nguy hiểm của bệnh viện tuyến huyện hoặc trung tâm y tế huyện hoặc tương đương trở lên (bao gồm cả bệnh viện quân đội, công an). Trường hợp chưa điều trị tại cơ sở khám bệnh, chữa bệnh thì phải có phiếu khám sức khỏe định kỳ hoặc phiếu kiểm tra sức khỏe được xác nhận trong thời gian 01 năm sau khi thực hiện nhiệm vụ có ghi nhận tình trạng bệnh có liên quan trực tiếp đến việc thực hiện nhiệm vụ cấp bách, nguy hiểm;
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+3. Kế hoạch công tác hoặc quyết định, danh sách phân công làm nhiệm vụ hoặc Giấy xác nhận giao nhiệm vụ của cơ quan, đơn vị trực tiếp quản lý người bị bệnh
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+4. Báo cáo xảy ra vụ việc của cơ quan, đơn vị trực tiếp quản lý người bị bệnh
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+5. - Giấy chứng nhận bị bệnh (Mẫu số 36 Phụ lục I Nghị định số 131/2021/NĐ-CP ngày 30/12/2021 của Chính phủ quy định chi tiết và biện pháp thi hành Pháp lệnh Ưu đãi người có công với cách mạng);
+   - Số lượng: Mẫu số 36.DOC
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+
+================================================================================
+[CHUNK 2] THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+Lĩnh vực: Chính sách
+Chunk type: child_process
+Relevance score: 0.5090
+================================================================================
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+
+[MAIN CONTENT]
+TRÌNH TỰ THỰC HIỆN:
+Bước 1. Cá nhân có đơn đề nghị gửi cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên kèm theo một trong các giấy tờ quy định tại khoản 3 Điều 48 Nghị định số 131/2021/NĐ-CP. Bước 2. Cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên trong thời gian 06 ngày kể từ ngày nhận đủ giấy tờ quy định, có trách nhiệm kiểm tra, xác lập, hoàn thiện hồ sơ quy định tại Điều 48 Nghị định số 131/2021/NĐ-CP; cấp giấy chứng nhận bị bệnh theo Mẫu số 36 Phụ lục I Nghị định số 131/2021/NĐ-CP và có văn bản kèm theo hồ sơ đề nghị cấp trên trực tiếp kiểm tra, xét duyệt theo phân cấp (cấp sư đoàn và tương đương trong thời gian 03 ngày; cơ quan, đơn vị trực thuộc Bộ trong thời gian 03 ngày), gửi đến Cục Chính sách - Xã hội/Tổng cục Chính trị. Bước 3. Cục Chính sách - Xã hội/Tổng cục Chính trị trong thời gian 05 ngày kể từ ngày nhận đủ hồ sơ theo quy định, có trách nhiệm thẩm định và cấp phiếu thẩm định; chuyển hồ sơ về Cục Chính trị Quân khu (đối tượng thuộc thẩm quyền giới thiệu giám định y khoa theo quy định) hoặc cấp giấy giới thiệu (đối tượng còn lại theo quy định) đối với trường hợp đủ điều kiện, kèm theo bản sao hồ sơ đến Hội đồng giám định y khoa có thẩm quyền để xác định tỷ lệ tổn thương cơ thể do bệnh tật. Bước 4. Cục Chính trị Quân khu trong thời gian 03 ngày kể từ ngày nhận được hồ sơ và thông báo kết quả thẩm định của Cục Chính sách - Xã hội/Tổng cục Chính trị, có trách nhiệm cấp giấy giới thiệu đối với trường hợp đủ điều kiện, kèm theo bản sao hồ sơ đến Hội đồng giám định y khoa có thẩm quyền để xác định tỷ lệ tổn thương cơ thể do bệnh tật. Bước 5. Hội đồng giám đ
+
+
+================================================================================
+[CHUNK 3] THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+Lĩnh vực: Chính sách
+Chunk type: child_documents
+Relevance score: 0.5016
+================================================================================
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+
+[MAIN CONTENT]
+THÀNH PHẦN HỒ SƠ CẦN NỘP:
+
+6. Giấy giới thiệu khám giám định y khoa (Mẫu số 38 Phụ lục I Nghị định số 131/2021/NĐ-CP)
+   - Số lượng: 16. MẪU SỐ 38.doc
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+7. - Phiếu thẩm định của Cục Chính sách/Tổng cục Chính trị (Mẫu số 91 Phụ lục I Nghị định số 131/2021/NĐ-CP);
+   - Số lượng: Mẫu số 91.DOC
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+8. - Biên bản giám định y khoa (Mẫu số 78 Phụ lục I Nghị định số 131/2021/NĐ-CP).
+   - Số lượng: Mẫu số 78.DOC
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+9. - Giấy khám và chỉ định sử dụng phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng (Mẫu số 40 phụ lục I Nghị định số 131/2021/NĐ-CP).
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+10. - Văn bản đề nghị của cơ quan, đơn vị;
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+
+CÁCH THỨC NỘP HỒ SƠ:
+- Trực tiếp: Thời hạn 70 Ngày, Phí : 0 Đồng
+- Dịch vụ bưu chính: Thời hạn 70 Ngày, Phí : 0 Đồng
+
+
+Dữ liệu có cấu trúc đã trích xuất:
+{}
+
+Hãy trả lời câu hỏi bằng ngôn ngữ tự nhiên, dễ hiểu.
+Trả lời: 
+
+   ✓ Natural language answer generated (3448 chars)
+
+================================================================================
+✅ ANSWER GENERATION COMPLETE
+================================================================================
+   ✅ DEBUG: Assistant message saved. Total history now: 2 messages
+      Message 1: role=user, content_preview=Thủ tục công nhận bệnh binh đối với quân nhân đang...
+      Message 2: role=assistant, content_preview=<think>
+Okay, let's tackle this query. The user is...
+INFO:     127.0.0.1:52716 - "POST /api/chat/query HTTP/1.1" 200 OK
+
+============================================================
+🔍 DEBUG: Received session_id: adf67904-fa72-4883-b6f6-40929092453b
+   ✅ Found EXISTING session with 2 messages
+   🔍 DEBUG: Total history length: 3
+   🔍 DEBUG: History before current: 2 messages
+   🔍 DEBUG: Attempting to extract context from 2 messages
+      🔍 extract_conversation_context: Received 2 messages
+      🔍 Checking assistant message for procedure info...
+         hasattr sources: True
+         sources value: [SourceCitation(chunk_id='1.013179_child_documents_0', thu_tuc_name='Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ', thu_tuc_code='1.013179', chunk_type='child_documents', relevance_score=0.5102648048457583, content_snippet='[PARENT CONTEXT]\nThủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ\nMã: 1.013179\n\n[MAIN CONTENT]\nTHÀNH PHẦN HỒ SƠ CẦN NỘP:\n\n1. 1. Bản chính Đơn đề nghị\n   - Số lượng: mus1Thngt09.2011...'), SourceCitation(chunk_id='1.013179_child_process_0', thu_tuc_name='Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ', thu_tuc_code='1.013179', chunk_type='child_process', relevance_score=0.5089767928023203, content_snippet='[PARENT CONTEXT]\nThủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ\nMã: 1.013179\n\n[MAIN CONTENT]\nTRÌNH TỰ THỰC HIỆN:\nBước 1. Cá nhân có đơn đề nghị gửi cơ quan, đơn vị trực tiếp quản ...'), SourceCitation(chunk_id='1.013179_child_documents_1', thu_tuc_name='Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ', thu_tuc_code='1.013179', chunk_type='child_documents', relevance_score=0.5015780770686445, content_snippet='[PARENT CONTEXT]\nThủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ\nMã: 1.013179\n\n[MAIN CONTENT]\nTHÀNH PHẦN HỒ SƠ CẦN NỘP:\n\n6. Giấy giới thiệu khám giám định y khoa (Mẫu số 38 Phụ lục...')]
+         sources length: 3
+         ✅ Found via sources: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ (1.013179)
+      📊 Extracted context: procedure=Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ, code=1.013179
+   📚 Using conversation context: last procedure = Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Processing query: Trình tự thực hiện
+
+
+
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+PROCESSING QUESTION: Trình tự thực hiện
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+
+
+================================================================================
+9-STAGE ENHANCED RETRIEVAL PIPELINE
+================================================================================
+
+[STAGE 0] Semantic Cache Check
+   ❌ Cache MISS - proceeding with retrieval
+
+[STAGE 1] Query Understanding & Enhancement
+
+🔍 Enhancing query: 'Trình tự thực hiện'
+   ✅ Query contextualized: 'Trình tự thực hiện' → 'Trình tự thực hiện Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ'
+   🔄 Query rewritten: 'trình tự thực hiện thủ tục công nhận bệnh binh đối quân nhân đang tại ngũ'
+   Intent: process
+   Entities: {'thu_tuc_name': '', 'linh_vuc': '', 'keywords': []}
+   Variations: 3 generated
+
+[STAGE 1.5] Context Configuration
+   Intent: process → Mode: list
+   Chunks: 2, Descendants: 40, Siblings: 5
+
+[STAGE 3] Parent Retrieval - Semantic Search
+   🔍 Searching parent chunks (procedure overviews)...
+   ✅ Found 5 parent chunks
+   📋 Top parent procedures: ['1.013185', '3.000421', '1.013128']...
+
+[STAGE 4] Child Retrieval - Cross-Tier Filtering (intent: process)
+   🔍 Retrieving child chunks for 3 query variations...
+        Query variation 1/3
+           Sample child thu_tuc_ids: ['1.013179', '1.013179', '1.013179', '1.013176', '1.013183']
+        Query variation 2/3
+           Sample child thu_tuc_ids: ['1.013146', '1.013149', '1.013147', '1.013144', '1.013180']
+        Query variation 3/3
+           Sample child thu_tuc_ids: ['1.013628', '1.013631', '1.013588', '1.013633', '1.013567']
+        Retrieved from 3 query variations
+        Before filter: 300, After filter: 17
+
+[STAGE 5] Keyword Augmentation - BM25 Search
+        Applying chunk_type filter: child_process
+
+[STAGE 6] Multi-Source Fusion - Reciprocal Rank Fusion
+        Fused 7 unique chunks
+
+[STAGE 7] Intelligent Reranking - Ensemble Scoring
+        Re-ranked to top 2 chunks via ensemble scoring
+
+[STAGE 8] Context Assembly & Validation
+        Using dynamic context: chunks=2, descendants=40, siblings=5
+        Assembled 2 context blocks from 2 procedures
+        Average relevance: 0.4043
+        Estimated tokens: ~1471 (reduced from default)
+
+================================================================================
+✅ Retrieval Complete! Confidence: 0.81
+================================================================================
+   💾 Result cached for future queries
+
+================================================================================
+ANSWER GENERATION
+================================================================================
+
+Question: Trình tự thực hiện
+Intent: process
+Confidence: 0.81
+
+[Step 1/3] Extracting source citations...
+   ✓ 2 sources extracted
+[Step 2/3] Structured output disabled - skipping JSON generation
+[Step 3/3] Generating natural language answer...
+
+[DEBUG] Natural Language Answer Prompt: Câu hỏi: "Trình tự thực hiện"
+
+Context từ cơ sở dữ liệu:
+
+================================================================================
+[CHUNK 1] THỦ TỤC: Thủ tục công nhận và thực hiện chế độ ưu đãi đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ bị địch bắt tù, đày đang tại ngũ, công tác
+Mã: 1.013180
+Lĩnh vực: Chính sách
+Chunk type: child_process
+Relevance score: 0.4157
+================================================================================
+
+[OVERVIEW]
+THỦ TỤC: Thủ tục công nhận và thực hiện chế độ ưu đãi đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ bị địch bắt tù, đày đang tại ngũ, công tác
+MÃ: 1.013180
+LĨNH VỰC: Chính sách
+LOẠI: TTHC được luật giao quy định chi tiết
+CẤP THỰC HIỆN: Cấp Bộ
+SỐ QUYẾT ĐỊNH: Quyết định số 5132/QĐ-BQP
+
+TÓM TẮT:
+- Đối tượng: Công dân Việt Nam
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+- Cơ quan thẩm quyền: Tổng cục Chính trị
+- Kết quả: Quyết định công nhận và trợ cấp ưu đãi (Mẫu số 66 Phụ lục I Nghị định số 131/2021/NĐ-CP).
+- Thời gian: 30 Ngày
+- Chi phí: Phí : 0 Đồng
+
+→ Chi tiết về: Giấy tờ cần nộp, Yêu cầu điều kiện, Quy trình thực hiện, Phí & thời gian, Cơ quan, Căn cứ pháp lý (xem chunks con)
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận và thực hiện chế độ ưu đãi đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ bị địch bắt tù, đày đang tại ngũ, công tác
+Mã: 1.013180
+
+[MAIN CONTENT]
+TRÌNH TỰ THỰC HIỆN:
+Bước 1. Cá nhân lập bản khai theo Mẫu số 10 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm một trong các giấy tờ quy định tại Điều 60 Nghị định số 131/2021/NĐ-CP gửi cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên. Bước 2. Cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ quy định tại khoản 1 Điều 63 Nghị định số 131/2021/NĐ-CP, có trách nhiệm kiểm tra, xác nhận bản khai và có văn bản kèm các giấy tờ nêu trên đề nghị cấp trên trực tiếp kiểm tra, xét duyệt theo phân cấp (cấp sư đoàn và tương đương trong thời gian 05 ngày; cơ quan, đơn vị trực thuộc Bộ trong thời gian 05 ngày), gửi đến Cục Chính sách - Xã hội/Tổng cục Chính trị. Bước 3. Cục Chính sách - Xã hội/Tổng cục Chính trị trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ theo quy định, có trách nhiệm thẩm định; đề nghị Thủ trưởng Tổng cục Chính trị ban hành quyết định công nhận và trợ cấp ưu đãi theo Mẫu số 66 Phụ lục I Nghị định số 131/2021/NĐ-CP; chuyển về cơ quan, đơn vị đề nghị để quản lý và thực hiện chế độ ưu đãi.
+
+THỜI GIAN VÀ ĐỊA ĐIỂM:
+- Thời hạn giải quyết: 30 Ngày
+- Phí, lệ phí: Phí : 0 Đồng
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+
+
+================================================================================
+[CHUNK 2] THỦ TỤC: Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác
+Mã: 1.013185
+Lĩnh vực: Chính sách
+Chunk type: child_process
+Relevance score: 0.3928
+================================================================================
+
+[OVERVIEW]
+THỦ TỤC: Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác
+MÃ: 1.013185
+LĨNH VỰC: Chính sách
+LOẠI: TTHC được luật giao quy định chi tiết
+CẤP THỰC HIỆN: Cấp Bộ
+SỐ QUYẾT ĐỊNH: Quyết định số 5132/QĐ-BQP
+
+TÓM TẮT:
+- Đối tượng: Công dân Việt Nam
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+- Cơ quan thẩm quyền: Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu
+- Kết quả: Quyết định cấp tiền mua phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị phục hồi chức năng (Mẫu số 69 Phụ lục I Nghị định số 131/2021/NĐ-CP)
+- Thời gian: 60 Ngày
+- Chi phí: Phí : 0 Đồng
+
+→ Chi tiết về: Giấy tờ cần nộp, Yêu cầu điều kiện, Quy trình thực hiện, Phí & thời gian, Cơ quan, Căn cứ pháp lý (xem chunks con)
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác
+Mã: 1.013185
+
+[MAIN CONTENT]
+TRÌNH TỰ THỰC HIỆN:
+Bước 1. Cá nhân có đơn đề nghị theo Mẫu số 21 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm giấy khám và chỉ định việc sử dụng phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị phục hồi chức năng do cơ sở chỉnh hình và phục hồi chức năng thuộc ngành Nội vụ hoặc bệnh viện cấp tỉnh trở lên cấp (bao gồm cả bệnh viện Quân đội, công an) theo Mẫu số 40 Phụ lục I Nghị định số 131/2021/NĐ-CP gửi cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên. Bước 2. Cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên trong thời gian 07 ngày kể từ ngày nhận đủ giấy tờ quy định tại khoản 1 Điều 90 Nghị định số 131/2021/NĐ-CP, có trách nhiệm kiểm tra, đối chiếu, lập danh sách người được cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng theo Mẫu số 87 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm theo các giấy tờ liên quan đề nghị cấp trên trực tiếp giải quyết theo phân cấp (cấp sư đoàn và tương đương trong thời gian 03 ngày), gửi đến cơ quan chính trị đơn vị trực thuộc Bộ.
+Hằng năm, căn cứ Sổ quản lý để lập danh sách người đến niên hạn được cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị phục hồi chức năng, đề nghị cấp trên trực tiếp giải quyết theo phân cấp, đến cơ quan chính trị đơn vị trực thuộc Bộ. Bước 3. Cơ quan chính trị đơn vị trực thuộc Bộ trong thời gian 15 ngày kể từ ngày nhận được giấy tờ theo quy định có trách nhiệm kiểm tra, đối chiếu, báo cáo Tư lệnh hoặc Chính ủy Quân khu ban hành quyết định cấp tiền mua phương tiện trợ giúp,
+
+
+Dữ liệu có cấu trúc đã trích xuất:
+{}
+
+Hãy trả lời câu hỏi bằng ngôn ngữ tự nhiên, dễ hiểu.
+Trả lời: 
+
+   ✓ Natural language answer generated (2493 chars)
+
+================================================================================
+✅ ANSWER GENERATION COMPLETE
+================================================================================
+   ✅ DEBUG: Assistant message saved. Total history now: 4 messages
+      Message 1: role=user, content_preview=Thủ tục công nhận bệnh binh đối với quân nhân đang...
+      Message 2: role=assistant, content_preview=<think>
+Okay, let's tackle this query. The user is...
+      Message 3: role=user, content_preview=Trình tự thực hiện...
+      Message 4: role=assistant, content_preview=<think>
+Okay, let's tackle this query. The user is...
+INFO:     127.0.0.1:51528 - "POST /api/chat/query HTTP/1.1" 200 OK
+
+============================================================
+🔍 DEBUG: Received session_id: None
+   ✨ Created NEW session: 8e27df52-9e32-456a-b58c-779af9a67950
+   🔍 DEBUG: Total history length: 1
+   🔍 DEBUG: History before current: 0 messages
+   ⚠️ DEBUG: No history before current message, skipping context extraction
+Processing query: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+
+
+
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+PROCESSING QUESTION: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+
+
+================================================================================
+9-STAGE ENHANCED RETRIEVAL PIPELINE
+================================================================================
+
+[STAGE 0] Semantic Cache Check
+   🎯 Cache HIT! Returning cached result
+   📊 Cache stats: 1/3 hits (33.3%)
+
+================================================================================
+ANSWER GENERATION
+================================================================================
+
+Question: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Intent: overview
+Confidence: 1.00
+
+[Step 1/3] Extracting source citations...
+   ✓ 3 sources extracted
+[Step 2/3] Structured output disabled - skipping JSON generation
+[Step 3/3] Generating natural language answer...
+
+[DEBUG] Natural Language Answer Prompt: Câu hỏi: "Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ"
+
+Context từ cơ sở dữ liệu:
+
+================================================================================
+[CHUNK 1] THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+Lĩnh vực: Chính sách
+Chunk type: child_documents
+Relevance score: 0.5103
+================================================================================
+
+[OVERVIEW]
+THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+MÃ: 1.013179
+LĨNH VỰC: Chính sách
+LOẠI: TTHC được luật giao quy định chi tiết
+CẤP THỰC HIỆN: Cấp Bộ
+SỐ QUYẾT ĐỊNH: Quyết định số 5132/QĐ-BQP
+
+TÓM TẮT:
+- Đối tượng: Công dân Việt Nam
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+- Cơ quan thẩm quyền: Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu
+- Kết quả: Giấy chứng nhận người có công/thân nhân liệt sĩ (Mẫu số 102 Phụ lục I Nghị định số 131/2021/NĐ-CP)., Quyết định cấp giấy chứng nhận bệnh binh và trợ cấp, phụ cấp ưu đãi (Mẫu số 63 Phụ lục I Nghị định số 131/2021/NĐ-CP)
+- Thời gian: 70 Ngày
+- Chi phí: Phí : 0 Đồng
+
+→ Chi tiết về: Giấy tờ cần nộp, Yêu cầu điều kiện, Quy trình thực hiện, Phí & thời gian, Cơ quan, Căn cứ pháp lý (xem chunks con)
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+
+[MAIN CONTENT]
+THÀNH PHẦN HỒ SƠ CẦN NỘP:
+
+1. 1. Bản chính Đơn đề nghị
+   - Số lượng: mus1Thngt09.2011.TT-BVHTTDL.doc
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+2. Bản tóm tắt hồ sơ bệnh án trong ngày hoặc ngay sau ngày thực hiện nhiệm vụ thể hiện quá trình điều trị bệnh do có liên quan trực tiếp đến việc thực hiện nhiệm vụ cấp bách, nguy hiểm của bệnh viện tuyến huyện hoặc trung tâm y tế huyện hoặc tương đương trở lên (bao gồm cả bệnh viện quân đội, công an). Trường hợp chưa điều trị tại cơ sở khám bệnh, chữa bệnh thì phải có phiếu khám sức khỏe định kỳ hoặc phiếu kiểm tra sức khỏe được xác nhận trong thời gian 01 năm sau khi thực hiện nhiệm vụ có ghi nhận tình trạng bệnh có liên quan trực tiếp đến việc thực hiện nhiệm vụ cấp bách, nguy hiểm;
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+3. Kế hoạch công tác hoặc quyết định, danh sách phân công làm nhiệm vụ hoặc Giấy xác nhận giao nhiệm vụ của cơ quan, đơn vị trực tiếp quản lý người bị bệnh
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+4. Báo cáo xảy ra vụ việc của cơ quan, đơn vị trực tiếp quản lý người bị bệnh
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+5. - Giấy chứng nhận bị bệnh (Mẫu số 36 Phụ lục I Nghị định số 131/2021/NĐ-CP ngày 30/12/2021 của Chính phủ quy định chi tiết và biện pháp thi hành Pháp lệnh Ưu đãi người có công với cách mạng);
+   - Số lượng: Mẫu số 36.DOC
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+
+================================================================================
+[CHUNK 2] THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+Lĩnh vực: Chính sách
+Chunk type: child_process
+Relevance score: 0.5090
+================================================================================
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+
+[MAIN CONTENT]
+TRÌNH TỰ THỰC HIỆN:
+Bước 1. Cá nhân có đơn đề nghị gửi cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên kèm theo một trong các giấy tờ quy định tại khoản 3 Điều 48 Nghị định số 131/2021/NĐ-CP. Bước 2. Cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên trong thời gian 06 ngày kể từ ngày nhận đủ giấy tờ quy định, có trách nhiệm kiểm tra, xác lập, hoàn thiện hồ sơ quy định tại Điều 48 Nghị định số 131/2021/NĐ-CP; cấp giấy chứng nhận bị bệnh theo Mẫu số 36 Phụ lục I Nghị định số 131/2021/NĐ-CP và có văn bản kèm theo hồ sơ đề nghị cấp trên trực tiếp kiểm tra, xét duyệt theo phân cấp (cấp sư đoàn và tương đương trong thời gian 03 ngày; cơ quan, đơn vị trực thuộc Bộ trong thời gian 03 ngày), gửi đến Cục Chính sách - Xã hội/Tổng cục Chính trị. Bước 3. Cục Chính sách - Xã hội/Tổng cục Chính trị trong thời gian 05 ngày kể từ ngày nhận đủ hồ sơ theo quy định, có trách nhiệm thẩm định và cấp phiếu thẩm định; chuyển hồ sơ về Cục Chính trị Quân khu (đối tượng thuộc thẩm quyền giới thiệu giám định y khoa theo quy định) hoặc cấp giấy giới thiệu (đối tượng còn lại theo quy định) đối với trường hợp đủ điều kiện, kèm theo bản sao hồ sơ đến Hội đồng giám định y khoa có thẩm quyền để xác định tỷ lệ tổn thương cơ thể do bệnh tật. Bước 4. Cục Chính trị Quân khu trong thời gian 03 ngày kể từ ngày nhận được hồ sơ và thông báo kết quả thẩm định của Cục Chính sách - Xã hội/Tổng cục Chính trị, có trách nhiệm cấp giấy giới thiệu đối với trường hợp đủ điều kiện, kèm theo bản sao hồ sơ đến Hội đồng giám định y khoa có thẩm quyền để xác định tỷ lệ tổn thương cơ thể do bệnh tật. Bước 5. Hội đồng giám đ
+
+
+================================================================================
+[CHUNK 3] THỦ TỤC: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+Lĩnh vực: Chính sách
+Chunk type: child_documents
+Relevance score: 0.5016
+================================================================================
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Mã: 1.013179
+
+[MAIN CONTENT]
+THÀNH PHẦN HỒ SƠ CẦN NỘP:
+
+6. Giấy giới thiệu khám giám định y khoa (Mẫu số 38 Phụ lục I Nghị định số 131/2021/NĐ-CP)
+   - Số lượng: 16. MẪU SỐ 38.doc
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+7. - Phiếu thẩm định của Cục Chính sách/Tổng cục Chính trị (Mẫu số 91 Phụ lục I Nghị định số 131/2021/NĐ-CP);
+   - Số lượng: Mẫu số 91.DOC
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+8. - Biên bản giám định y khoa (Mẫu số 78 Phụ lục I Nghị định số 131/2021/NĐ-CP).
+   - Số lượng: Mẫu số 78.DOC
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+9. - Giấy khám và chỉ định sử dụng phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng (Mẫu số 40 phụ lục I Nghị định số 131/2021/NĐ-CP).
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+10. - Văn bản đề nghị của cơ quan, đơn vị;
+   - Ghi chú: Bản chính: 1
+Bản sao: 0
+
+
+CÁCH THỨC NỘP HỒ SƠ:
+- Trực tiếp: Thời hạn 70 Ngày, Phí : 0 Đồng
+- Dịch vụ bưu chính: Thời hạn 70 Ngày, Phí : 0 Đồng
+
+
+Dữ liệu có cấu trúc đã trích xuất:
+{}
+
+Hãy trả lời câu hỏi bằng ngôn ngữ tự nhiên, dễ hiểu.
+Trả lời: 
+
+   ✓ Natural language answer generated (3587 chars)
+
+================================================================================
+✅ ANSWER GENERATION COMPLETE
+================================================================================
+   ✅ DEBUG: Assistant message saved. Total history now: 2 messages
+      Message 1: role=user, content_preview=Thủ tục công nhận bệnh binh đối với quân nhân đang...
+      Message 2: role=assistant, content_preview=<think>
+Okay, let's tackle this query about the pr...
+INFO:     127.0.0.1:57702 - "POST /api/chat/query HTTP/1.1" 200 OK
+
+============================================================
+🔍 DEBUG: Received session_id: 8e27df52-9e32-456a-b58c-779af9a67950
+   ✅ Found EXISTING session with 2 messages
+   🔍 DEBUG: Total history length: 3
+   🔍 DEBUG: History before current: 2 messages
+   🔍 DEBUG: Attempting to extract context from 2 messages
+      🔍 extract_conversation_context: Received 2 messages
+      🔍 Checking assistant message for procedure info...
+         hasattr sources: True
+         sources value: [SourceCitation(chunk_id='1.013179_child_documents_0', thu_tuc_name='Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ', thu_tuc_code='1.013179', chunk_type='child_documents', relevance_score=0.5102648048457583, content_snippet='[PARENT CONTEXT]\nThủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ\nMã: 1.013179\n\n[MAIN CONTENT]\nTHÀNH PHẦN HỒ SƠ CẦN NỘP:\n\n1. 1. Bản chính Đơn đề nghị\n   - Số lượng: mus1Thngt09.2011...'), SourceCitation(chunk_id='1.013179_child_process_0', thu_tuc_name='Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ', thu_tuc_code='1.013179', chunk_type='child_process', relevance_score=0.5089767928023203, content_snippet='[PARENT CONTEXT]\nThủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ\nMã: 1.013179\n\n[MAIN CONTENT]\nTRÌNH TỰ THỰC HIỆN:\nBước 1. Cá nhân có đơn đề nghị gửi cơ quan, đơn vị trực tiếp quản ...'), SourceCitation(chunk_id='1.013179_child_documents_1', thu_tuc_name='Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ', thu_tuc_code='1.013179', chunk_type='child_documents', relevance_score=0.5015780770686445, content_snippet='[PARENT CONTEXT]\nThủ tục: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ\nMã: 1.013179\n\n[MAIN CONTENT]\nTHÀNH PHẦN HỒ SƠ CẦN NỘP:\n\n6. Giấy giới thiệu khám giám định y khoa (Mẫu số 38 Phụ lục...')]
+         sources length: 3
+         ✅ Found via sources: Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ (1.013179)
+      📊 Extracted context: procedure=Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ, code=1.013179
+   📚 Using conversation context: last procedure = Thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ
+Processing query: Trình tự thực hiện
+
+
+
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+PROCESSING QUESTION: Trình tự thực hiện
+🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍
+
+
+================================================================================
+9-STAGE ENHANCED RETRIEVAL PIPELINE
+================================================================================
+
+[STAGE 0] Semantic Cache Check
+   🎯 Cache HIT! Returning cached result
+   📊 Cache stats: 2/4 hits (50.0%)
+
+================================================================================
+ANSWER GENERATION
+================================================================================
+
+Question: Trình tự thực hiện
+Intent: process
+Confidence: 0.81
+
+[Step 1/3] Extracting source citations...
+   ✓ 2 sources extracted
+[Step 2/3] Structured output disabled - skipping JSON generation
+[Step 3/3] Generating natural language answer...
+
+[DEBUG] Natural Language Answer Prompt: Câu hỏi: "Trình tự thực hiện"
+
+Context từ cơ sở dữ liệu:
+
+================================================================================
+[CHUNK 1] THỦ TỤC: Thủ tục công nhận và thực hiện chế độ ưu đãi đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ bị địch bắt tù, đày đang tại ngũ, công tác
+Mã: 1.013180
+Lĩnh vực: Chính sách
+Chunk type: child_process
+Relevance score: 0.4157
+================================================================================
+
+[OVERVIEW]
+THỦ TỤC: Thủ tục công nhận và thực hiện chế độ ưu đãi đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ bị địch bắt tù, đày đang tại ngũ, công tác
+MÃ: 1.013180
+LĨNH VỰC: Chính sách
+LOẠI: TTHC được luật giao quy định chi tiết
+CẤP THỰC HIỆN: Cấp Bộ
+SỐ QUYẾT ĐỊNH: Quyết định số 5132/QĐ-BQP
+
+TÓM TẮT:
+- Đối tượng: Công dân Việt Nam
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+- Cơ quan thẩm quyền: Tổng cục Chính trị
+- Kết quả: Quyết định công nhận và trợ cấp ưu đãi (Mẫu số 66 Phụ lục I Nghị định số 131/2021/NĐ-CP).
+- Thời gian: 30 Ngày
+- Chi phí: Phí : 0 Đồng
+
+→ Chi tiết về: Giấy tờ cần nộp, Yêu cầu điều kiện, Quy trình thực hiện, Phí & thời gian, Cơ quan, Căn cứ pháp lý (xem chunks con)
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục công nhận và thực hiện chế độ ưu đãi đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ bị địch bắt tù, đày đang tại ngũ, công tác
+Mã: 1.013180
+
+[MAIN CONTENT]
+TRÌNH TỰ THỰC HIỆN:
+Bước 1. Cá nhân lập bản khai theo Mẫu số 10 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm một trong các giấy tờ quy định tại Điều 60 Nghị định số 131/2021/NĐ-CP gửi cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên. Bước 2. Cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ quy định tại khoản 1 Điều 63 Nghị định số 131/2021/NĐ-CP, có trách nhiệm kiểm tra, xác nhận bản khai và có văn bản kèm các giấy tờ nêu trên đề nghị cấp trên trực tiếp kiểm tra, xét duyệt theo phân cấp (cấp sư đoàn và tương đương trong thời gian 05 ngày; cơ quan, đơn vị trực thuộc Bộ trong thời gian 05 ngày), gửi đến Cục Chính sách - Xã hội/Tổng cục Chính trị. Bước 3. Cục Chính sách - Xã hội/Tổng cục Chính trị trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ theo quy định, có trách nhiệm thẩm định; đề nghị Thủ trưởng Tổng cục Chính trị ban hành quyết định công nhận và trợ cấp ưu đãi theo Mẫu số 66 Phụ lục I Nghị định số 131/2021/NĐ-CP; chuyển về cơ quan, đơn vị đề nghị để quản lý và thực hiện chế độ ưu đãi.
+
+THỜI GIAN VÀ ĐỊA ĐIỂM:
+- Thời hạn giải quyết: 30 Ngày
+- Phí, lệ phí: Phí : 0 Đồng
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+
+
+================================================================================
+[CHUNK 2] THỦ TỤC: Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác
+Mã: 1.013185
+Lĩnh vực: Chính sách
+Chunk type: child_process
+Relevance score: 0.3928
+================================================================================
+
+[OVERVIEW]
+THỦ TỤC: Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác
+MÃ: 1.013185
+LĨNH VỰC: Chính sách
+LOẠI: TTHC được luật giao quy định chi tiết
+CẤP THỰC HIỆN: Cấp Bộ
+SỐ QUYẾT ĐỊNH: Quyết định số 5132/QĐ-BQP
+
+TÓM TẮT:
+- Đối tượng: Công dân Việt Nam
+- Cơ quan thực hiện: Cơ quan, đơn vị từ cấp trung đoàn trở lên
+- Cơ quan thẩm quyền: Cục Chính sách, Tư lệnh hoặc Chính ủy quân khu
+- Kết quả: Quyết định cấp tiền mua phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị phục hồi chức năng (Mẫu số 69 Phụ lục I Nghị định số 131/2021/NĐ-CP)
+- Thời gian: 60 Ngày
+- Chi phí: Phí : 0 Đồng
+
+→ Chi tiết về: Giấy tờ cần nộp, Yêu cầu điều kiện, Quy trình thực hiện, Phí & thời gian, Cơ quan, Căn cứ pháp lý (xem chunks con)
+
+[DETAILED INFO]
+[PARENT CONTEXT]
+Thủ tục: Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác
+Mã: 1.013185
+
+[MAIN CONTENT]
+TRÌNH TỰ THỰC HIỆN:
+Bước 1. Cá nhân có đơn đề nghị theo Mẫu số 21 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm giấy khám và chỉ định việc sử dụng phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị phục hồi chức năng do cơ sở chỉnh hình và phục hồi chức năng thuộc ngành Nội vụ hoặc bệnh viện cấp tỉnh trở lên cấp (bao gồm cả bệnh viện Quân đội, công an) theo Mẫu số 40 Phụ lục I Nghị định số 131/2021/NĐ-CP gửi cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên. Bước 2. Cơ quan, đơn vị trực tiếp quản lý cấp trung đoàn và tương đương trở lên trong thời gian 07 ngày kể từ ngày nhận đủ giấy tờ quy định tại khoản 1 Điều 90 Nghị định số 131/2021/NĐ-CP, có trách nhiệm kiểm tra, đối chiếu, lập danh sách người được cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng theo Mẫu số 87 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm theo các giấy tờ liên quan đề nghị cấp trên trực tiếp giải quyết theo phân cấp (cấp sư đoàn và tương đương trong thời gian 03 ngày), gửi đến cơ quan chính trị đơn vị trực thuộc Bộ.
+Hằng năm, căn cứ Sổ quản lý để lập danh sách người đến niên hạn được cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị phục hồi chức năng, đề nghị cấp trên trực tiếp giải quyết theo phân cấp, đến cơ quan chính trị đơn vị trực thuộc Bộ. Bước 3. Cơ quan chính trị đơn vị trực thuộc Bộ trong thời gian 15 ngày kể từ ngày nhận được giấy tờ theo quy định có trách nhiệm kiểm tra, đối chiếu, báo cáo Tư lệnh hoặc Chính ủy Quân khu ban hành quyết định cấp tiền mua phương tiện trợ giúp,
+
+
+Dữ liệu có cấu trúc đã trích xuất:
+{}
+
+Hãy trả lời câu hỏi bằng ngôn ngữ tự nhiên, dễ hiểu.
+Trả lời: 
+
+   ✓ Natural language answer generated (2783 chars)
+
+================================================================================
+✅ ANSWER GENERATION COMPLETE
+================================================================================
+   ✅ DEBUG: Assistant message saved. Total history now: 4 messages
+      Message 1: role=user, content_preview=Thủ tục công nhận bệnh binh đối với quân nhân đang...
+      Message 2: role=assistant, content_preview=<think>
+Okay, let's tackle this query about the pr...
+      Message 3: role=user, content_preview=Trình tự thực hiện...
+      Message 4: role=assistant, content_preview=<think>
+Okay, let's tackle this query. The user is...
+INFO:     127.0.0.1:46492 - "POST /api/chat/query HTTP/1.1" 200 OK

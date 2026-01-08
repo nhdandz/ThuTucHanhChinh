@@ -25,7 +25,8 @@ def get_rag_pipeline() -> ThuTucRAGPipeline:
         collection_name=settings.collection_name,
         embedding_model=settings.embedding_model,
         llm_model=settings.llm_model,
-        ollama_url=settings.ollama_url
+        ollama_url=settings.ollama_url,
+        enable_cache=settings.enable_cache
     )
     print("RAG pipeline initialized successfully")
     return pipeline

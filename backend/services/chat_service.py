@@ -3,8 +3,17 @@ Chat service - Core business logic
 Handles query processing, multiple procedures detection, and behavior requirements
 """
 import uuid
+import sys
 from typing import List, Optional
 from datetime import datetime
+from pathlib import Path
+
+# Add src/retrieval to path for conversation_context import
+# Use resolve() to get absolute path that works with uvicorn
+_current_file = Path(__file__).resolve()
+_project_root = _current_file.parent.parent.parent
+sys.path.insert(0, str(_project_root / "src" / "retrieval"))
+
 from src.pipeline.rag_pipeline import ThuTucRAGPipeline
 from backend.services.session_manager import SessionManager
 from backend.api.models.request import ChatQueryRequest
@@ -14,6 +23,7 @@ from backend.api.models.response import (
     SourceCitation
 )
 from backend.config import settings
+from conversation_context import extract_conversation_context
 
 
 class ChatService:
@@ -45,8 +55,20 @@ class ChatService:
         6. Return response
         """
         # Step 1: Create or get session
+        print(f"\n{'='*60}")
+        print(f"🔍 DEBUG: Received session_id: {session_id}")
+
         if session_id is None:
             session_id = self.session_manager.create_session()
+            print(f"   ✨ Created NEW session: {session_id}")
+        else:
+            existing_session = self.session_manager.get_session(session_id)
+            if existing_session:
+                print(f"   ✅ Found EXISTING session with {len(existing_session.messages)} messages")
+            else:
+                print(f"   ⚠️ Session NOT FOUND - creating new session")
+                session_id = self.session_manager.create_session()
+                print(f"   ✨ Created NEW session: {session_id}")
 
         message_id = str(uuid.uuid4())
 
@@ -59,6 +81,29 @@ class ChatService:
         )
         self.session_manager.add_message(session_id, user_message)
 
+        # Step 2.5: Extract conversation context (NEW)
+        conversation_context = None
+        if settings.enable_conversation_context:
+            # Get recent history (excluding current user message we just added)
+            history = self.session_manager.get_history(session_id)
+            print(f"   🔍 DEBUG: Total history length: {len(history)}")
+            # Remove last message (the current user query we just added)
+            history_before_current = history[:-1] if len(history) > 0 else []
+            print(f"   🔍 DEBUG: History before current: {len(history_before_current)} messages")
+
+            if history_before_current:
+                print(f"   🔍 DEBUG: Attempting to extract context from {len(history_before_current)} messages")
+                conversation_context = extract_conversation_context(
+                    messages=history_before_current,
+                    depth=settings.conversation_history_depth
+                )
+                if conversation_context:
+                    print(f"   📚 Using conversation context: last procedure = {conversation_context.last_procedure_name}")
+                else:
+                    print(f"   ⚠️ DEBUG: extract_conversation_context returned None")
+            else:
+                print(f"   ⚠️ DEBUG: No history before current message, skipping context extraction")
+
         try:
             # Step 3: Call RAG pipeline with configured parameters
             print(f"Processing query: {query}")
@@ -66,7 +111,8 @@ class ChatService:
                 question=query,
                 top_k_parent=settings.top_k_parent,
                 top_k_child=settings.top_k_child,
-                top_k_final=settings.top_k_final
+                top_k_final=settings.top_k_final,
+                conversation_context=conversation_context
             )
 
             # Step 4: Extract sources from rag_result
@@ -103,6 +149,12 @@ class ChatService:
                 timestamp=response.timestamp
             )
             self.session_manager.add_message(session_id, assistant_message)
+
+            # Debug: Verify message was saved
+            current_history = self.session_manager.get_history(session_id)
+            print(f"   ✅ DEBUG: Assistant message saved. Total history now: {len(current_history)} messages")
+            for i, msg in enumerate(current_history):
+                print(f"      Message {i+1}: role={msg.role}, content_preview={msg.content[:50]}...")
 
             return response
 

@@ -1,0 +1,14 @@
+{
+  "urls": [
+    {
+      "url": "https://www.mod.gov.vn/home/news",
+      "crawl_mode": "news"
+    }
+  ],
+  "options": {
+    "timeout": 30,
+    "delay_between_requests": 2,
+    "max_files": 0,
+    "max_pages": 5
+  }
+}

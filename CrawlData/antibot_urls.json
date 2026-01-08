@@ -1,0 +1,41 @@
+{
+  "urls": [
+    {
+      "url": "https://www.mod.gov.vn/home/news",
+      "crawl_mode": "news",
+      "max_pages": 2,
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [
+        ".pdf",
+        ".docx"
+      ],
+      "web_type": "antibot",
+      "classification_reason": "Anti-bot detected (status: 200)"
+    }
+  ],
+  "options": {
+    "timeout": 30,
+    "delay_between_requests": 3,
+    "max_files": 0,
+    "log_level": "INFO",
+    "screenshot_on_error": true
+  },
+  "classified_at": "2026-01-02T20:53:00.909326"
+}

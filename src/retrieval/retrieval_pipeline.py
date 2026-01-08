@@ -18,6 +18,7 @@ from bm25_search import SimpleBM25
 from cross_encoder_reranker import CrossEncoderReranker
 from semantic_cache import SemanticCache
 from context_settings import get_context_config, ContextConfig
+from conversation_context import ConversationContext
 
 if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -135,7 +136,8 @@ class HierarchicalRetrievalPipeline:
         question: str,
         top_k_parent: int = 5,
         top_k_child: int = 100,  # Increased from 20 to 100 for better recall
-        top_k_final: int = 5
+        top_k_final: int = 5,
+        conversation_context: Optional[ConversationContext] = None
     ) -> RetrievalResult:
         """
         Main retrieval method implementing 9-stage enhanced pipeline
@@ -145,6 +147,7 @@ class HierarchicalRetrievalPipeline:
             top_k_parent: Number of parent chunks to retrieve
             top_k_child: Number of child chunks to retrieve per query (before reranking)
             top_k_final: Number of final results after re-ranking
+            conversation_context: Optional conversation context for query rewriting
 
         Returns:
             RetrievalResult with retrieved chunks and context
@@ -175,7 +178,20 @@ class HierarchicalRetrievalPipeline:
 
         # STAGE 1: Query Understanding
         print("\n[STAGE 1] Query Understanding & Enhancement")
-        query_info = self.query_enhancer.enhance_query(question)
+        query_info = self.query_enhancer.enhance_query(question, conversation_context=conversation_context)
+
+        # DEBUG: Show all query variations and entity extraction
+        print(f"   📝 DEBUG - Query variations ({len(query_info.query_variations)} total):")
+        for idx, variation in enumerate(query_info.query_variations, 1):
+            print(f"      Variation {idx}: '{variation}'")
+        print(f"   📝 DEBUG - Extracted entities:")
+        print(f"      thu_tuc_name: '{query_info.entities.get('thu_tuc_name', '')}'")
+        print(f"      linh_vuc: '{query_info.entities.get('linh_vuc', '')}'")
+        print(f"      keywords: {query_info.entities.get('keywords', [])}")
+        if query_info.exact_code:
+            print(f"      exact_code: '{query_info.exact_code}' ✓")
+        if query_info.filters:
+            print(f"   📝 DEBUG - Filters applied: {query_info.filters}")
 
         # STAGE 1.5: Intent-Based Context Configuration
         context_config = get_context_config(query_info.intent)
@@ -185,7 +201,7 @@ class HierarchicalRetrievalPipeline:
 
         # Override top_k_final with intent-based value
         top_k_final = context_config['chunks']
-
+        
         # STAGE 2: Exact Match Routing (if code detected)
         if query_info.exact_code:
             print(f"\n[STAGE 2] Exact Match Routing - Code detected: {query_info.exact_code}")
@@ -275,11 +291,21 @@ class HierarchicalRetrievalPipeline:
 
         # STAGE 7: Intelligent Reranking (Ensemble Scoring)
         print("\n[STAGE 7] Intelligent Reranking - Ensemble Scoring")
+        if query_info.exact_code:
+            print(f"   📝 DEBUG - Exact code for boosting: {query_info.exact_code}")
+
         reranked_results = self._rerank_with_score_fusion(
             question,
             fused_results,
-            top_k=top_k_final
+            top_k=top_k_final,
+            exact_code=query_info.exact_code  # Pass detected code for boosting
         )
+
+        # DEBUG: Show final reranked results
+        print(f"   📊 DEBUG - Final reranked results ({len(reranked_results)} chunks):")
+        for idx, chunk in enumerate(reranked_results, 1):
+            exact_match_flag = "✓ EXACT MATCH" if chunk.get("is_exact_match") else ""
+            print(f"      #{idx}: Mã={chunk.get('mã_thủ_tục')} | Score={chunk.get('final_score', 0):.4f} {exact_match_flag}")
 
         # STAGE 8: Context Assembly & Validation
         print("\n[STAGE 8] Context Assembly & Validation")
@@ -335,7 +361,16 @@ class HierarchicalRetrievalPipeline:
         """
         # Stage 3: Retrieve Parent chunks first
         print("   🔍 Searching parent chunks (procedure overviews)...")
-        query_embedding = self.embedder.encode(query_info.original_query, show_progress=False)
+        # Use first query variation which includes contextualization if available
+        query_for_parent = query_info.query_variations[0] if query_info.query_variations else query_info.original_query
+
+        # DEBUG: Show what query is being used for parent retrieval
+        print(f"   📝 DEBUG - Parent retrieval query:")
+        print(f"      Original query: '{query_info.original_query}'")
+        print(f"      Query for parent: '{query_for_parent}'")
+        print(f"      Using query variation[0]: {query_for_parent == query_info.query_variations[0] if query_info.query_variations else False}")
+
+        query_embedding = self.embedder.encode(query_for_parent, show_progress=False)
 
         parent_results = self.vector_store.search(
             query_embedding=query_embedding,
@@ -344,6 +379,11 @@ class HierarchicalRetrievalPipeline:
         )
 
         print(f"   ✅ Found {len(parent_results)} parent chunks")
+
+        # DEBUG: Show parent results with scores and names
+        print(f"   📊 DEBUG - Parent results detail:")
+        for idx, parent in enumerate(parent_results[:5], 1):
+            print(f"      #{idx}: Mã={parent.get('mã_thủ_tục')} | Score={parent.get('score', 0):.4f} | Name={parent.get('tên_thủ_tục', '')[:60]}...")
 
         # Extract parent IDs for cross-tier filtering
         parent_ids = [r["chunk_id"] for r in parent_results]
@@ -362,6 +402,7 @@ class HierarchicalRetrievalPipeline:
 
         for i, query_variation in enumerate(query_info.query_variations, 1):
             print(f"        Query variation {i}/{len(query_info.query_variations)}")
+            print(f"           📝 DEBUG - Using query: '{query_variation[:80]}...'")
 
             query_emb = self.embedder.encode(query_variation, show_progress=False)
 
@@ -506,7 +547,8 @@ class HierarchicalRetrievalPipeline:
         self,
         query: str,
         documents: List[Dict],
-        top_k: int = 5
+        top_k: int = 5,
+        exact_code: Optional[str] = None
     ) -> List[Dict]:
         """
         Stage 7: Intelligent Reranking - Ensemble Scoring
@@ -515,6 +557,7 @@ class HierarchicalRetrievalPipeline:
         - 55% semantic score (from vector search)
         - 35% BM25 score (from keyword search)
         - 10% cross-encoder score (optional, disabled by default)
+        - Exact code match boost (50% if chunk matches exact_code)
 
         This stage refines the RRF-fused results by considering
         individual score components for more accurate ranking.
@@ -523,6 +566,7 @@ class HierarchicalRetrievalPipeline:
             query: Original query
             documents: Retrieved documents from Stage 6
             top_k: Number of top results to return
+            exact_code: Exact procedure code if detected in query (for boosting)
 
         Returns:
             Re-ranked top-k documents with ensemble scores
@@ -535,7 +579,8 @@ class HierarchicalRetrievalPipeline:
             reranked_chunks = self.reranker.rerank_simple(
                 query=query,
                 chunks=documents,
-                top_k=top_k
+                top_k=top_k,
+                exact_code=exact_code  # Pass for exact match boosting
             )
             print(f"        Re-ranked to top {len(reranked_chunks)} chunks via ensemble scoring")
             return reranked_chunks

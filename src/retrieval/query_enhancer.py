@@ -11,6 +11,7 @@ import json
 import requests
 from typing import List, Dict, Optional
 from dataclasses import dataclass
+from conversation_context import ConversationContext, format_conversation_history
 
 if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -35,6 +36,38 @@ INTENT_MAPPING = {
 INTENT_EXCLUSIONS = {
     "documents": ["thời gian", "bao lâu", "thời hạn", "hình thức thông báo", "thông báo"]
 }
+
+# Conversation context rewrite prompt
+CONTEXT_REWRITE_PROMPT = """Bạn là trợ lý AI giúp hiểu ngữ cảnh cuộc hội thoại.
+
+NHIỆM VỤ: Kiểm tra xem câu hỏi hiện tại có cần bổ sung ngữ cảnh từ lịch sử hội thoại không.
+
+LỊCH SỬ HỘI THOẠI:
+{conversation_history}
+
+CÂU HỎI HIỆN TẠI: "{current_query}"
+
+QUY TẮC:
+1. NẾU câu hỏi hiện tại đã đầy đủ (có tên thủ tục, mã thủ tục, hoặc ngữ cảnh rõ ràng)
+   → Trả về NGUYÊN BẢN câu hỏi hiện tại
+
+2. NẾU câu hỏi hiện tại là follow-up (ngắn gọn, thiếu ngữ cảnh, dùng đại từ như "nó", "thủ tục này")
+   VÍ DỤ: "Trình tự thực hiện", "Hồ sơ gồm những gì", "Thời gian bao lâu", "Phí bao nhiêu"
+   → Bổ sung tên/mã thủ tục từ lịch sử vào câu hỏi một cách tự nhiên
+
+3. LUÔN giữ nguyên ý định (intent) của câu hỏi hiện tại
+4. KHÔNG thay đổi câu hỏi nếu người dùng đang hỏi về thủ tục KHÁC
+
+VÍ DỤ ĐÚNG:
+- Câu hỏi: "Trình tự thực hiện"
+- Lịch sử: Hỏi về "Công nhận bệnh binh đối với quân nhân đang tại ngũ"
+- Kết quả: "Trình tự thực hiện thủ tục công nhận bệnh binh đối với quân nhân đang tại ngũ"
+
+VÍ DỤ KHÔNG THAY ĐỔI (câu hỏi đã đầy đủ):
+- Câu hỏi: "Đăng ký kết hôn cần giấy tờ gì?"
+- Kết quả: "Đăng ký kết hôn cần giấy tờ gì?" (giữ nguyên)
+
+CHỈ TRẢ VỀ CÂU HỎI ĐÃ REWRITE, KHÔNG GIẢI THÍCH."""
 
 
 @dataclass
@@ -301,43 +334,89 @@ Chỉ trả về JSON array, không giải thích."""
 
         return simplified
 
-    def enhance_query(self, question: str) -> QueryInfo:
+    def _contextualize_with_history(
+        self,
+        query: str,
+        conversation_context: Optional[ConversationContext]
+    ) -> str:
+        """
+        Add procedure name from conversation context to query (simple concatenation)
+
+        Args:
+            query: Original user query
+            conversation_context: Extracted conversation context
+
+        Returns:
+            Query with procedure name appended (or original if no context)
+        """
+        # If no context, return original
+        if not conversation_context:
+            print("   📝 No conversation context available")
+            return query
+
+        # If no procedure name in context, return original
+        if not conversation_context.last_procedure_name:
+            print("   📝 No procedure name in context")
+            return query
+
+        # If query is already long/detailed (>8 words), likely already has context
+        if len(query.split()) > 8:
+            print("   📝 Query already detailed, skipping contextualization")
+            return query
+
+        # Simple concatenation: append procedure name AND code for precise matching
+        if conversation_context.last_procedure_code:
+            contextualized_query = f"{query} {conversation_context.last_procedure_name} mã {conversation_context.last_procedure_code}"
+        else:
+            contextualized_query = f"{query} {conversation_context.last_procedure_name}"
+
+        print(f"   ✅ Query contextualized: '{query}' → '{contextualized_query}'")
+        return contextualized_query
+
+    def enhance_query(self, question: str, conversation_context: Optional[ConversationContext] = None) -> QueryInfo:
         """
         Main method: Enhance query with intent detection, entity extraction, variations
 
         Args:
             question: User question
+            conversation_context: Optional conversation context for query rewriting
 
         Returns:
             QueryInfo object with enhanced information
         """
         print(f"\n🔍 Enhancing query: '{question}'")
 
-        # Step 0: Extract exact procedure code (if present)
-        exact_code = self._extract_procedure_code(question)
-        if exact_code:
-            print(f"   ✅ Exact code detected: {exact_code}")
+        # Step 0.1: Contextualize with conversation history FIRST
+        contextualized_query = question
+        if conversation_context:
+            contextualized_query = self._contextualize_with_history(question, conversation_context)
 
-        # Step 0.5: Query rewriting for better retrieval
-        rewritten_query = self._rewrite_query(question)
-        if rewritten_query != question and rewritten_query.lower() != question.lower():
+        # Step 0.2: Query rewriting for better retrieval
+        rewritten_query = self._rewrite_query(contextualized_query)
+        if rewritten_query != contextualized_query and rewritten_query.lower() != contextualized_query.lower():
             print(f"   🔄 Query rewritten: '{rewritten_query}'")
             # Use rewritten query for intent detection and variations
             query_for_processing = rewritten_query
         else:
-            query_for_processing = question
+            query_for_processing = contextualized_query
 
-        # Step 1: Detect intent (use original for better context)
-        intent = self.detect_intent(question)
+        # Step 0.3: Extract exact procedure code AFTER contextualization
+        exact_code = self._extract_procedure_code(query_for_processing)
+        if exact_code:
+            print(f"   ✅ Exact code detected: {exact_code}")
+
+        # Step 1: Detect intent (use contextualized query if available)
+        intent = self.detect_intent(query_for_processing)
         print(f"   Intent: {intent}")
 
-        # Step 2: Extract entities (use original for completeness)
-        entities = self.extract_entities(question)
+        # Step 2: Extract entities (use contextualized query for accurate extraction)
+        entities = self.extract_entities(query_for_processing)
         print(f"   Entities: {entities}")
 
         # Step 3: Generate variations (include rewritten query as first variation)
         if query_for_processing != question:
-            variations = [query_for_processing] + self.generate_query_variations(question, intent, num_variations=2)
+            # Generate variations from contextualized query for consistency
+            variations = [query_for_processing] + self.generate_query_variations(query_for_processing, intent, num_variations=2)
         else:
             variations = self.generate_query_variations(question, intent, num_variations=3)
         print(f"   Variations: {len(variations)} generated")

@@ -43,7 +43,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 5,            # Limited child chunks per procedure
         "max_siblings": 2,               # Minimal cross-procedure context
         "include_parents": True,         # Include overview for context
-        "enable_structured_output": True # Structured lists work well
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     "fees": {
@@ -52,7 +52,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 3,            # Fees are usually short
         "max_siblings": 1,
         "include_parents": True,
-        "enable_structured_output": True
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     "location": {
@@ -61,7 +61,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 3,            # Location info is concise
         "max_siblings": 1,
         "include_parents": True,
-        "enable_structured_output": True
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     # === COMPARISON MODE: Side-by-side information ===
@@ -73,7 +73,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 2,            # Less detail per procedure
         "max_siblings": 3,               # More cross-procedure context
         "include_parents": True,
-        "enable_structured_output": True
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     # === LIST MODE: Comprehensive enumeration ===
@@ -85,7 +85,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 40,           # Allow many steps (processes can be long)
         "max_siblings": 5,               # Related procedures for alternatives
         "include_parents": True,
-        "enable_structured_output": True # Structured steps work well
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     # === EXPLANATION MODE: Detailed understanding ===
@@ -97,7 +97,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 4,            # Moderate detail
         "max_siblings": 3,
         "include_parents": True,
-        "enable_structured_output": True
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     "timeline": {
@@ -106,7 +106,7 @@ INTENT_CONTEXT_MAPPING = {
         "max_descendants": 4,
         "max_siblings": 3,
         "include_parents": True,
-        "enable_structured_output": True
+        "enable_structured_output": False # TEMP: Disabled JSON generation
     },
 
     # === GENERAL MODE: Broad overview ===

@@ -1,0 +1,62 @@
+INFO | ==================================================
+INFO | ANTIBOT CRAWLER STARTED
+INFO | ==================================================
+INFO | URLs to crawl: 1
+INFO | 
+[1/1] https://www.mod.gov.vn/home/news
+INFO | Setting up browser with stealth mode...
+INFO | Browser ready with stealth mode
+INFO | Starting crawl: https://www.mod.gov.vn/home/news
+INFO | Mode: news
+INFO | News mode: max_pages=10, max_articles=0
+INFO | Step 1: Visiting homepage to avoid anti-bot...
+WARNING | Attempt 1 failed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.mod.gov.vn/", waiting until "domcontentloaded"
+. Retrying in 2.0s...
+INFO | Step 2: Navigating to news page...
+INFO | === Page 1 ===
+INFO | Found 10 articles
+INFO | [1] \u0110\u1ea1i t\u01b0\u1edbng Phan V\u0103n Giang th\u0103m, ki\u1ec3m tra Quân ch\u1ee7ng...
+INFO | [OK] Saved: \u0110\u1ea1i_t\u01b0\u1edbng_Phan_V\u0103n_Giang_th\u0103m_ki\u1ec3m_tra_Q.txt
+INFO | [2] T\u1ed5ng Bí th\u01b0 Tô Lâm: Phát huy trí tu\u1ec7 và b\u1ea3n l\u0129nh V...
+INFO | [OK] Saved: T\u1ed5ng_Bí_th\u01b0_Tô_Lâm_Phát_huy_trí_tu\u1ec7_và_b.txt
+INFO | [3] T\u1ed5ng c\u1ee5c H\u1eadu c\u1ea7n - K\u1ef9 thu\u1eadt t\u1ed5ng k\u1ebft tri\u1ec3n khai ph...
+INFO | [OK] Saved: T\u1ed5ng_c\u1ee5c_H\u1eadu_c\u1ea7n_K\u1ef9_thu\u1eadt_t\u1ed5ng_k\u1ebft_tri\u1ec3n.txt
+INFO | [4] Kh\u01a1i d\u1eady khát v\u1ecdng c\u1ed1ng hi\u1ebfn, phát huy b\u1ea3n l\u0129nh “N...
+INFO | [OK] Saved: Kh\u01a1i_d\u1eady_khát_v\u1ecdng_c\u1ed1ng_hi\u1ebfn_phát_huy_b\u1ea3.txt
+INFO | [5] B\u1ed9 Qu\u1ed1c phòng trao quy\u1ebft \u0111\u1ecbnh cho 4 s\u0129 quan gìn gi...
+INFO | [OK] Saved: B\u1ed9_Qu\u1ed1c_phòng_trao_quy\u1ebft_\u0111\u1ecbnh_cho_4_s\u0129_q.txt
+INFO | [6] K\u1ef7 ni\u1ec7m 80 n\u0103m Ngày L\u01b0u tr\u1eef Vi\u1ec7t Nam...
+INFO | [OK] Saved: K\u1ef7_ni\u1ec7m_80_n\u0103m_Ngày_L\u01b0u_tr\u1eef_Vi\u1ec7t_Nam.txt
+INFO | [7] \u0110\u1ea1i t\u01b0\u1edbng Phan V\u0103n Giang d\u1ef1 Phiên tr\u1ecdng th\u1ec3 \u0110\u1ea1i h\u1ed9...
+INFO | [OK] Saved: \u0110\u1ea1i_t\u01b0\u1edbng_Phan_V\u0103n_Giang_d\u1ef1_Phiên_tr\u1ecdng_.txt
+INFO | [8] \u0110\u1ea1i t\u01b0\u1edbng Phan V\u0103n Giang g\u1eedi th\u01b0 chúc m\u1eebng nhân k\u1ef7...
+INFO | [OK] Saved: \u0110\u1ea1i_t\u01b0\u1edbng_Phan_V\u0103n_Giang_g\u1eedi_th\u01b0_chúc_m\u1eeb.txt
+INFO | [9] \u0110\u1ea1i t\u01b0\u1edbng Phan V\u0103n Giang g\u1eedi th\u01b0 \u0111\u1ed9ng viên cán b\u1ed9,...
+INFO | [OK] Saved: \u0110\u1ea1i_t\u01b0\u1edbng_Phan_V\u0103n_Giang_g\u1eedi_th\u01b0_\u0111\u1ed9ng_vi.txt
+INFO | [10] B\u1ed9 Qu\u1ed1c phòng tr\u1ea3 l\u1eddi công dân v\u1ec1 trình \u0111\u1ed9 chu\u1ea9n g...
+INFO | [OK] Saved: B\u1ed9_Qu\u1ed1c_phòng_tr\u1ea3_l\u1eddi_công_dân_v\u1ec1_trình_.txt
+INFO | Found next page link (pattern: li:not(.active) a:has-text("2"))
+INFO | Navigating to page 2...
+WARNING | Articles selector not found after page change
+INFO | === Page 2 ===
+INFO | Found 0 articles
+WARNING | No articles found - check selectors or anti-bot
+INFO | Screenshot saved: C:\Users\ASUS\Downloads\ThuTucHanhChinh\CrawlData\logs\screenshots\no_articles_page_2_20260102_230602.png
+INFO | Completed: 10/10 articles
+INFO | Browser closed
+INFO | 
+Results saved: C:\Users\ASUS\Downloads\ThuTucHanhChinh\CrawlData\output_antibot.json
+INFO | 
+==================================================
+INFO | SUMMARY
+INFO | ==================================================
+INFO | 
+https://www.mod.gov.vn/home/news
+INFO |   Status: success
+INFO |   Articles: 10/10
+INFO | 
+==================================================
+INFO | DONE!
+INFO | ==================================================

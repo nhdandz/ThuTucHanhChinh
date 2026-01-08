@@ -172,7 +172,8 @@ class CrossEncoderReranker:
         query: str,
         chunks: List[Dict],
         top_k: int = 5,
-        show_progress: bool = False
+        show_progress: bool = False,
+        exact_code: Optional[str] = None
     ) -> List[RerankResult]:
         """
         Rerank chunks using ensemble scoring
@@ -182,6 +183,7 @@ class CrossEncoderReranker:
             chunks: List of chunks with scores
             top_k: Number of top results to return
             show_progress: Show progress during reranking
+            exact_code: Exact procedure code if detected in query (for boosting)
 
         Returns:
             List of RerankResult sorted by ensemble score (descending)
@@ -220,6 +222,16 @@ class CrossEncoderReranker:
                 self.cross_encoder_weight * cross_encoder_score
             )
 
+            # Boost score if chunk matches exact procedure code
+            is_exact_match = False
+            if exact_code and chunk.get("mã_thủ_tục") == exact_code:
+                ensemble_score *= 1.5  # 50% boost for exact code match
+                is_exact_match = True
+
+            # Store exact match flag in chunk for debugging
+            if is_exact_match:
+                chunk["is_exact_match"] = True
+
             rerank_results.append(RerankResult(
                 chunk=chunk,
                 ensemble_score=ensemble_score,
@@ -248,7 +260,8 @@ class CrossEncoderReranker:
         self,
         query: str,
         chunks: List[Dict],
-        top_k: int = 5
+        top_k: int = 5,
+        exact_code: Optional[str] = None
     ) -> List[Dict]:
         """
         Simplified reranking that returns just the chunks (not RerankResult)
@@ -257,11 +270,12 @@ class CrossEncoderReranker:
             query: User query
             chunks: List of chunks with scores
             top_k: Number of top results to return
+            exact_code: Exact procedure code if detected in query (for boosting)
 
         Returns:
             List of reranked chunks with updated 'ensemble_score' field
         """
-        rerank_results = self.rerank(query, chunks, top_k=top_k)
+        rerank_results = self.rerank(query, chunks, top_k=top_k, exact_code=exact_code)
 
         # Convert back to chunks with ensemble score
         reranked_chunks = []

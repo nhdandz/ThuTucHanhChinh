@@ -1,0 +1,260 @@
+{
+  "urls": [
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-nvqs",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Nghĩa vụ quân sự"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-vbpl-dqtv",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Dân quân tự vệ"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-vbpl-lldb",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Dự bị động viên"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-csqn",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Chế độ - chính sách"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-csqn/sa-qlcddh-csqn-qn",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Quân nhân"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-csqn/sa-qlcddh-csqn-tbb",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Thương binh, bệnh binh"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-csqn/sa-qlcddh-csqn-ls",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Liệt sĩ"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-csqn/sa-qlcddh-csqn-ncc",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Người có công"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-gdqp",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Giáo dục quốc phòng"
+    },
+    {
+      "url": "https://bqp.vn/home/vbpl?field=/Mod/sa-mod-site/sa-qlcddh/sa-qlcddh-vbpl/sa-qlcddh-vbpl-htvb/sa-qlcddh-vbpl-qlnn",
+      "crawl_mode": "multi_level",
+      "levels": [
+        {
+          "name": "Trang chi tiết",
+          "selector": {
+            "type": "css",
+            "selector": "a.txLinkBlack"
+          },
+          "max_pages": 50
+        },
+        {
+          "name": "Links download",
+          "selector": {
+            "type": "css",
+            "selector": "a[href*='/wcm/connect/']"
+          },
+          "is_download": true
+        }
+      ],
+      "file_extensions": [".pdf", ".docx"],
+      "web_type": "csr",
+      "field_name": "Quốc phòng - an ninh"
+    }
+  ],
+  "options": {
+    "timeout": 30,
+    "delay_between_requests": 2,
+    "max_files": 0
+  },
+  "classified_at": "2025-12-22T13:21:58.847304"
+}

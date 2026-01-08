@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     bm25_b: float = 0.75  # BM25 length normalization parameter
 
     # Semantic Cache Configuration
-    enable_cache: bool = True  # Enable semantic caching
+    enable_cache: bool = False  # DISABLED: Testing conversation context without cache
     cache_max_size: int = 100  # Maximum number of cached queries
     cache_ttl_hours: float = 24.0  # Cache entry expiration time (hours)
     cache_similarity_threshold: float = 0.92  # Minimum similarity for cache hit
@@ -65,6 +65,10 @@ class Settings(BaseSettings):
     # Intent-Based Context Optimization (Sprint 3)
     enable_intent_based_context: bool = True  # Enable dynamic context assembly based on query intent
     log_context_stats: bool = True  # Log context size and token estimates for monitoring
+
+    # Conversational Context Configuration
+    enable_conversation_context: bool = True  # Enable conversation history for query rewriting
+    conversation_history_depth: int = 2  # Number of previous message pairs to consider (2-3 messages)
 
     class Config:
         env_file = ".env"

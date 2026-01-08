@@ -20,6 +20,7 @@ from query_enhancer import OllamaQueryEnhancer
 from retrieval_pipeline import HierarchicalRetrievalPipeline, RetrievalResult
 from answer_generator import OllamaAnswerGenerator, GeneratedAnswer
 from context_settings import get_context_config  # Intent-based context optimization
+from conversation_context import ConversationContext
 
 if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
@@ -48,7 +49,8 @@ class ThuTucRAGPipeline:
         collection_name: str = "thu_tuc_procedures",
         embedding_model: str = "bge-m3",
         llm_model: str = "qwen3:8b",
-        ollama_url: str = "http://localhost:11434"
+        ollama_url: str = "http://localhost:11434",
+        enable_cache: bool = True
     ):
         """
         Initialize complete RAG pipeline
@@ -59,6 +61,7 @@ class ThuTucRAGPipeline:
             embedding_model: Embedding model name (for Ollama)
             llm_model: LLM model name (for Ollama)
             ollama_url: Ollama server URL
+            enable_cache: Whether to enable semantic caching (default: True)
         """
         # Store configuration as instance variables
         self.vector_store_path = vector_store_path
@@ -105,7 +108,8 @@ class ThuTucRAGPipeline:
             embedder=self.embedder,
             vector_store=self.vector_store,
             query_enhancer=self.query_enhancer,
-            chunks=chunks  # Pass chunks for BM25 initialization
+            chunks=chunks,  # Pass chunks for BM25 initialization
+            use_cache=enable_cache  # Respect config setting
         )
 
         # Answer Generator
@@ -168,7 +172,8 @@ class ThuTucRAGPipeline:
         top_k_parent: int = 5,
         top_k_child: int = 20,
         top_k_final: int = 3,
-        verbose: bool = True
+        verbose: bool = True,
+        conversation_context: Optional[ConversationContext] = None
     ) -> GeneratedAnswer:
         """
         Answer a question using complete RAG pipeline
@@ -179,6 +184,7 @@ class ThuTucRAGPipeline:
             top_k_child: Number of child chunks to retrieve
             top_k_final: Number of final chunks after re-ranking
             verbose: Whether to print detailed progress
+            conversation_context: Optional conversation context for query rewriting
 
         Returns:
             GeneratedAnswer with complete answer and sources
@@ -195,7 +201,8 @@ class ThuTucRAGPipeline:
             question=question,
             top_k_parent=top_k_parent,
             top_k_child=top_k_child,
-            top_k_final=top_k_final
+            top_k_final=top_k_final,
+            conversation_context=conversation_context
         )
 
         # Get context config for intent-based structured output control

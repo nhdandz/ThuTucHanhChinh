@@ -98,6 +98,7 @@ class ChainOfVerification:
             payload["system"] = system
 
         try:
+            print("********************************************", prompt)
             response = requests.post(
                 self.generate_endpoint,
                 json=payload,
